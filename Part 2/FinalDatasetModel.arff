@@ -1,0 +1,1862 @@
+@relation 'Clasfication2Weka-weka.filters.unsupervised.attribute.StringToWordVector-Rfirst-last-W1000-prune-rate-1.0-N0-stemmerweka.core.stemmers.NullStemmer-stopwords-handlerweka.core.stopwords.Null-M1-tokenizerweka.core.tokenizers.WordTokenizer -delimiters \" \\r\\n\\t.,;:\\\'\\\"()?!\"-weka.filters.unsupervised.attribute.NominalToString-C2-weka.filters.unsupervised.attribute.NumericToBinary-R5-last-weka.filters.unsupervised.attribute.Remove-R1-weka.filters.unsupervised.attribute.StringToWordVector-R1-W1000-prune-rate-1.0-C-T-I-N1-stemmerweka.core.stemmers.SnowballStemmer-stopwords-handlerweka.core.stopwords.Rainbow-M1-tokenizerweka.core.tokenizers.NGramTokenizer -max 3 -min 1 -delimiters \" \\r\\n\\t.,;:\\\'\\\"()?!\"-weka.filters.unsupervised.attribute.NumericToBinary-R52-last-weka.filters.unsupervised.attribute.NumericToBinary-R51'
+
+@attribute 'Initiative status' {'In progress',Pilot,Live,Research}
+@attribute TherapeuticArea {Breast,Lung,Ophtha,Liver,'Alzheimers Disease',Haemophilia}
+@attribute Prevention_binarized {0,1}
+@attribute Unwellness_binarized {0,1}
+@attribute Prediagnosis_binarized {0,1}
+@attribute Treatment_binarized {0,1}
+@attribute 'Maintain life_binarized' {0,1}
+@attribute End_of_life_support_binarized {0,1}
+@attribute Be_up_to_date_HCP_binarized {0,1}
+@attribute 'Manage_and_treat_ my_patient_HCP_binarized' {0,1}
+@attribute Advance_medical_science_HCP_binarized {0,1}
+@attribute Manage_my_business_HCP_binarized {0,1}
+@attribute Digital_Health_Solution_Dig_cat_binarized {0,1}
+@attribute Information_Dig_Cat_binarized {0,1}
+@attribute Service_Dig_Cat_binarized {0,1}
+@attribute Arabic_binarized {0,1}
+@attribute Bosnian_binarized {0,1}
+@attribute Bulgarian_binarized {0,1}
+@attribute Chinese_binarized {0,1}
+@attribute Croatian_binarized {0,1}
+@attribute Czech_binarized {0,1}
+@attribute Danish_binarized {0,1}
+@attribute Dutch_binarized {0,1}
+@attribute English_binarized {0,1}
+@attribute Estonian_binarized {0,1}
+@attribute Finnish_binarized {0,1}
+@attribute French_binarized {0,1}
+@attribute German_binarized {0,1}
+@attribute Greek_binarized {0,1}
+@attribute Hebrew_binarized {0,1}
+@attribute Hungarian_binarized {0,1}
+@attribute Indonesian_binarized {0,1}
+@attribute Italian_binarized {0,1}
+@attribute Korean_binarized {0,1}
+@attribute Latvian_binarized {0,1}
+@attribute Lithuanian_binarized {0,1}
+@attribute Macedonian_binarized {0,1}
+@attribute 'Multiple Languages_binarized' {0,1}
+@attribute Norwegian_binarized {0,1}
+@attribute Polish_binarized {0,1}
+@attribute Portuguese_binarized {0,1}
+@attribute Romanian_binarized {0,1}
+@attribute Russian_binarized {0,1}
+@attribute Serbian_binarized {0,1}
+@attribute Slovakian_binarized {0,1}
+@attribute Spanish_binarized {0,1}
+@attribute Swedish_binarized {0,1}
+@attribute Thai_binarized {0,1}
+@attribute Turkish_binarized {0,1}
+@attribute Vietnamese_binarized {0,1}
+@attribute GlobalRollout_binarized {0,1}
+@attribute 1_binarized {0,1}
+@attribute 10_binarized {0,1}
+@attribute 2_binarized {0,1}
+@attribute 2022_binarized {0,1}
+@attribute 3_binarized {0,1}
+@attribute 3rd_binarized {0,1}
+@attribute '3rd party_binarized' {0,1}
+@attribute 4_binarized {0,1}
+@attribute '4 companies_binarized' {0,1}
+@attribute '4 companies in_binarized' {0,1}
+@attribute '4 companiesstartups_binarized' {0,1}
+@attribute '4 companiesstartups The_binarized' {0,1}
+@attribute 6_binarized {0,1}
+@attribute '6 healthcare_binarized' {0,1}
+@attribute '6 healthcare organisations_binarized' {0,1}
+@attribute >_binarized {0,1}
+@attribute 'A LINE_binarized' {0,1}
+@attribute 'A LINE Chatbot_binarized' {0,1}
+@attribute 'A patient_binarized' {0,1}
+@attribute 'A patient portal_binarized' {0,1}
+@attribute 'A website_binarized' {0,1}
+@attribute 'A website designed_binarized' {0,1}
+@attribute 'A website for_binarized' {0,1}
+@attribute AD_binarized {0,1}
+@attribute AI_binarized {0,1}
+@attribute ARIA_binarized {0,1}
+@attribute Access_binarized {0,1}
+@attribute Aims_binarized {0,1}
+@attribute 'Aims to_binarized' {0,1}
+@attribute Alzheimers_binarized {0,1}
+@attribute Android_binarized {0,1}
+@attribute App_binarized {0,1}
+@attribute 'App oriented_binarized' {0,1}
+@attribute 'App oriented to_binarized' {0,1}
+@attribute BC_binarized {0,1}
+@attribute Brain+_binarized {0,1}
+@attribute Breast_binarized {0,1}
+@attribute 'Breast Cancer_binarized' {0,1}
+@attribute Cancer_binarized {0,1}
+@attribute Care_binarized {0,1}
+@attribute Chane_binarized {0,1}
+@attribute 'Chane Rose_binarized' {0,1}
+@attribute Chatbot_binarized {0,1}
+@attribute 'Chatbot for_binarized' {0,1}
+@attribute China_binarized {0,1}
+@attribute Clinical_binarized {0,1}
+@attribute Companion_binarized {0,1}
+@attribute DME_binarized {0,1}
+@attribute Data_binarized {0,1}
+@attribute Designed_binarized {0,1}
+@attribute 'Designed to_binarized' {0,1}
+@attribute 'Designed to help_binarized' {0,1}
+@attribute Diagnostics_binarized {0,1}
+@attribute Digital_binarized {0,1}
+@attribute Disease_binarized {0,1}
+@attribute EHR_binarized {0,1}
+@attribute 'Each startup_binarized' {0,1}
+@attribute 'Each startup directly_binarized' {0,1}
+@attribute Early_binarized {0,1}
+@attribute Education_binarized {0,1}
+@attribute Find_binarized {0,1}
+@attribute Foundation_binarized {0,1}
+@attribute 'Foundation Medicine_binarized' {0,1}
+@attribute 'Foundation Medicine Login_binarized' {0,1}
+@attribute 'Foundation Medicines_binarized' {0,1}
+@attribute 'Foundation Medicines comprehensive_binarized' {0,1}
+@attribute France_binarized {0,1}
+@attribute Funding_binarized {0,1}
+@attribute 'Funding comes_binarized' {0,1}
+@attribute 'Funding comes from_binarized' {0,1}
+@attribute Genentech_binarized {0,1}
+@attribute HCC_binarized {0,1}
+@attribute HCO_binarized {0,1}
+@attribute 'HCO Roche_binarized' {0,1}
+@attribute HCOs_binarized {0,1}
+@attribute 'HCOs will_binarized' {0,1}
+@attribute 'HCOs will test_binarized' {0,1}
+@attribute HCP_binarized {0,1}
+@attribute 'HCP with_binarized' {0,1}
+@attribute 'HCP with the_binarized' {0,1}
+@attribute HCPs_binarized {0,1}
+@attribute 'HCPs to_binarized' {0,1}
+@attribute 'HCPs to seek_binarized' {0,1}
+@attribute Health_binarized {0,1}
+@attribute Healthcare_binarized {0,1}
+@attribute 'Healthcare Professionals_binarized' {0,1}
+@attribute 'Healthcare Professionals which_binarized' {0,1}
+@attribute 'If you_binarized' {0,1}
+@attribute 'In progress_binarized' {0,1}
+@attribute Information_binarized {0,1}
+@attribute Integrated_binarized {0,1}
+@attribute 'It features_binarized' {0,1}
+@attribute 'It features useful_binarized' {0,1}
+@attribute 'It is_binarized' {0,1}
+@attribute 'It is a_binarized' {0,1}
+@attribute LINE_binarized {0,1}
+@attribute 'LINE Chatbot_binarized' {0,1}
+@attribute 'LINE Chatbot for_binarized' {0,1}
+@attribute Login_binarized {0,1}
+@attribute MCI_binarized {0,1}
+@attribute Medical_binarized {0,1}
+@attribute Medicine_binarized {0,1}
+@attribute 'Medicine Login_binarized' {0,1}
+@attribute Medicines_binarized {0,1}
+@attribute 'Medicines comprehensive_binarized' {0,1}
+@attribute 'Medicines comprehensive molecular_binarized' {0,1}
+@attribute Mobile_binarized {0,1}
+@attribute Monitoring_binarized {0,1}
+@attribute 'Monitoring disease_binarized' {0,1}
+@attribute 'Monitoring disease progression_binarized' {0,1}
+@attribute Multicare_binarized {0,1}
+@attribute 'Multicare Each_binarized' {0,1}
+@attribute 'Multicare Each startup_binarized' {0,1}
+@attribute 'Multicare as_binarized' {0,1}
+@attribute 'Multicare as funders_binarized' {0,1}
+@attribute NGS_binarized {0,1}
+@attribute 'NGS technology_binarized' {0,1}
+@attribute 'NGS technology to_binarized' {0,1}
+@attribute Ocrevus_binarized {0,1}
+@attribute 'On this_binarized' {0,1}
+@attribute Oncology_binarized {0,1}
+@attribute Ophtha_binarized {0,1}
+@attribute Patient_binarized {0,1}
+@attribute 'Patient Support_binarized' {0,1}
+@attribute 'Patient Support Program_binarized' {0,1}
+@attribute Patients_binarized {0,1}
+@attribute Pilot_binarized {0,1}
+@attribute Piloted_binarized {0,1}
+@attribute Portal_binarized {0,1}
+@attribute Professionals_binarized {0,1}
+@attribute 'Professionals which_binarized' {0,1}
+@attribute 'Professionals which brings_binarized' {0,1}
+@attribute Program_binarized {0,1}
+@attribute 'Program in_binarized' {0,1}
+@attribute Redirect_binarized {0,1}
+@attribute 'Redirect to_binarized' {0,1}
+@attribute Retina_binarized {0,1}
+@attribute Roche_binarized {0,1}
+@attribute 'Roche Patient_binarized' {0,1}
+@attribute 'Roche Patient Support_binarized' {0,1}
+@attribute 'Roche and_binarized' {0,1}
+@attribute 'Roche and Multicare_binarized' {0,1}
+@attribute 'Roche onestop_binarized' {0,1}
+@attribute 'Roche onestop portal_binarized' {0,1}
+@attribute 'Roche pharmaceutical_binarized' {0,1}
+@attribute 'Roche pharmaceutical products_binarized' {0,1}
+@attribute 'Roche products_binarized' {0,1}
+@attribute 'Roche products scientific_binarized' {0,1}
+@attribute 'Roche with_binarized' {0,1}
+@attribute 'Roche with a_binarized' {0,1}
+@attribute Roches_binarized {0,1}
+@attribute Rose_binarized {0,1}
+@attribute Set_binarized {0,1}
+@attribute Support_binarized {0,1}
+@attribute 'Support Program_binarized' {0,1}
+@attribute 'Support Program in_binarized' {0,1}
+@attribute TECENTRIQ_binarized {0,1}
+@attribute Tecentriq_binarized {0,1}
+@attribute 'The HCOs_binarized' {0,1}
+@attribute 'The HCOs will_binarized' {0,1}
+@attribute 'The Roche_binarized' {0,1}
+@attribute 'The Roche onestop_binarized' {0,1}
+@attribute 'The app_binarized' {0,1}
+@attribute 'The tool_binarized' {0,1}
+@attribute 'The website_binarized' {0,1}
+@attribute 'This is_binarized' {0,1}
+@attribute 'This is a_binarized' {0,1}
+@attribute 'This website_binarized' {0,1}
+@attribute Training_binarized {0,1}
+@attribute Trial_binarized {0,1}
+@attribute UK_binarized {0,1}
+@attribute 'We are_binarized' {0,1}
+@attribute 'We have_binarized' {0,1}
+@attribute Website_binarized {0,1}
+@attribute 'Website on_binarized' {0,1}
+@attribute 'Website to_binarized' {0,1}
+@attribute 'Why was_binarized' {0,1}
+@attribute 'Why was it_binarized' {0,1}
+@attribute 'a cancer_binarized' {0,1}
+@attribute 'a cancer patient_binarized' {0,1}
+@attribute 'a combination_binarized' {0,1}
+@attribute 'a combination of_binarized' {0,1}
+@attribute 'a consortium_binarized' {0,1}
+@attribute 'a consortium type_binarized' {0,1}
+@attribute 'a digital_binarized' {0,1}
+@attribute 'a digital health_binarized' {0,1}
+@attribute 'a mobile_binarized' {0,1}
+@attribute 'a more_binarized' {0,1}
+@attribute 'a new_binarized' {0,1}
+@attribute 'a partnership_binarized' {0,1}
+@attribute 'a partnership by_binarized' {0,1}
+@attribute 'a patient_binarized' {0,1}
+@attribute 'a personalized_binarized' {0,1}
+@attribute 'able to_binarized' {0,1}
+@attribute 'able to select_binarized' {0,1}
+@attribute 'about Roche_binarized' {0,1}
+@attribute 'about Roche products_binarized' {0,1}
+@attribute 'about the_binarized' {0,1}
+@attribute 'above all_binarized' {0,1}
+@attribute access_binarized {0,1}
+@attribute 'access to_binarized' {0,1}
+@attribute active_binarized {0,1}
+@attribute activity_binarized {0,1}
+@attribute add_binarized {0,1}
+@attribute address_binarized {0,1}
+@attribute advance_binarized {0,1}
+@attribute advanced_binarized {0,1}
+@attribute advice_binarized {0,1}
+@attribute 'after a_binarized' {0,1}
+@attribute aid_binarized {0,1}
+@attribute aim_binarized {0,1}
+@attribute 'aim to_binarized' {0,1}
+@attribute aimed_binarized {0,1}
+@attribute 'aimed at_binarized' {0,1}
+@attribute aims_binarized {0,1}
+@attribute 'aims to_binarized' {0,1}
+@attribute algorithm_binarized {0,1}
+@attribute algorithms_binarized {0,1}
+@attribute 'all the_binarized' {0,1}
+@attribute 'all the services_binarized' {0,1}
+@attribute allowing_binarized {0,1}
+@attribute 'allows you_binarized' {0,1}
+@attribute 'allows you to_binarized' {0,1}
+@attribute 'an application_binarized' {0,1}
+@attribute 'an easy_binarized' {0,1}
+@attribute 'an educational_binarized' {0,1}
+@attribute 'an innovative_binarized' {0,1}
+@attribute 'an online_binarized' {0,1}
+@attribute 'and 4_binarized' {0,1}
+@attribute 'and 4 companiesstartups_binarized' {0,1}
+@attribute 'and HCPs_binarized' {0,1}
+@attribute 'and HCPs to_binarized' {0,1}
+@attribute 'and Multicare_binarized' {0,1}
+@attribute 'and Multicare as_binarized' {0,1}
+@attribute 'and Roche_binarized' {0,1}
+@attribute 'and a_binarized' {0,1}
+@attribute 'and access_binarized' {0,1}
+@attribute 'and assess_binarized' {0,1}
+@attribute 'and assess how_binarized' {0,1}
+@attribute 'and be_binarized' {0,1}
+@attribute 'and be able_binarized' {0,1}
+@attribute 'and caregivers_binarized' {0,1}
+@attribute 'and clinical_binarized' {0,1}
+@attribute 'and could_binarized' {0,1}
+@attribute 'and educational_binarized' {0,1}
+@attribute 'and experience_binarized' {0,1}
+@attribute 'and guidance_binarized' {0,1}
+@attribute 'and how_binarized' {0,1}
+@attribute 'and improve_binarized' {0,1}
+@attribute 'and information_binarized' {0,1}
+@attribute 'and investigators_binarized' {0,1}
+@attribute 'and is_binarized' {0,1}
+@attribute 'and it_binarized' {0,1}
+@attribute 'and its_binarized' {0,1}
+@attribute 'and legal_binarized' {0,1}
+@attribute 'and more_binarized' {0,1}
+@attribute 'and other_binarized' {0,1}
+@attribute 'and outcomes_binarized' {0,1}
+@attribute 'and outcomes Funding_binarized' {0,1}
+@attribute 'and patient_binarized' {0,1}
+@attribute 'and personalized_binarized' {0,1}
+@attribute 'and resources_binarized' {0,1}
+@attribute 'and resources that_binarized' {0,1}
+@attribute 'and schedule_binarized' {0,1}
+@attribute 'and schedule as_binarized' {0,1}
+@attribute 'and services_binarized' {0,1}
+@attribute 'and share_binarized' {0,1}
+@attribute 'and sharing_binarized' {0,1}
+@attribute 'and support_binarized' {0,1}
+@attribute 'and the_binarized' {0,1}
+@attribute 'and their_binarized' {0,1}
+@attribute 'and to_binarized' {0,1}
+@attribute 'and to monitor_binarized' {0,1}
+@attribute 'and tools_binarized' {0,1}
+@attribute 'and treatment_binarized' {0,1}
+@attribute 'and treatment effectsObjective_binarized' {0,1}
+@attribute 'and treatment of_binarized' {0,1}
+@attribute 'and where_binarized' {0,1}
+@attribute app_binarized {0,1}
+@attribute 'app is_binarized' {0,1}
+@attribute 'app that_binarized' {0,1}
+@attribute application_binarized {0,1}
+@attribute appointment_binarized {0,1}
+@attribute appointments_binarized {0,1}
+@attribute approach_binarized {0,1}
+@attribute 'approach uses_binarized' {0,1}
+@attribute 'approach uses hybrid_binarized' {0,1}
+@attribute apps_binarized {0,1}
+@attribute areas_binarized {0,1}
+@attribute articles_binarized {0,1}
+@attribute artificial_binarized {0,1}
+@attribute 'artificial intelligence_binarized' {0,1}
+@attribute 'as a_binarized' {0,1}
+@attribute 'as a cancer_binarized' {0,1}
+@attribute 'as an_binarized' {0,1}
+@attribute 'as funders_binarized' {0,1}
+@attribute 'as funders 6_binarized' {0,1}
+@attribute 'as improve_binarized' {0,1}
+@attribute 'as improve your_binarized' {0,1}
+@attribute 'as part_binarized' {0,1}
+@attribute 'as part of_binarized' {0,1}
+@attribute 'as the_binarized' {0,1}
+@attribute 'as well_binarized' {0,1}
+@attribute 'as well as_binarized' {0,1}
+@attribute assess_binarized {0,1}
+@attribute 'assess how_binarized' {0,1}
+@attribute 'assess how these_binarized' {0,1}
+@attribute assessment_binarized {0,1}
+@attribute assessments_binarized {0,1}
+@attribute assistance_binarized {0,1}
+@attribute 'at any_binarized' {0,1}
+@attribute 'at risk_binarized' {0,1}
+@attribute 'at the_binarized' {0,1}
+@attribute automated_binarized {0,1}
+@attribute awareness_binarized {0,1}
+@attribute 'awareness about_binarized' {0,1}
+@attribute 'awareness and_binarized' {0,1}
+@attribute based_binarized {0,1}
+@attribute 'based on_binarized' {0,1}
+@attribute 'be able_binarized' {0,1}
+@attribute 'be able to_binarized' {0,1}
+@attribute 'be found_binarized' {0,1}
+@attribute 'be used_binarized' {0,1}
+@attribute behavior_binarized {0,1}
+@attribute 'being studied_binarized' {0,1}
+@attribute biomarkers_binarized {0,1}
+@attribute brain_binarized {0,1}
+@attribute breast_binarized {0,1}
+@attribute 'breast cancer_binarized' {0,1}
+@attribute 'breast cancer and_binarized' {0,1}
+@attribute 'breast cancer patients_binarized' {0,1}
+@attribute bring_binarized {0,1}
+@attribute brings_binarized {0,1}
+@attribute 'brings together_binarized' {0,1}
+@attribute 'brings together all_binarized' {0,1}
+@attribute build_binarized {0,1}
+@attribute building_binarized {0,1}
+@attribute burden_binarized {0,1}
+@attribute 'but also_binarized' {0,1}
+@attribute 'by Multicare_binarized' {0,1}
+@attribute 'by Multicare Each_binarized' {0,1}
+@attribute 'by Roche_binarized' {0,1}
+@attribute 'by a_binarized' {0,1}
+@attribute 'by the_binarized' {0,1}
+@attribute calculation_binarized {0,1}
+@attribute 'calculation and_binarized' {0,1}
+@attribute 'calculation and be_binarized' {0,1}
+@attribute called_binarized {0,1}
+@attribute campaign_binarized {0,1}
+@attribute 'can be_binarized' {0,1}
+@attribute 'can find_binarized' {0,1}
+@attribute 'can help_binarized' {0,1}
+@attribute cancer_binarized {0,1}
+@attribute 'cancer and_binarized' {0,1}
+@attribute 'cancer care_binarized' {0,1}
+@attribute 'cancer patient_binarized' {0,1}
+@attribute 'cancer patient or_binarized' {0,1}
+@attribute 'cancer patients_binarized' {0,1}
+@attribute cancers_binarized {0,1}
+@attribute capturebased_binarized {0,1}
+@attribute 'capturebased nextgeneration_binarized' {0,1}
+@attribute 'capturebased nextgeneration sequencing_binarized' {0,1}
+@attribute carcinoma_binarized {0,1}
+@attribute care_binarized {0,1}
+@attribute 'care and_binarized' {0,1}
+@attribute 'care team_binarized' {0,1}
+@attribute caregivers_binarized {0,1}
+@attribute 'caregivers throughout_binarized' {0,1}
+@attribute 'caregivers throughout your_binarized' {0,1}
+@attribute case_binarized {0,1}
+@attribute cases_binarized {0,1}
+@attribute center_binarized {0,1}
+@attribute change_binarized {0,1}
+@attribute 'change the_binarized' {0,1}
+@attribute 'change the patient_binarized' {0,1}
+@attribute 'changes in_binarized' {0,1}
+@attribute channel_binarized {0,1}
+@attribute channels_binarized {0,1}
+@attribute chronic_binarized {0,1}
+@attribute clinic_binarized {0,1}
+@attribute clinical_binarized {0,1}
+@attribute 'clinical studies_binarized' {0,1}
+@attribute 'clinical trials_binarized' {0,1}
+@attribute clinicians_binarized {0,1}
+@attribute clinics_binarized {0,1}
+@attribute cloudbased_binarized {0,1}
+@attribute coaching_binarized {0,1}
+@attribute code_binarized {0,1}
+@attribute cognitive_binarized {0,1}
+@attribute collaboration_binarized {0,1}
+@attribute 'collaboration with_binarized' {0,1}
+@attribute collect_binarized {0,1}
+@attribute collection_binarized {0,1}
+@attribute 'collection of_binarized' {0,1}
+@attribute combination_binarized {0,1}
+@attribute 'combination of_binarized' {0,1}
+@attribute 'combination of the_binarized' {0,1}
+@attribute 'comes from_binarized' {0,1}
+@attribute 'comes from Roche_binarized' {0,1}
+@attribute common_binarized {0,1}
+@attribute communication_binarized {0,1}
+@attribute 'communication and_binarized' {0,1}
+@attribute community_binarized {0,1}
+@attribute companies_binarized {0,1}
+@attribute 'companies in_binarized' {0,1}
+@attribute 'companies in their_binarized' {0,1}
+@attribute companiesstartups_binarized {0,1}
+@attribute 'companiesstartups The_binarized' {0,1}
+@attribute 'companiesstartups The HCOs_binarized' {0,1}
+@attribute compliance_binarized {0,1}
+@attribute 'compliance and_binarized' {0,1}
+@attribute comprehensive_binarized {0,1}
+@attribute 'comprehensive molecular_binarized' {0,1}
+@attribute 'comprehensive molecular tumor_binarized' {0,1}
+@attribute condition_binarized {0,1}
+@attribute 'condition and_binarized' {0,1}
+@attribute conditions_binarized {0,1}
+@attribute congresses_binarized {0,1}
+@attribute connect_binarized {0,1}
+@attribute 'connect with_binarized' {0,1}
+@attribute connection_binarized {0,1}
+@attribute consortium_binarized {0,1}
+@attribute 'consortium type_binarized' {0,1}
+@attribute 'consortium type setup_binarized' {0,1}
+@attribute contact_binarized {0,1}
+@attribute 'contains information_binarized' {0,1}
+@attribute content_binarized {0,1}
+@attribute contracts_binarized {0,1}
+@attribute 'contracts with_binarized' {0,1}
+@attribute 'contracts with the_binarized' {0,1}
+@attribute control_binarized {0,1}
+@attribute convenient_binarized {0,1}
+@attribute 'convenient treatment_binarized' {0,1}
+@attribute 'convenient treatment whether_binarized' {0,1}
+@attribute conversations_binarized {0,1}
+@attribute 'conversations with_binarized' {0,1}
+@attribute cost_binarized {0,1}
+@attribute country_binarized {0,1}
+@attribute covers_binarized {0,1}
+@attribute create_binarized {0,1}
+@attribute created_binarized {0,1}
+@attribute current_binarized {0,1}
+@attribute customer_binarized {0,1}
+@attribute customers_binarized {0,1}
+@attribute daily_binarized {0,1}
+@attribute 'daily practice_binarized' {0,1}
+@attribute data_binarized {0,1}
+@attribute 'data access_binarized' {0,1}
+@attribute 'data and_binarized' {0,1}
+@attribute 'data and services_binarized' {0,1}
+@attribute 'data collection_binarized' {0,1}
+@attribute 'data for_binarized' {0,1}
+@attribute 'data from_binarized' {0,1}
+@attribute 'data to_binarized' {0,1}
+@attribute database_binarized {0,1}
+@attribute date_binarized {0,1}
+@attribute decentralized_binarized {0,1}
+@attribute decision_binarized {0,1}
+@attribute decline_binarized {0,1}
+@attribute deliver_binarized {0,1}
+@attribute delivery_binarized {0,1}
+@attribute designed_binarized {0,1}
+@attribute 'designed for_binarized' {0,1}
+@attribute 'designed for Healthcare_binarized' {0,1}
+@attribute 'designed to_binarized' {0,1}
+@attribute 'designed to improve_binarized' {0,1}
+@attribute detection_binarized {0,1}
+@attribute determine_binarized {0,1}
+@attribute develop_binarized {0,1}
+@attribute developed_binarized {0,1}
+@attribute 'developed a_binarized' {0,1}
+@attribute developing_binarized {0,1}
+@attribute development_binarized {0,1}
+@attribute 'development of_binarized' {0,1}
+@attribute device_binarized {0,1}
+@attribute devices_binarized {0,1}
+@attribute diagnosed_binarized {0,1}
+@attribute 'diagnosed with_binarized' {0,1}
+@attribute diagnosis_binarized {0,1}
+@attribute 'diagnosis and_binarized' {0,1}
+@attribute diagnostic_binarized {0,1}
+@attribute diagnostics_binarized {0,1}
+@attribute 'diagnostics and_binarized' {0,1}
+@attribute dialogue_binarized {0,1}
+@attribute digital_binarized {0,1}
+@attribute 'digital health_binarized' {0,1}
+@attribute 'digital solution_binarized' {0,1}
+@attribute direct_binarized {0,1}
+@attribute directly_binarized {0,1}
+@attribute 'directly contracts_binarized' {0,1}
+@attribute 'directly contracts with_binarized' {0,1}
+@attribute disease_binarized {0,1}
+@attribute 'disease management_binarized' {0,1}
+@attribute 'disease progression_binarized' {0,1}
+@attribute 'disease progression and_binarized' {0,1}
+@attribute diseases_binarized {0,1}
+@attribute doctor_binarized {0,1}
+@attribute doctors_binarized {0,1}
+@attribute 'doctors and_binarized' {0,1}
+@attribute 'does not_binarized' {0,1}
+@attribute dose_binarized {0,1}
+@attribute 'dose calculation_binarized' {0,1}
+@attribute 'dose calculation and_binarized' {0,1}
+@attribute drive_binarized {0,1}
+@attribute drug_binarized {0,1}
+@attribute drugs_binarized {0,1}
+@attribute 'each other_binarized' {0,1}
+@attribute early_binarized {0,1}
+@attribute 'early detection_binarized' {0,1}
+@attribute 'early diagnosis_binarized' {0,1}
+@attribute easily_binarized {0,1}
+@attribute easy_binarized {0,1}
+@attribute ecosystem_binarized {0,1}
+@attribute education_binarized {0,1}
+@attribute educational_binarized {0,1}
+@attribute 'educational resource_binarized' {0,1}
+@attribute effective_binarized {0,1}
+@attribute effects_binarized {0,1}
+@attribute effectsObjective_binarized {0,1}
+@attribute 'effectsObjective Aims_binarized' {0,1}
+@attribute 'effectsObjective Aims to_binarized' {0,1}
+@attribute empower_binarized {0,1}
+@attribute enable_binarized {0,1}
+@attribute enables_binarized {0,1}
+@attribute end_binarized {0,1}
+@attribute engage_binarized {0,1}
+@attribute engagement_binarized {0,1}
+@attribute 'engagement with_binarized' {0,1}
+@attribute enrol_binarized {0,1}
+@attribute 'enrol to_binarized' {0,1}
+@attribute 'enrol to the_binarized' {0,1}
+@attribute ensure_binarized {0,1}
+@attribute environment_binarized {0,1}
+@attribute errors_binarized {0,1}
+@attribute evaluate_binarized {0,1}
+@attribute event_binarized {0,1}
+@attribute events_binarized {0,1}
+@attribute everyday_binarized {0,1}
+@attribute evidence_binarized {0,1}
+@attribute evidencebased_binarized {0,1}
+@attribute examine_binarized {0,1}
+@attribute 'examine regions_binarized' {0,1}
+@attribute 'examine regions of_binarized' {0,1}
+@attribute existing_binarized {0,1}
+@attribute expected_binarized {0,1}
+@attribute experience_binarized {0,1}
+@attribute 'experience with_binarized' {0,1}
+@attribute experienced_binarized {0,1}
+@attribute experiences_binarized {0,1}
+@attribute experts_binarized {0,1}
+@attribute external_binarized {0,1}
+@attribute families_binarized {0,1}
+@attribute features_binarized {0,1}
+@attribute 'features useful_binarized' {0,1}
+@attribute 'features useful information_binarized' {0,1}
+@attribute feeling_binarized {0,1}
+@attribute field_binarized {0,1}
+@attribute financial_binarized {0,1}
+@attribute find_binarized {0,1}
+@attribute 'find information_binarized' {0,1}
+@attribute flow_binarized {0,1}
+@attribute focus_binarized {0,1}
+@attribute focused_binarized {0,1}
+@attribute 'focused on_binarized' {0,1}
+@attribute 'for HCPs_binarized' {0,1}
+@attribute 'for Healthcare_binarized' {0,1}
+@attribute 'for Healthcare Professionals_binarized' {0,1}
+@attribute 'for a_binarized' {0,1}
+@attribute 'for cancer_binarized' {0,1}
+@attribute 'for cancer patients_binarized' {0,1}
+@attribute 'for early_binarized' {0,1}
+@attribute 'for healthcare_binarized' {0,1}
+@attribute 'for healthcare professionals_binarized' {0,1}
+@attribute 'for information_binarized' {0,1}
+@attribute 'for patients_binarized' {0,1}
+@attribute 'for patients and_binarized' {0,1}
+@attribute 'for patients to_binarized' {0,1}
+@attribute 'for patients with_binarized' {0,1}
+@attribute 'for people_binarized' {0,1}
+@attribute 'for people with_binarized' {0,1}
+@attribute 'for the_binarized' {0,1}
+@attribute 'for you_binarized' {0,1}
+@attribute 'for you to_binarized' {0,1}
+@attribute form_binarized {0,1}
+@attribute found_binarized {0,1}
+@attribute free_binarized {0,1}
+@attribute 'from Roche_binarized' {0,1}
+@attribute 'from Roche with_binarized' {0,1}
+@attribute 'from a_binarized' {0,1}
+@attribute 'from the_binarized' {0,1}
+@attribute function_binarized {0,1}
+@attribute functionality_binarized {0,1}
+@attribute functions_binarized {0,1}
+@attribute funders_binarized {0,1}
+@attribute 'funders 6_binarized' {0,1}
+@attribute 'funders 6 healthcare_binarized' {0,1}
+@attribute gathered_binarized {0,1}
+@attribute general_binarized {0,1}
+@attribute generate_binarized {0,1}
+@attribute generated_binarized {0,1}
+@attribute genome_binarized {0,1}
+@attribute 'genome that_binarized' {0,1}
+@attribute 'genome that other_binarized' {0,1}
+@attribute genomic_binarized {0,1}
+@attribute 'genomic profiling_binarized' {0,1}
+@attribute 'get information_binarized' {0,1}
+@attribute 'get information about_binarized' {0,1}
+@attribute give_binarized {0,1}
+@attribute global_binarized {0,1}
+@attribute goal_binarized {0,1}
+@attribute guidance_binarized {0,1}
+@attribute guidelines_binarized {0,1}
+@attribute guides_binarized {0,1}
+@attribute 'has been_binarized' {0,1}
+@attribute 'has no_binarized' {0,1}
+@attribute 'have been_binarized' {0,1}
+@attribute 'have the_binarized' {0,1}
+@attribute health_binarized {0,1}
+@attribute 'health care_binarized' {0,1}
+@attribute 'health professionals_binarized' {0,1}
+@attribute 'health professionals Designed_binarized' {0,1}
+@attribute healthcare_binarized {0,1}
+@attribute 'healthcare organisations_binarized' {0,1}
+@attribute 'healthcare organisations and_binarized' {0,1}
+@attribute 'healthcare professionals_binarized' {0,1}
+@attribute 'healthcare professionals It_binarized' {0,1}
+@attribute 'healthcare professionals to_binarized' {0,1}
+@attribute 'healthcare professionals with_binarized' {0,1}
+@attribute 'healthcare providers_binarized' {0,1}
+@attribute 'help and_binarized' {0,1}
+@attribute 'help the_binarized' {0,1}
+@attribute 'help the HCP_binarized' {0,1}
+@attribute 'help you_binarized' {0,1}
+@attribute 'help you in_binarized' {0,1}
+@attribute helping_binarized {0,1}
+@attribute helps_binarized {0,1}
+@attribute high_binarized {0,1}
+@attribute 'how these_binarized' {0,1}
+@attribute 'how these solution_binarized' {0,1}
+@attribute 'how to_binarized' {0,1}
+@attribute hybrid_binarized {0,1}
+@attribute 'hybrid capturebased_binarized' {0,1}
+@attribute 'hybrid capturebased nextgeneration_binarized' {0,1}
+@attribute iThemba_binarized {0,1}
+@attribute identify_binarized {0,1}
+@attribute 'if you_binarized' {0,1}
+@attribute impact_binarized {0,1}
+@attribute 'impact on_binarized' {0,1}
+@attribute impairment_binarized {0,1}
+@attribute important_binarized {0,1}
+@attribute improve_binarized {0,1}
+@attribute 'improve the_binarized' {0,1}
+@attribute 'improve your_binarized' {0,1}
+@attribute 'improve your wellbeing_binarized' {0,1}
+@attribute improving_binarized {0,1}
+@attribute 'improving the_binarized' {0,1}
+@attribute 'in a_binarized' {0,1}
+@attribute 'in a consortium_binarized' {0,1}
+@attribute 'in early_binarized' {0,1}
+@attribute 'in liver_binarized' {0,1}
+@attribute 'in oncology_binarized' {0,1}
+@attribute 'in one_binarized' {0,1}
+@attribute 'in one place_binarized' {0,1}
+@attribute 'in order_binarized' {0,1}
+@attribute 'in order to_binarized' {0,1}
+@attribute 'in the_binarized' {0,1}
+@attribute 'in their_binarized' {0,1}
+@attribute 'in their daily_binarized' {0,1}
+@attribute 'in their practices_binarized' {0,1}
+@attribute 'in which_binarized' {0,1}
+@attribute include_binarized {0,1}
+@attribute includes_binarized {0,1}
+@attribute including_binarized {0,1}
+@attribute increase_binarized {0,1}
+@attribute increasing_binarized {0,1}
+@attribute individual_binarized {0,1}
+@attribute individuals_binarized {0,1}
+@attribute information_binarized {0,1}
+@attribute 'information about_binarized' {0,1}
+@attribute 'information about Roche_binarized' {0,1}
+@attribute 'information and_binarized' {0,1}
+@attribute 'information from_binarized' {0,1}
+@attribute 'information is_binarized' {0,1}
+@attribute 'information on_binarized' {0,1}
+@attribute 'information on Roche_binarized' {0,1}
+@attribute 'information related_binarized' {0,1}
+@attribute 'information related to_binarized' {0,1}
+@attribute 'information to_binarized' {0,1}
+@attribute infrastructure_binarized {0,1}
+@attribute initiated_binarized {0,1}
+@attribute initiative_binarized {0,1}
+@attribute injections_binarized {0,1}
+@attribute 'injections or_binarized' {0,1}
+@attribute 'injections or less_binarized' {0,1}
+@attribute innovative_binarized {0,1}
+@attribute insights_binarized {0,1}
+@attribute institutions_binarized {0,1}
+@attribute integrate_binarized {0,1}
+@attribute integrated_binarized {0,1}
+@attribute integration_binarized {0,1}
+@attribute intelligence_binarized {0,1}
+@attribute intended_binarized {0,1}
+@attribute 'intended to_binarized' {0,1}
+@attribute interactive_binarized {0,1}
+@attribute interest_binarized {0,1}
+@attribute international_binarized {0,1}
+@attribute 'into a_binarized' {0,1}
+@attribute 'into the_binarized' {0,1}
+@attribute investigators_binarized {0,1}
+@attribute involves_binarized {0,1}
+@attribute 'involves Roche_binarized' {0,1}
+@attribute 'involves Roche and_binarized' {0,1}
+@attribute 'is a_binarized' {0,1}
+@attribute 'is a digital_binarized' {0,1}
+@attribute 'is an_binarized' {0,1}
+@attribute 'is an educational_binarized' {0,1}
+@attribute 'is an online_binarized' {0,1}
+@attribute 'is being_binarized' {0,1}
+@attribute 'is designed_binarized' {0,1}
+@attribute 'is in_binarized' {0,1}
+@attribute 'is in a_binarized' {0,1}
+@attribute 'is intended_binarized' {0,1}
+@attribute 'is intended to_binarized' {0,1}
+@attribute 'is it_binarized' {0,1}
+@attribute 'is it Piloted_binarized' {0,1}
+@attribute 'is not_binarized' {0,1}
+@attribute 'is the_binarized' {0,1}
+@attribute 'is to_binarized' {0,1}
+@attribute issues_binarized {0,1}
+@attribute 'it Piloted_binarized' {0,1}
+@attribute 'it developed_binarized' {0,1}
+@attribute 'it is_binarized' {0,1}
+@attribute 'its less_binarized' {0,1}
+@attribute 'its less number_binarized' {0,1}
+@attribute journey_binarized {0,1}
+@attribute 'journey and_binarized' {0,1}
+@attribute 'journey and outcomes_binarized' {0,1}
+@attribute kind_binarized {0,1}
+@attribute knowledge_binarized {0,1}
+@attribute 'knowledge and_binarized' {0,1}
+@attribute lab_binarized {0,1}
+@attribute language_binarized {0,1}
+@attribute latest_binarized {0,1}
+@attribute launch_binarized {0,1}
+@attribute leading_binarized {0,1}
+@attribute learn_binarized {0,1}
+@attribute 'learn more_binarized' {0,1}
+@attribute 'learn more about_binarized' {0,1}
+@attribute learning_binarized {0,1}
+@attribute legal_binarized {0,1}
+@attribute 'less number_binarized' {0,1}
+@attribute 'less number of_binarized' {0,1}
+@attribute 'less product_binarized' {0,1}
+@attribute 'less product waste_binarized' {0,1}
+@attribute level_binarized {0,1}
+@attribute leveraging_binarized {0,1}
+@attribute life_binarized {0,1}
+@attribute lifestyle_binarized {0,1}
+@attribute list_binarized {0,1}
+@attribute liver_binarized {0,1}
+@attribute 'liver cancer_binarized' {0,1}
+@attribute 'liver disease_binarized' {0,1}
+@attribute 'liver health_binarized' {0,1}
+@attribute lives_binarized {0,1}
+@attribute 'lives of_binarized' {0,1}
+@attribute living_binarized {0,1}
+@attribute 'living with_binarized' {0,1}
+@attribute local_binarized {0,1}
+@attribute lung_binarized {0,1}
+@attribute 'lung cancer_binarized' {0,1}
+@attribute machine_binarized {0,1}
+@attribute 'machine learning_binarized' {0,1}
+@attribute major_binarized {0,1}
+@attribute make_binarized {0,1}
+@attribute manage_binarized {0,1}
+@attribute 'manage your_binarized' {0,1}
+@attribute management_binarized {0,1}
+@attribute managing_binarized {0,1}
+@attribute 'many different_binarized' {0,1}
+@attribute market_binarized {0,1}
+@attribute materials_binarized {0,1}
+@attribute 'may be_binarized' {0,1}
+@attribute means_binarized {0,1}
+@attribute measure_binarized {0,1}
+@attribute media_binarized {0,1}
+@attribute medical_binarized {0,1}
+@attribute 'medical data_binarized' {0,1}
+@attribute 'medical information_binarized' {0,1}
+@attribute medication_binarized {0,1}
+@attribute medications_binarized {0,1}
+@attribute medicine_binarized {0,1}
+@attribute medicines_binarized {0,1}
+@attribute meet_binarized {0,1}
+@attribute memory_binarized {0,1}
+@attribute 'memory clinics_binarized' {0,1}
+@attribute mental_binarized {0,1}
+@attribute mission_binarized {0,1}
+@attribute mobile_binarized {0,1}
+@attribute 'mobile app_binarized' {0,1}
+@attribute 'mobile application_binarized' {0,1}
+@attribute model_binarized {0,1}
+@attribute molecular_binarized {0,1}
+@attribute 'molecular tumor_binarized' {0,1}
+@attribute 'molecular tumor profiling_binarized' {0,1}
+@attribute monitor_binarized {0,1}
+@attribute 'monitor your_binarized' {0,1}
+@attribute 'monitor your treatment_binarized' {0,1}
+@attribute monitoring_binarized {0,1}
+@attribute 'more about_binarized' {0,1}
+@attribute 'more about the_binarized' {0,1}
+@attribute 'more than_binarized' {0,1}
+@attribute 'most convenient_binarized' {0,1}
+@attribute 'most convenient treatment_binarized' {0,1}
+@attribute multiple_binarized {0,1}
+@attribute national_binarized {0,1}
+@attribute network_binarized {0,1}
+@attribute nextgeneration_binarized {0,1}
+@attribute 'nextgeneration sequencing_binarized' {0,1}
+@attribute 'nextgeneration sequencing NGS_binarized' {0,1}
+@attribute number_binarized {0,1}
+@attribute 'number of_binarized' {0,1}
+@attribute 'number of injections_binarized' {0,1}
+@attribute nurse_binarized {0,1}
+@attribute nurses_binarized {0,1}
+@attribute nutrition_binarized {0,1}
+@attribute objective_binarized {0,1}
+@attribute 'of a_binarized' {0,1}
+@attribute 'of an_binarized' {0,1}
+@attribute 'of breast_binarized' {0,1}
+@attribute 'of breast cancer_binarized' {0,1}
+@attribute 'of cancer_binarized' {0,1}
+@attribute 'of care_binarized' {0,1}
+@attribute 'of data_binarized' {0,1}
+@attribute 'of developing_binarized' {0,1}
+@attribute 'of early_binarized' {0,1}
+@attribute 'of information_binarized' {0,1}
+@attribute 'of injections_binarized' {0,1}
+@attribute 'of injections or_binarized' {0,1}
+@attribute 'of life_binarized' {0,1}
+@attribute 'of patients_binarized' {0,1}
+@attribute 'of the_binarized' {0,1}
+@attribute 'of the 4_binarized' {0,1}
+@attribute 'of the tumor_binarized' {0,1}
+@attribute 'of their_binarized' {0,1}
+@attribute 'of use_binarized' {0,1}
+@attribute 'of use Monitoring_binarized' {0,1}
+@attribute 'of your_binarized' {0,1}
+@attribute offer_binarized {0,1}
+@attribute offering_binarized {0,1}
+@attribute offers_binarized {0,1}
+@attribute 'offers a_binarized' {0,1}
+@attribute 'on Roche_binarized' {0,1}
+@attribute 'on Roche pharmaceutical_binarized' {0,1}
+@attribute 'on a_binarized' {0,1}
+@attribute 'on the_binarized' {0,1}
+@attribute oncology_binarized {0,1}
+@attribute 'one place_binarized' {0,1}
+@attribute onestop_binarized {0,1}
+@attribute 'onestop portal_binarized' {0,1}
+@attribute 'onestop portal for_binarized' {0,1}
+@attribute ongoing_binarized {0,1}
+@attribute online_binarized {0,1}
+@attribute open_binarized {0,1}
+@attribute ophthalmology_binarized {0,1}
+@attribute optimal_binarized {0,1}
+@attribute options_binarized {0,1}
+@attribute 'or less_binarized' {0,1}
+@attribute 'or less product_binarized' {0,1}
+@attribute order_binarized {0,1}
+@attribute 'order to_binarized' {0,1}
+@attribute organisations_binarized {0,1}
+@attribute 'organisations and_binarized' {0,1}
+@attribute 'organisations and 4_binarized' {0,1}
+@attribute oriented_binarized {0,1}
+@attribute 'oriented to_binarized' {0,1}
+@attribute 'oriented to health_binarized' {0,1}
+@attribute 'other tests_binarized' {0,1}
+@attribute 'other tests cannot_binarized' {0,1}
+@attribute 'our customers_binarized' {0,1}
+@attribute outcome_binarized {0,1}
+@attribute outcomes_binarized {0,1}
+@attribute 'outcomes Funding_binarized' {0,1}
+@attribute 'outcomes Funding comes_binarized' {0,1}
+@attribute 'over time_binarized' {0,1}
+@attribute overview_binarized {0,1}
+@attribute 'overview of_binarized' {0,1}
+@attribute page_binarized {0,1}
+@attribute part_binarized {0,1}
+@attribute 'part of_binarized' {0,1}
+@attribute participants_binarized {0,1}
+@attribute partner_binarized {0,1}
+@attribute partnership_binarized {0,1}
+@attribute 'partnership by_binarized' {0,1}
+@attribute 'partnership by Multicare_binarized' {0,1}
+@attribute 'partnership with_binarized' {0,1}
+@attribute party_binarized {0,1}
+@attribute pathologies_binarized {0,1}
+@attribute pathway_binarized {0,1}
+@attribute patient_binarized {0,1}
+@attribute 'patient care_binarized' {0,1}
+@attribute 'patient data_binarized' {0,1}
+@attribute 'patient journey_binarized' {0,1}
+@attribute 'patient journey and_binarized' {0,1}
+@attribute 'patient or_binarized' {0,1}
+@attribute 'patient outcomes_binarized' {0,1}
+@attribute 'patient portal_binarized' {0,1}
+@attribute 'patient portal for_binarized' {0,1}
+@attribute 'patient support_binarized' {0,1}
+@attribute patientreported_binarized {0,1}
+@attribute patients_binarized {0,1}
+@attribute 'patients and_binarized' {0,1}
+@attribute 'patients and HCPs_binarized' {0,1}
+@attribute 'patients and their_binarized' {0,1}
+@attribute 'patients are_binarized' {0,1}
+@attribute 'patients in_binarized' {0,1}
+@attribute 'patients to_binarized' {0,1}
+@attribute 'patients with_binarized' {0,1}
+@attribute people_binarized {0,1}
+@attribute 'people who_binarized' {0,1}
+@attribute 'people with_binarized' {0,1}
+@attribute person_binarized {0,1}
+@attribute personal_binarized {0,1}
+@attribute personalized_binarized {0,1}
+@attribute pharmaceutical_binarized {0,1}
+@attribute 'pharmaceutical products_binarized' {0,1}
+@attribute physical_binarized {0,1}
+@attribute 'physical activity_binarized' {0,1}
+@attribute physician_binarized {0,1}
+@attribute physicians_binarized {0,1}
+@attribute 'physicians to_binarized' {0,1}
+@attribute place_binarized {0,1}
+@attribute plans_binarized {0,1}
+@attribute platform_binarized {0,1}
+@attribute 'platform for_binarized' {0,1}
+@attribute 'platform that_binarized' {0,1}
+@attribute 'platform to_binarized' {0,1}
+@attribute population_binarized {0,1}
+@attribute portal_binarized {0,1}
+@attribute 'portal for_binarized' {0,1}
+@attribute 'portal for healthcare_binarized' {0,1}
+@attribute 'portal for you_binarized' {0,1}
+@attribute portfolio_binarized {0,1}
+@attribute potential_binarized {0,1}
+@attribute practice_binarized {0,1}
+@attribute practices_binarized {0,1}
+@attribute 'practices and_binarized' {0,1}
+@attribute 'practices and assess_binarized' {0,1}
+@attribute prescribed_binarized {0,1}
+@attribute present_binarized {0,1}
+@attribute presentations_binarized {0,1}
+@attribute prevent_binarized {0,1}
+@attribute prevention_binarized {0,1}
+@attribute primary_binarized {0,1}
+@attribute 'primary care_binarized' {0,1}
+@attribute prior_binarized {0,1}
+@attribute process_binarized {0,1}
+@attribute product_binarized {0,1}
+@attribute 'product waste_binarized' {0,1}
+@attribute products_binarized {0,1}
+@attribute 'products and_binarized' {0,1}
+@attribute 'products scientific_binarized' {0,1}
+@attribute 'products scientific data_binarized' {0,1}
+@attribute professionals_binarized {0,1}
+@attribute 'professionals Designed_binarized' {0,1}
+@attribute 'professionals Designed to_binarized' {0,1}
+@attribute 'professionals It_binarized' {0,1}
+@attribute 'professionals It features_binarized' {0,1}
+@attribute 'professionals to_binarized' {0,1}
+@attribute 'professionals to get_binarized' {0,1}
+@attribute 'professionals with_binarized' {0,1}
+@attribute profiling_binarized {0,1}
+@attribute 'profiling approach_binarized' {0,1}
+@attribute 'profiling approach uses_binarized' {0,1}
+@attribute program_binarized {0,1}
+@attribute programs_binarized {0,1}
+@attribute 'programs and_binarized' {0,1}
+@attribute progress_binarized {0,1}
+@attribute progression_binarized {0,1}
+@attribute 'progression and_binarized' {0,1}
+@attribute 'progression and treatment_binarized' {0,1}
+@attribute project_binarized {0,1}
+@attribute provide_binarized {0,1}
+@attribute provided_binarized {0,1}
+@attribute 'provided by_binarized' {0,1}
+@attribute providers_binarized {0,1}
+@attribute 'providers and_binarized' {0,1}
+@attribute 'provides a_binarized' {0,1}
+@attribute providing_binarized {0,1}
+@attribute public_binarized {0,1}
+@attribute quality_binarized {0,1}
+@attribute 'quality of_binarized' {0,1}
+@attribute 'quality of life_binarized' {0,1}
+@attribute questionnaires_binarized {0,1}
+@attribute questions_binarized {0,1}
+@attribute quickly_binarized {0,1}
+@attribute receive_binarized {0,1}
+@attribute recognition_binarized {0,1}
+@attribute recommendations_binarized {0,1}
+@attribute record_binarized {0,1}
+@attribute records_binarized {0,1}
+@attribute referred_binarized {0,1}
+@attribute regions_binarized {0,1}
+@attribute 'regions of_binarized' {0,1}
+@attribute 'regions of the_binarized' {0,1}
+@attribute related_binarized {0,1}
+@attribute 'related to_binarized' {0,1}
+@attribute 'related to the_binarized' {0,1}
+@attribute relative_binarized {0,1}
+@attribute relatives_binarized {0,1}
+@attribute relevant_binarized {0,1}
+@attribute 'relevant information_binarized' {0,1}
+@attribute reminders_binarized {0,1}
+@attribute remote_binarized {0,1}
+@attribute reports_binarized {0,1}
+@attribute research_binarized {0,1}
+@attribute resource_binarized {0,1}
+@attribute 'resource for_binarized' {0,1}
+@attribute resources_binarized {0,1}
+@attribute 'resources that_binarized' {0,1}
+@attribute 'resources that will_binarized' {0,1}
+@attribute result_binarized {0,1}
+@attribute results_binarized {0,1}
+@attribute risk_binarized {0,1}
+@attribute 'risk of_binarized' {0,1}
+@attribute 'risk of developing_binarized' {0,1}
+@attribute role_binarized {0,1}
+@attribute run_binarized {0,1}
+@attribute schedule_binarized {0,1}
+@attribute 'schedule as_binarized' {0,1}
+@attribute 'schedule as well_binarized' {0,1}
+@attribute science_binarized {0,1}
+@attribute scientific_binarized {0,1}
+@attribute 'scientific data_binarized' {0,1}
+@attribute 'scientific data and_binarized' {0,1}
+@attribute screening_binarized {0,1}
+@attribute search_binarized {0,1}
+@attribute secure_binarized {0,1}
+@attribute seek_binarized {0,1}
+@attribute 'seek information_binarized' {0,1}
+@attribute 'seek information about_binarized' {0,1}
+@attribute select_binarized {0,1}
+@attribute 'select the_binarized' {0,1}
+@attribute 'select the most_binarized' {0,1}
+@attribute selfmanagement_binarized {0,1}
+@attribute sequencing_binarized {0,1}
+@attribute 'sequencing NGS_binarized' {0,1}
+@attribute 'sequencing NGS technology_binarized' {0,1}
+@attribute service_binarized {0,1}
+@attribute services_binarized {0,1}
+@attribute 'services and_binarized' {0,1}
+@attribute 'services and resources_binarized' {0,1}
+@attribute 'services and tools_binarized' {0,1}
+@attribute set_binarized {0,1}
+@attribute setup_binarized {0,1}
+@attribute 'setup which_binarized' {0,1}
+@attribute 'setup which involves_binarized' {0,1}
+@attribute share_binarized {0,1}
+@attribute sharing_binarized {0,1}
+@attribute 'should be_binarized' {0,1}
+@attribute side_binarized {0,1}
+@attribute 'side effects_binarized' {0,1}
+@attribute simplify_binarized {0,1}
+@attribute site_binarized {0,1}
+@attribute skills_binarized {0,1}
+@attribute smartphone_binarized {0,1}
+@attribute 'so that_binarized' {0,1}
+@attribute social_binarized {0,1}
+@attribute solution_binarized {0,1}
+@attribute 'solution change_binarized' {0,1}
+@attribute 'solution change the_binarized' {0,1}
+@attribute 'solution designed_binarized' {0,1}
+@attribute 'solution designed to_binarized' {0,1}
+@attribute 'solution for_binarized' {0,1}
+@attribute 'solution is_binarized' {0,1}
+@attribute 'solution that_binarized' {0,1}
+@attribute solutions_binarized {0,1}
+@attribute 'solutions to_binarized' {0,1}
+@attribute specialists_binarized {0,1}
+@attribute specific_binarized {0,1}
+@attribute stage_binarized {0,1}
+@attribute stages_binarized {0,1}
+@attribute 'stages of_binarized' {0,1}
+@attribute start_binarized {0,1}
+@attribute startup_binarized {0,1}
+@attribute 'startup directly_binarized' {0,1}
+@attribute 'startup directly contracts_binarized' {0,1}
+@attribute status_binarized {0,1}
+@attribute stay_binarized {0,1}
+@attribute steps_binarized {0,1}
+@attribute stories_binarized {0,1}
+@attribute studied_binarized {0,1}
+@attribute studies_binarized {0,1}
+@attribute study_binarized {0,1}
+@attribute 'such as_binarized' {0,1}
+@attribute support_binarized {0,1}
+@attribute 'support for_binarized' {0,1}
+@attribute 'support to_binarized' {0,1}
+@attribute supported_binarized {0,1}
+@attribute supporting_binarized {0,1}
+@attribute supportive_binarized {0,1}
+@attribute survival_binarized {0,1}
+@attribute symptom_binarized {0,1}
+@attribute symptoms_binarized {0,1}
+@attribute 'symptoms and_binarized' {0,1}
+@attribute system_binarized {0,1}
+@attribute 'take control_binarized' {0,1}
+@attribute target_binarized {0,1}
+@attribute task_binarized {0,1}
+@attribute team_binarized {0,1}
+@attribute teams_binarized {0,1}
+@attribute technologies_binarized {0,1}
+@attribute technology_binarized {0,1}
+@attribute 'technology to_binarized' {0,1}
+@attribute 'technology to examine_binarized' {0,1}
+@attribute telemedicine_binarized {0,1}
+@attribute test_binarized {0,1}
+@attribute 'test a_binarized' {0,1}
+@attribute 'test a combination_binarized' {0,1}
+@attribute testing_binarized {0,1}
+@attribute tests_binarized {0,1}
+@attribute 'tests cannot_binarized' {0,1}
+@attribute 'that can_binarized' {0,1}
+@attribute 'that is_binarized' {0,1}
+@attribute 'that other_binarized' {0,1}
+@attribute 'that other tests_binarized' {0,1}
+@attribute 'that provides_binarized' {0,1}
+@attribute 'that will_binarized' {0,1}
+@attribute 'that will help_binarized' {0,1}
+@attribute 'that you_binarized' {0,1}
+@attribute 'the 4_binarized' {0,1}
+@attribute 'the 4 companies_binarized' {0,1}
+@attribute 'the HCO_binarized' {0,1}
+@attribute 'the HCO Roche_binarized' {0,1}
+@attribute 'the HCP_binarized' {0,1}
+@attribute 'the HCP with_binarized' {0,1}
+@attribute 'the Roche_binarized' {0,1}
+@attribute 'the Roche Patient_binarized' {0,1}
+@attribute 'the app_binarized' {0,1}
+@attribute 'the best_binarized' {0,1}
+@attribute 'the disease_binarized' {0,1}
+@attribute 'the diseases_binarized' {0,1}
+@attribute 'the dose_binarized' {0,1}
+@attribute 'the dose calculation_binarized' {0,1}
+@attribute 'the first_binarized' {0,1}
+@attribute 'the information_binarized' {0,1}
+@attribute 'the latest_binarized' {0,1}
+@attribute 'the lives_binarized' {0,1}
+@attribute 'the lives of_binarized' {0,1}
+@attribute 'the most_binarized' {0,1}
+@attribute 'the most convenient_binarized' {0,1}
+@attribute 'the patient_binarized' {0,1}
+@attribute 'the patient journey_binarized' {0,1}
+@attribute 'the patients_binarized' {0,1}
+@attribute 'the process_binarized' {0,1}
+@attribute 'the right_binarized' {0,1}
+@attribute 'the services_binarized' {0,1}
+@attribute 'the services and_binarized' {0,1}
+@attribute 'the status_binarized' {0,1}
+@attribute 'the tool_binarized' {0,1}
+@attribute 'the treatment_binarized' {0,1}
+@attribute 'the tumor_binarized' {0,1}
+@attribute 'the tumor genome_binarized' {0,1}
+@attribute 'their daily_binarized' {0,1}
+@attribute 'their daily practice_binarized' {0,1}
+@attribute 'their families_binarized' {0,1}
+@attribute 'their own_binarized' {0,1}
+@attribute 'their patients_binarized' {0,1}
+@attribute 'their practices_binarized' {0,1}
+@attribute 'their practices and_binarized' {0,1}
+@attribute 'their relatives_binarized' {0,1}
+@attribute 'them and_binarized' {0,1}
+@attribute therapy_binarized {0,1}
+@attribute 'there is_binarized' {0,1}
+@attribute 'there is a_binarized' {0,1}
+@attribute 'these solution_binarized' {0,1}
+@attribute 'these solution change_binarized' {0,1}
+@attribute 'this website_binarized' {0,1}
+@attribute 'through a_binarized' {0,1}
+@attribute 'throughout the_binarized' {0,1}
+@attribute 'throughout your_binarized' {0,1}
+@attribute time_binarized {0,1}
+@attribute 'to Roche_binarized' {0,1}
+@attribute 'to a_binarized' {0,1}
+@attribute 'to access_binarized' {0,1}
+@attribute 'to address_binarized' {0,1}
+@attribute 'to advance_binarized' {0,1}
+@attribute 'to assess_binarized' {0,1}
+@attribute 'to be_binarized' {0,1}
+@attribute 'to better_binarized' {0,1}
+@attribute 'to build_binarized' {0,1}
+@attribute 'to clinicians_binarized' {0,1}
+@attribute 'to collect_binarized' {0,1}
+@attribute 'to connect_binarized' {0,1}
+@attribute 'to deliver_binarized' {0,1}
+@attribute 'to determine_binarized' {0,1}
+@attribute 'to develop_binarized' {0,1}
+@attribute 'to easily_binarized' {0,1}
+@attribute 'to enable_binarized' {0,1}
+@attribute 'to enrol_binarized' {0,1}
+@attribute 'to enrol to_binarized' {0,1}
+@attribute 'to ensure_binarized' {0,1}
+@attribute 'to examine_binarized' {0,1}
+@attribute 'to examine regions_binarized' {0,1}
+@attribute 'to find_binarized' {0,1}
+@attribute 'to get_binarized' {0,1}
+@attribute 'to get information_binarized' {0,1}
+@attribute 'to have_binarized' {0,1}
+@attribute 'to health_binarized' {0,1}
+@attribute 'to health professionals_binarized' {0,1}
+@attribute 'to help_binarized' {0,1}
+@attribute 'to help the_binarized' {0,1}
+@attribute 'to help you_binarized' {0,1}
+@attribute 'to improve_binarized' {0,1}
+@attribute 'to increase_binarized' {0,1}
+@attribute 'to know_binarized' {0,1}
+@attribute 'to learn_binarized' {0,1}
+@attribute 'to make_binarized' {0,1}
+@attribute 'to measure_binarized' {0,1}
+@attribute 'to monitor_binarized' {0,1}
+@attribute 'to monitor your_binarized' {0,1}
+@attribute 'to our_binarized' {0,1}
+@attribute 'to patients_binarized' {0,1}
+@attribute 'to provide_binarized' {0,1}
+@attribute 'to search_binarized' {0,1}
+@attribute 'to see_binarized' {0,1}
+@attribute 'to seek_binarized' {0,1}
+@attribute 'to seek information_binarized' {0,1}
+@attribute 'to select_binarized' {0,1}
+@attribute 'to select the_binarized' {0,1}
+@attribute 'to share_binarized' {0,1}
+@attribute 'to support_binarized' {0,1}
+@attribute 'to the_binarized' {0,1}
+@attribute 'to the Roche_binarized' {0,1}
+@attribute 'to use_binarized' {0,1}
+@attribute 'together all_binarized' {0,1}
+@attribute 'together all the_binarized' {0,1}
+@attribute tool_binarized {0,1}
+@attribute 'tool for_binarized' {0,1}
+@attribute 'tool is_binarized' {0,1}
+@attribute 'tool to_binarized' {0,1}
+@attribute tools_binarized {0,1}
+@attribute 'tools to_binarized' {0,1}
+@attribute track_binarized {0,1}
+@attribute tracking_binarized {0,1}
+@attribute training_binarized {0,1}
+@attribute treating_binarized {0,1}
+@attribute treatment_binarized {0,1}
+@attribute 'treatment and_binarized' {0,1}
+@attribute 'treatment and schedule_binarized' {0,1}
+@attribute 'treatment effectsObjective_binarized' {0,1}
+@attribute 'treatment effectsObjective Aims_binarized' {0,1}
+@attribute 'treatment for_binarized' {0,1}
+@attribute 'treatment is_binarized' {0,1}
+@attribute 'treatment of_binarized' {0,1}
+@attribute 'treatment options_binarized' {0,1}
+@attribute 'treatment whether_binarized' {0,1}
+@attribute 'treatment whether its_binarized' {0,1}
+@attribute treatments_binarized {0,1}
+@attribute triage_binarized {0,1}
+@attribute trial_binarized {0,1}
+@attribute trials_binarized {0,1}
+@attribute trusted_binarized {0,1}
+@attribute tumor_binarized {0,1}
+@attribute 'tumor genome_binarized' {0,1}
+@attribute 'tumor genome that_binarized' {0,1}
+@attribute 'tumor profiling_binarized' {0,1}
+@attribute 'tumor profiling approach_binarized' {0,1}
+@attribute type_binarized {0,1}
+@attribute 'type setup_binarized' {0,1}
+@attribute 'type setup which_binarized' {0,1}
+@attribute types_binarized {0,1}
+@attribute 'types of_binarized' {0,1}
+@attribute 'types of cancer_binarized' {0,1}
+@attribute understand_binarized {0,1}
+@attribute 'understand the_binarized' {0,1}
+@attribute understanding_binarized {0,1}
+@attribute 'up to_binarized' {0,1}
+@attribute upcoming_binarized {0,1}
+@attribute 'us to_binarized' {0,1}
+@attribute 'use Monitoring_binarized' {0,1}
+@attribute 'use Monitoring disease_binarized' {0,1}
+@attribute 'useful information_binarized' {0,1}
+@attribute 'useful information on_binarized' {0,1}
+@attribute user_binarized {0,1}
+@attribute users_binarized {0,1}
+@attribute 'uses hybrid_binarized' {0,1}
+@attribute 'uses hybrid capturebased_binarized' {0,1}
+@attribute videos_binarized {0,1}
+@attribute virtual_binarized {0,1}
+@attribute vision_binarized {0,1}
+@attribute visual_binarized {0,1}
+@attribute 'want to_binarized' {0,1}
+@attribute 'was it_binarized' {0,1}
+@attribute 'was it developed_binarized' {0,1}
+@attribute waste_binarized {0,1}
+@attribute 'we are_binarized' {0,1}
+@attribute 'we have_binarized' {0,1}
+@attribute webpage_binarized {0,1}
+@attribute 'webpage for_binarized' {0,1}
+@attribute website_binarized {0,1}
+@attribute 'website designed_binarized' {0,1}
+@attribute 'website designed for_binarized' {0,1}
+@attribute 'website for_binarized' {0,1}
+@attribute 'website for patients_binarized' {0,1}
+@attribute 'website is_binarized' {0,1}
+@attribute 'website to_binarized' {0,1}
+@attribute websites_binarized {0,1}
+@attribute 'well as_binarized' {0,1}
+@attribute 'well as improve_binarized' {0,1}
+@attribute wellbeing_binarized {0,1}
+@attribute 'wellbeing and_binarized' {0,1}
+@attribute 'wellbeing and experience_binarized' {0,1}
+@attribute 'where you_binarized' {0,1}
+@attribute 'where you can_binarized' {0,1}
+@attribute 'whether its_binarized' {0,1}
+@attribute 'whether its less_binarized' {0,1}
+@attribute 'which brings_binarized' {0,1}
+@attribute 'which brings together_binarized' {0,1}
+@attribute 'which involves_binarized' {0,1}
+@attribute 'which involves Roche_binarized' {0,1}
+@attribute 'which is_binarized' {0,1}
+@attribute 'which treatment_binarized' {0,1}
+@attribute 'which will_binarized' {0,1}
+@attribute 'who are_binarized' {0,1}
+@attribute 'who have_binarized' {0,1}
+@attribute 'will be_binarized' {0,1}
+@attribute 'will find_binarized' {0,1}
+@attribute 'will help_binarized' {0,1}
+@attribute 'will help you_binarized' {0,1}
+@attribute 'will test_binarized' {0,1}
+@attribute 'will test a_binarized' {0,1}
+@attribute 'with HCPs_binarized' {0,1}
+@attribute 'with a_binarized' {0,1}
+@attribute 'with a partnership_binarized' {0,1}
+@attribute 'with access_binarized' {0,1}
+@attribute 'with access to_binarized' {0,1}
+@attribute 'with an_binarized' {0,1}
+@attribute 'with cancer_binarized' {0,1}
+@attribute 'with cognitive_binarized' {0,1}
+@attribute 'with information_binarized' {0,1}
+@attribute 'with our_binarized' {0,1}
+@attribute 'with the_binarized' {0,1}
+@attribute 'with the HCO_binarized' {0,1}
+@attribute 'with the dose_binarized' {0,1}
+@attribute 'with their_binarized' {0,1}
+@attribute 'with your_binarized' {0,1}
+@attribute women_binarized {0,1}
+@attribute work_binarized {0,1}
+@attribute working_binarized {0,1}
+@attribute world_binarized {0,1}
+@attribute 'would be_binarized' {0,1}
+@attribute 'you are_binarized' {0,1}
+@attribute 'you as_binarized' {0,1}
+@attribute 'you as a_binarized' {0,1}
+@attribute 'you can_binarized' {0,1}
+@attribute 'you have_binarized' {0,1}
+@attribute 'you in_binarized' {0,1}
+@attribute 'you in their_binarized' {0,1}
+@attribute 'you need_binarized' {0,1}
+@attribute 'you to_binarized' {0,1}
+@attribute 'you to enrol_binarized' {0,1}
+@attribute 'you will_binarized' {0,1}
+@attribute 'you will find_binarized' {0,1}
+@attribute 'your cancer_binarized' {0,1}
+@attribute 'your disease_binarized' {0,1}
+@attribute 'your own_binarized' {0,1}
+@attribute 'your treatment' numeric
+@attribute 'your treatment and_binarized' {0,1}
+@attribute 'your wellbeing_binarized' {0,1}
+@attribute 'your wellbeing and_binarized' {0,1}
+@attribute €_binarized {0,1}
+@attribute ‚·_binarized {0,1}
+
+@data
+{6 1,14 1,37 1,50 1,177 1,511 1,538 1,625 1,686 1,778 1,785 1,830 1,847 1,949 1,960 1,1118 1,1126 1,1159 1,1210 1,1297 1}
+{0 Pilot,2 1,3 1,4 1,5 1,12 1,23 1,75 1,87 1,88 1,89 1,216 1,217 1,240 1,339 1,378 1,379 1,403 1,517 1,763 1,765 1,942 1,1031 1,1145 1,1281 1}
+{0 Live,6 1,7 1,13 1,26 1,215 1,224 1,306 1,378 1,663 1,728 1,1350 1,1390 1,1397 1}
+{0 Live,5 1,6 1,7 1,14 1,23 1,292 1,297 1,319 1,360 1,400 1,417 1,418 1,419 1,529 1,535 1,542 1,661 1,707 1,785 1,786 1,960 1,961 1,1038 1,1145 1,1173 1,1230 1,1339 1,1357 1,1403 1,1415 1}
+{0 Live,5 1,6 1,7 1,14 1,45 1,239 1,269 1,320 1,321 1,325 1,327 1,332 1,378 1,379 1,400 1,403 1,509 1,517 1,542 1,548 1,561 1,599 1,602 1,686 1,700 1,716 1,728 1,733 1,777 1,879 1,880 1,891 1,897 1,960 1,961 1,963 1,1006 1,1044 1,1045 1,1066 1,1128 1,1139 1,1145 1,1179 1,1190 1,1195 1,1203 1,1204 1,1215 1,1229 1,1239 1,1275 1,1297 1,1304 1,1373 1,1374 1,1392 1,1396 1,1402 1,1405 1,1406 1,1410 1,1415 1}
+{0 Live,6 1,7 1,14 1,23 1,85 1,139 1,307 1,311 1,450 1,728 1,738 1,785 1,792 1,836 1,838 1,938 1,939 1,960 1,973 1,983 1,984 1,1027 1,1031 1,1149 1,1199 1,1229 1,1272 1,1409 1}
+{0 Live,5 1,6 1,7 1,13 1,23 1,87 1,88 1,89 1,378 1,379 1,402 1,403 1,596 1,597 1,606 1,832 1,1044 1,1133 1}
+{0 Live,5 1,6 1,7 1,13 1,41 1,188 1,248 1,263 1,264 1,265 1,266 1,298 1,321 1,325 1,327 1,378 1,379 1,400 1,403 1,465 1,466 1,529 1,530 1,542 1,648 1,808 1,879 1,880 1,905 1,960 1,967 1,983 1,1002 1,1039 1,1059 1,1113 1,1190 1,1220 1,1265 1,1297 1,1304 1,1342 1}
+{0 Live,6 1,13 1,23 1,224 1,625 1,960 1}
+{0 Live,6 1,13 1,23 1,71 1,73 1,131 1,132 1,133 1,281 1,282 1,625 1,626 1,728 1,729 1,960 1,961 1,962 1,1088 1,1089 1,1090 1,1276 1,1277 1,1350 1,1353 1,1354 1}
+{0 Live,5 1,6 1,13 1,22 1,23 1,26 1,27 1,32 1,45 1,50 1,417 1,431 1,433 1,546 1,548 1,624 1,625 1,728 1,765 1,792 1,960 1,1059 1,1065 1,1066 1,1067 1,1149 1,1220 1,1311 1}
+{0 Live,2 1,3 1,4 1,5 1,13 1,23 1,27 1,71 1,306 1,378 1,379 1,403 1,529 1,624 1,728 1,736 1,737 1,916 1,1055 1,1056 1,1297 1,1305 1,1350 1,1356 1}
+{0 Live,5 1,6 1,13 1,26 1,27 1,32 1,224 1,248 1,300 1,325 1,363 1,422 1,542 1,546 1,690 1,728 1,729 1,935 1,971 1,1190 1,1191 1,1297 1}
+{0 Live,5 1,6 1,13 1,39 1,71 1,73 1,378 1,379 1,381 1,403 1,408 1,625 1,627 1,728 1,729 1,960 1,966 1,1088 1,1089 1,1090 1,1140 1,1276 1,1277 1,1350 1,1353 1,1354 1}
+{0 Live,6 1,13 1,23 1,87 1,88 1,89 1,252 1,625 1,960 1,1173 1}
+{0 Live,5 1,6 1,7 1,13 1,23 1,71 1,73 1,131 1,132 1,133 1,281 1,282 1,625 1,626 1,728 1,729 1,960 1,961 1,962 1,1088 1,1089 1,1090 1,1276 1,1277 1,1350 1,1353 1,1354 1}
+{0 Live,6 1,14 1,23 1,31 1,173 1,174 1,204 1,224 1,226 1,250 1,400 1,891 1,949 1,1201 1,1234 1}
+{0 Live,5 1,6 1,7 1,13 1,23 1,103 1,105 1,224 1,225 1,365 1,367 1,378 1,562 1,564 1,1139 1}
+{0 Live,5 1,6 1,7 1,13 1,23 1,71 1,73 1,321 1,378 1,379 1,380 1,403 1,404 1,625 1,627 1,728 1,729 1,807 1,879 1,880 1,889 1,960 1,966 1,1040 1,1041 1,1042 1,1088 1,1089 1,1090 1,1131 1,1276 1,1277 1,1321 1,1322 1,1350 1,1353 1,1354 1}
+{0 Live,6 1,13 1,23 1,87 1,88 1,89 1,462 1,625 1,627 1,728 1,736 1,737 1,960 1,966 1,1055 1,1056 1,1088 1,1089 1,1276 1,1277 1,1350 1,1353 1,1354 1}
+{0 Live,5 1,6 1,7 1,14 1,27 1,173 1,174 1,175 1,183 1,188 1,204 1,205 1,350 1,351 1,877 1,938 1,939 1,960 1,965 1,1032 1,1145 1,1147 1,1232 1,1273 1}
+{0 Live,2 1,3 1,4 1,5 1,6 1,7 1,13 1,23 1,27 1,224 1,225 1,403 1,427 1,728 1,729 1,937 1}
+{0 Live,4 1,5 1,6 1,7 1,13 1,42 1,353 1,354 1,362 1,389 1,403 1,408 1,443 1,444 1,522 1,542 1,609 1,629 1,630 1,648 1,728 1,763 1,776 1,881 1,884 1,960 1,968 1,970 1,972 1,1044 1,1073 1,1074 1,1075 1,1129 1,1140 1,1321 1,1322 1,1323 1,1332 1,1338 1,1358 1,1377 1,1388 1,1412 1,1413 1}
+{0 Live,5 1,6 1,7 1,13 1,45 1,144 1,145 1,222 1,249 1,321 1,325 1,327 1,529 1,530 1,546 1,583 1,668 1,701 1,705 1,706 1,717 1,720 1,728 1,738 1,763 1,807 1,814 1,815 1,827 1,889 1,890 1,947 1,960 1,1040 1,1041 1,1042 1,1055 1,1056 1,1059 1,1060 1,1061 1,1107 1,1197 1,1198 1,1282 1,1297 1,1304 1,1398 1}
+{0 Live,6 1,13 1,23 1,121 1,312 1,313 1,378 1,379 1,402 1,403 1,512 1,572 1,629 1,630 1,636 1,728 1,731 1,763 1,785 1,842 1,968 1,970 1,1024 1,1038 1,1068 1,1069 1,1145 1,1172 1,1230 1,1297 1,1417 2.838486}
+{0 Live,5 1,6 1,13 1,31 1,248 1,263 1,264 1,295 1,310 1,378 1,379 1,403 1,451 1,452 1,481 1,548 1,549 1,565 1,595 1,598 1,625 1,667 1,716 1,728 1,741 1,763 1,768 1,796 1,797 1,798 1,833 1,859 1,860 1,879 1,880 1,913 1,949 1,960 1,1088 1,1089 1,1116 1,1156 1,1173 1,1257 1,1266 1,1276 1,1277 1,1327 1,1375 1,1397 1}
+{0 Live,6 1,7 1,14 1,26 1,66 1,77 1,111 1,139 1,250 1,269 1,272 1,273 1,274 1,287 1,332 1,495 1,542 1,631 1,712 1,728 1,785 1,786 1,800 1,864 1,878 1,949 1,1027 1,1044 1,1117 1,1169 1,1190 1,1195 1,1201 1,1213 1,1216 1,1233 1,1239 1,1287 1,1360 1,1392 1,1410 1}
+{0 Live,2 1,3 1,13 1,23 1,71 1,365 1,366 1,367 1,403 1,517 1,558 1,559 1,609 1,632 1,672 1,679 1,685 1,724 1,796 1,797 1,798 1,832 1,859 1,885 1,1035 1,1068 1,1085 1,1170 1,1260 1,1264 1,1324 1,1325 1,1350 1,1356 1}
+{0 Live,6 1,13 1,45 1,304 1,465 1,466 1,728 1,734 1,754 1,839 1,960 1,1260 1,1350 1,1356 1}
+{0 Live,5 1,6 1,7 1,13 1,21 1,229 1,230 1,249 1,259 1,269 1,275 1,297 1,300 1,305 1,328 1,343 1,344 1,372 1,403 1,406 1,407 1,414 1,475 1,485 1,486 1,489 1,562 1,608 1,635 1,639 1,647 1,648 1,661 1,680 1,683 1,700 1,712 1,713 1,728 1,731 1,732 1,763 1,778 1,782 1,800 1,829 1,833 1,886 1,907 1,916 1,935 1,936 1,949 1,954 1,981 1,1048 1,1058 1,1060 1,1086 1,1150 1,1179 1,1195 1,1223 1,1224 1,1227 1,1238 1,1260 1,1262 1,1274 1,1297 1,1347 1,1350 1,1357 1,1363 1,1364 1,1383 1,1403 1,1404 1,1405 1,1409 1}
+{0 Live,2 1,3 1,4 1,6 1,7 1,13 1,41 1,71 1,111 1,250 1,269 1,325 1,401 1,403 1,548 1,609 1,632 1,633 1,728 1,866 1,898 1,968 1,969 1,1002 1,1048 1,1140 1,1145 1,1195 1,1297 1,1350 1,1363 1,1364 1,1405 1,1410 1}
+{0 Live,5 1,6 1,13 1,32 1,152 1,170 1,171 1,173 1,224 1,340 1,394 1,401 1,409 1,609 1,631 1,687 1,711 1,728 1,729 1,747 1,805 1,841 1,906 1,960 1,961 1,973 1,1116 1,1126 1,1205 1,1227 1,1321 1,1322 1,1350 1,1398 1}
+{0 Live,2 1,3 1,13 1,32 1,87 1,88 1,89 1,1350 1}
+{0 Live,5 1,6 1,13 1,40 1,140 1,403 1,881 1,1321 1,1322 1,1323 1}
+{0 Live,5 1,6 1,13 1,17 1,89 1,224 1,225 1,365 1,366 1,728 1,731 1}
+{0 Live,5 1,6 1,7 1,13 1,21 1,207 1,213 1,258 1,320 1,329 1,378 1,379 1,380 1,403 1,404 1,438 1,476 1,547 1,556 1,609 1,632 1,696 1,728 1,729 1,765 1,836 1,873 1,972 1,1033 1,1034 1,1044 1,1060 1,1061 1,1188 1,1210 1,1297 1,1374 1,1375 1,1377 1,1406 1,1412 1,1413 1}
+{0 Live,5 1,6 1,14 1,45 1,103 1,154 1,173 1,174 1,175 1,183 1,188 1,204 1,205 1,224 1,226 1,250 1,1009 1,1234 1}
+{5 1,13 1,23 1,103 1,188 1,250 1,251 1,365 1,392 1,485 1,532 1,533 1,546 1,573 1,582 1,741 1,763 1,1039 1,1189 1,1251 1}
+{0 Live,5 1,6 1,13 1,20 1,177 1,258 1,293 1,295 1,340 1,420 1,431 1,432 1,468 1,565 1,587 1,625 1,728 1,734 1,757 1,861 1,900 1,960 1,988 1,1000 1,1009 1,1045 1,1064 1,1142 1,1338 1,1350 1}
+{0 Live,5 1,6 1,7 1,13 1,34 1,42 1,140 1,906 1,988 1}
+{0 Live,5 1,6 1,7 1,13 1,26 1,140 1,224 1,414 1,495 1,542 1,807 1,828 1,937 1,1148 1,1398 1}
+{0 Live,7 1,13 1,26 1,91 1,92 1,117 1,188 1,202 1,260 1,318 1,389 1,392 1,403 1,557 1,599 1,602 1,656 1,672 1,675 1,677 1,728 1,740 1,763 1,788 1,843 1,881 1,1013 1,1018 1,1107 1,1108 1,1113 1,1215 1,1280 1,1397 1}
+{0 Live,6 1,14 1,23 1,45 1,77 1,121 1,250 1,259 1,841 1,998 1,1066 1,1067 1,1145 1}
+{0 Live,5 1,6 1,7 1,13 1,24 1,144 1,170 1,304 1,319 1,321 1,343 1,403 1,404 1,408 1,607 1,609 1,610 1,619 1,620 1,683 1,717 1,728 1,738 1,752 1,772 1,777 1,788 1,789 1,790 1,881 1,937 1,960 1,961 1,963 1,965 1,988 1,1059 1,1128 1,1145 1,1146 1,1194 1,1220 1,1260 1,1262 1,1324 1,1325 1,1371 1,1377 1,1412 1,1413 1}
+{0 Live,5 1,6 1,13 1,23 1,71 1,73 1,131 1,132 1,133 1,281 1,282 1,625 1,626 1,728 1,729 1,960 1,961 1,962 1,1088 1,1089 1,1090 1,1276 1,1277 1,1350 1,1353 1,1354 1}
+{0 Live,5 1,6 1,13 1,23 1,71 1,73 1,131 1,132 1,133 1,281 1,282 1,625 1,626 1,728 1,729 1,960 1,961 1,962 1,1088 1,1089 1,1090 1,1276 1,1277 1,1350 1,1353 1,1354 1}
+{0 Live,5 1,6 1,13 1,45 1,224 1,431 1,433 1,546 1,728 1,729 1,809 1,1311 1,1390 1}
+{0 Live,5 1,6 1,7 1,13 1,25 1,87 1,88 1,89 1,224 1,225 1,365 1,366 1,728 1,731 1}
+{0 Live,6 1,7 1,14 1,21 1,87 1,188 1,290 1,329 1,378 1,379 1,392 1,402 1,403 1,438 1,440 1,441 1,485 1,520 1,523 1,548 1,558 1,588 1,606 1,632 1,647 1,664 1,683 1,684 1,712 1,713 1,716 1,728 1,729 1,734 1,807 1,839 1,846 1,873 1,874 1,907 1,934 1,972 1,976 1,981 1,1033 1,1034 1,1049 1,1060 1,1061 1,1130 1,1172 1,1188 1,1231 1,1291 1,1293 1,1297 1,1308 1,1363 1,1364 1,1371 1,1374 1,1375 1,1402 1,1405 1,1407 1}
+{0 Live,6 1,13 1,23 1,208 1,224 1,625 1,960 1}
+{0 Live,2 1,3 1,13 1,25 1,307 1,400 1,414 1,539 1,548 1,549 1,600 1,668 1,717 1,728 1,732 1,763 1,779 1,835 1,1055 1,1056 1,1216 1,1233 1,1308 1,1312 1,1397 1,1410 1}
+{0 Live,5 1,6 1,13 1,23 1,121 1,378 1,379 1,402 1,403 1,414 1,529 1,572 1,618 1,723 1,824 1,879 1,880 1,905 1,916 1,968 1,1129 1,1255 1,1267 1,1297 1,1305 1,1318 1,1326 1,1350 1,1356 1,1395 1}
+{0 Live,6 1,13 1,23 1,87 1,88 1,89 1,121 1,378 1,379 1,403 1,891 1,905 1,1255 1,1326 1,1350 1,1356 1}
+{0 Live,5 1,6 1,13 1,23 1,69 1,121 1,378 1,379 1,403 1,564 1,949 1,1350 1}
+{0 Pilot,6 1,14 1,23 1,50 1,51 1,53 1,55 1,58 1,173 1,188 1,220 1,285 1,301 1,388 1,414 1,431 1,433 1,561 1,573 1,588 1,609 1,611 1,717 1,725 1,758 1,759 1,785 1,949 1,950 1,960 1,961 1,966 1,1138 1,1201 1,1229 1,1247 1,1248 1,1254 1,1282 1,1311 1}
+{0 Live,6 1,13 1,23 1,50 1,364 1,431 1,523 1,573 1,660 1,714 1,715 1,778 1,824 1,919 1,920 1,949 1,960 1,965 1,1025 1,1162 1,1267 1,1272 1,1311 1}
+{6 1,14 1,23 1,50 1,173 1,301 1,318 1,431 1,433 1,436 1,443 1,450 1,482 1,497 1,501 1,512 1,515 1,516 1,535 1,537 1,538 1,574 1,577 1,596 1,597 1,603 1,642 1,643 1,701 1,759 1,763 1,940 1,983 1,1108 1,1118 1,1121 1,1122 1,1145 1,1228 1,1263 1,1310 1,1311 1,1334 1}
+{0 Live,2 1,3 1,5 1,6 1,13 1,23 1,248 1,378 1,379 1,403 1,607 1,816 1,817 1,859 1,860 1,968 1,1065 1,1260 1}
+{0 Live,5 1,6 1,7 1,14 1,23 1,26 1,27 1,32 1,100 1,271 1,321 1,329 1,332 1,378 1,379 1,403 1,414 1,416 1,453 1,469 1,470 1,512 1,515 1,516 1,535 1,557 1,567 1,572 1,574 1,629 1,630 1,631 1,701 1,707 1,763 1,836 1,848 1,849 1,906 1,949 1,960 1,961 1,963 1,966 1,968 1,970 1,1108 1,1145 1,1159 1,1243 1,1263 1,1335 1}
+{0 Live,2 1,3 1,6 1,14 1,18 1,140 1,144 1,145 1,224 1,226 1,243 1,250 1,319 1,329 1,332 1,417 1,418 1,419 1,471 1,631 1,763 1,785 1,848 1,850 1,931 1,973 1,1145 1,1188 1,1189 1,1230 1,1282 1}
+{0 Live,5 1,6 1,14 1,18 1,67 1,68 1,93 1,94 1,146 1,147 1,148 1,250 1,306 1,546 1,561 1,625 1,627 1,728 1,736 1,737 1,960 1,966 1,1025 1,1026 1,1055 1,1056 1,1057 1,1191 1,1247 1,1282 1,1297 1}
+{0 Live,6 1,14 1,18 1,67 1,68 1,93 1,94 1,146 1,147 1,148 1,296 1,314 1,315 1,322 1,323 1,348 1,349 1,353 1,354 1,561 1,579 1,580 1,596 1,632 1,633 1,701 1,703 1,704 1,855 1,856 1,857 1,949 1,958 1,1025 1,1026 1,1078 1,1079 1,1080 1,1145 1,1247 1,1269 1,1270 1,1297 1,1298 1,1299 1,1358 1,1359 1,1360 1,1361 1,1362 1,1410 1,1417 1.806557,1418 1,1419 1,1420 1}
+{0 Live,2 1,3 1,13 1,31 1,71 1,345 1,403 1,529 1,547 1,565 1,881 1,935 1,1002 1,1037 1,1073 1,1144 1,1153 1,1176 1,1282 1,1297 1,1321 1,1322 1,1323 1,1350 1}
+{0 Live,2 1,3 1,4 1,5 1,6 1,7 1,13 1,45 1,71 1,73 1,87 1,306 1,409 1,542 1,632 1,668 1,728 1,916 1,960 1,1055 1,1144 1,1145 1,1297 1,1305 1,1350 1,1353 1,1403 1}
+{0 Live,6 1,13 1,23 1,188 1,250 1,269 1,353 1,354 1,365 1,366 1,690 1,711 1,906 1,960 1,966 1,1107 1,1234 1,1272 1,1280 1,1308 1,1350 1,1358 1}
+{0 Live,2 1,3 1,13 1,23 1,71 1,242 1,322 1,343 1,352 1,353 1,354 1,378 1,379 1,403 1,558 1,648 1,683 1,881 1,891 1,949 1,1002 1,1039 1,1047 1,1260 1,1262 1,1350 1,1356 1,1358 1,1403 1,1404 1}
+{0 Live,5 1,6 1,7 1,12 1,23 1,50 1,128 1,134 1,368 1,369 1,388 1,535 1,587 1,763 1,827 1,858 1,931 1,935 1,936 1,949 1,959 1,1032 1,1118 1,1123 1,1152 1,1153 1,1154 1,1184 1,1294 1,1309 1}
+{2 1,3 1,4 1,5 1,6 1,7 1,14 1,23 1,176 1,242 1,311 1,312 1,535 1,554 1,563 1,572 1,618 1,660 1,668 1,728 1,785 1,913 1,931 1,949 1,973 1,1009 1,1010 1,1068 1,1099 1,1221 1,1340 1,1392 1}
+{0 Live,5 1,6 1,7 1,12 1,32 1,75 1,131 1,173 1,188 1,203 1,235 1,242 1,268 1,317 1,328 1,360 1,431 1,437 1,451 1,453 1,495 1,535 1,536 1,538 1,542 1,543 1,548 1,668 1,728 1,827 1,891 1,894 1,898 1,949 1,960 1,961 1,967 1,983 1,1107 1,1137 1,1144 1,1145 1,1153 1,1161 1,1217 1,1222 1,1287 1,1392 1,1422 1}
+{0 Live,2 1,3 1,4 1,13 1,39 1,218 1,248 1,322 1,491 1,546 1,609 1,700 1,728 1,729 1,1032 1,1199 1,1221 1,1254 1,1273 1,1350 1,1397 1}
+{0 Live,6 1,12 1,23 1,173 1,332 1,403 1,613 1,614 1,619 1,641 1,848 1,850 1,960 1,1143 1,1297 1,1302 1}
+{0 Live,1 Lung,5 1,12 1,131 1,132 1,188 1,257 1,265 1,266 1,281 1,282 1,409 1,414 1,431 1,510 1,558 1,567 1,672 1,701 1,702 1,727 1,749 1,807 1,824 1,889 1,931 1,960 1,966 1,1040 1,1041 1,1042 1,1066 1,1126 1,1144 1,1151 1,1153 1,1222 1,1244 1,1272 1,1297 1}
+{1 Lung,12 1,51 1,53 1,166 1,242 1,255 1,320 1,403 1,408 1,409 1,497 1,503 1,527 1,528 1,589 1,618 1,659 1,672 1,763 1,867 1,868 1,869 1,930 1,949 1,960 1,1095 1,1096 1,1161 1,1166 1,1235 1,1297 1,1298 1,1372 1,1383 1,1421 1}
+{0 Pilot,1 Lung,14 1,77 1,144 1,177 1,250 1,277 1,316 1,690 1,725 1,745 1,765 1,824 1,934 1,949 1,1009 1,1010 1,1031 1,1099 1,1231 1,1267 1}
+{1 Lung,14 1,26 1,82 1,335 1,355 1,368 1,369 1,487 1,497 1,585 1,595 1,608 1,650 1,654 1,686 1,695 1,765 1,883 1,904 1,1103 1,1166 1,1169 1}
+{1 Lung,3 1,12 1,267 1,358 1,368 1,763 1,960 1,978 1,987 1,1051 1,1085 1,1233 1}
+{0 Live,1 Lung,13 1,250 1,251 1,394 1,403 1,488 1,492 1,563 1,631 1,785 1,805 1,819 1,820 1,930 1,949 1,952 1,992 1,1047 1,1126 1,1201 1,1202 1,1271 1}
+{0 Live,1 Lung,14 1,141 1,335 1,563 1,631 1,639 1,714 1,715 1,919 1,920 1,949 1,1032 1,1118 1,1125 1,1201 1,1273 1,1392 1}
+{0 Live,1 Lung,14 1,532 1,554 1,654 1,655 1,791 1,865 1,931 1,1021 1,1308 1}
+{1 Lung,248 1,469 1,470 1,475 1,859 1,860 1,971 1,1265 1,1392 1}
+{0 Live,1 Lung,13 1,27 1,71 1,72 1,135 1,136 1,137 1,180 1,181 1,182 1,269 1,270 1,312 1,313 1,383 1,384 1,385 1,495 1,496 1,512 1,513 1,514 1,616 1,617 1,683 1,684 1,717 1,718 1,994 1,1068 1,1069 1,1070 1,1099 1,1100 1,1101 1,1177 1,1178 1,1206 1,1207 1,1213 1,1214 1,1285 1,1286 1,1350 1,1351 1,1352 1,1367 1,1368 1,1378 1,1379 1,1407 1,1408 1}
+{0 Live,1 Lung,13 1,44 1,71 1,72 1,135 1,136 1,137 1,180 1,181 1,182 1,269 1,270 1,312 1,313 1,383 1,384 1,385 1,495 1,496 1,512 1,513 1,514 1,616 1,617 1,683 1,684 1,717 1,718 1,994 1,1068 1,1069 1,1070 1,1099 1,1100 1,1101 1,1177 1,1178 1,1206 1,1207 1,1213 1,1214 1,1285 1,1286 1,1350 1,1351 1,1352 1,1367 1,1368 1,1378 1,1379 1,1407 1,1408 1}
+{0 Live,1 Lung,4 1,5 1,13 1,14 1,45 1,50 1,128 1,188 1,250 1,251 1,637 1,870 1,871 1,988 1,1013 1,1099 1,1233 1,1385 1,1386 1}
+{0 Live,1 Lung,13 1,22 1,23 1,26 1,71 1,72 1,135 1,136 1,137 1,180 1,181 1,182 1,269 1,270 1,312 1,313 1,383 1,384 1,385 1,495 1,496 1,512 1,513 1,514 1,616 1,617 1,683 1,684 1,717 1,718 1,994 1,1068 1,1069 1,1070 1,1099 1,1100 1,1101 1,1177 1,1178 1,1206 1,1207 1,1213 1,1214 1,1285 1,1286 1,1350 1,1351 1,1352 1,1367 1,1368 1,1378 1,1379 1,1407 1,1408 1}
+{0 Live,1 Lung,13 1,45 1,112 1,115 1,116 1,154 1,155 1,156 1,166 1,167 1,168 1,335 1,336 1,337 1,410 1,411 1,412 1,462 1,463 1,464 1,591 1,592 1,593 1,651 1,652 1,653 1,691 1,692 1,693 1,852 1,853 1,854 1,867 1,868 1,869 1,891 1,893 1,927 1,928 1,1021 1,1022 1,1023 1,1052 1,1053 1,1054 1,1095 1,1096 1,1097 1,1162 1,1163 1,1164 1,1170 1,1171 1,1174 1,1175 1,1211 1,1212 1,1252 1,1253 1,1313 1,1314 1,1315 1,1316 1,1317 1,1336 1,1337 1}
+{0 Live,1 Lung,13 1,26 1,71 1,72 1,135 1,136 1,137 1,180 1,181 1,182 1,269 1,270 1,312 1,313 1,383 1,384 1,385 1,495 1,496 1,512 1,513 1,514 1,616 1,617 1,683 1,684 1,717 1,718 1,994 1,1068 1,1069 1,1070 1,1099 1,1100 1,1101 1,1177 1,1178 1,1206 1,1207 1,1213 1,1214 1,1285 1,1286 1,1350 1,1351 1,1352 1,1367 1,1368 1,1378 1,1379 1,1407 1,1408 1}
+{0 Live,1 Lung,13 1,23 1,45 1,188 1,191 1,250 1,251 1,392 1,451 1,452 1,497 1,508 1,625 1,628 1,637 1,654 1,655 1,701 1,728 1,739 1,789 1,836 1,960 1,967 1,979 1,1006 1,1013 1,1018 1,1021 1,1033 1,1034 1,1108 1,1145 1,1263 1,1281 1,1282 1,1287 1,1289 1,1290 1,1297 1,1392 1,1421 1}
+{0 Live,1 Lung,13 1,40 1,134 1,250 1,477 1,836 1,983 1,984 1,1013 1,1020 1,1385 1}
+{0 Live,1 Lung,14 1,23 1,440 1,724 1,992 1,1126 1}
+{0 Live,1 Lung,4 1,13 1,45 1,112 1,115 1,116 1,154 1,155 1,156 1,166 1,167 1,168 1,335 1,336 1,337 1,410 1,411 1,412 1,462 1,463 1,464 1,591 1,592 1,593 1,651 1,652 1,653 1,691 1,692 1,693 1,852 1,853 1,854 1,867 1,868 1,869 1,891 1,893 1,927 1,928 1,1021 1,1022 1,1023 1,1052 1,1053 1,1054 1,1095 1,1096 1,1097 1,1162 1,1163 1,1164 1,1170 1,1171 1,1174 1,1175 1,1211 1,1212 1,1252 1,1253 1,1313 1,1314 1,1315 1,1316 1,1317 1,1336 1,1337 1}
+{0 Live,1 Lung,13 1,25 1,112 1,115 1,116 1,154 1,155 1,156 1,166 1,167 1,168 1,335 1,336 1,337 1,410 1,411 1,412 1,462 1,463 1,464 1,591 1,592 1,593 1,651 1,652 1,653 1,691 1,692 1,693 1,852 1,853 1,854 1,867 1,868 1,869 1,891 1,893 1,927 1,928 1,1021 1,1022 1,1023 1,1052 1,1053 1,1054 1,1095 1,1096 1,1097 1,1162 1,1163 1,1164 1,1170 1,1171 1,1174 1,1175 1,1211 1,1212 1,1252 1,1253 1,1313 1,1314 1,1315 1,1316 1,1317 1,1336 1,1337 1}
+{0 Live,1 Lung,13 1,22 1,185 1,186 1}
+{0 Live,1 Lung,5 1,8 1,9 1,11 1,13 1,23 1,215 1,250 1,438 1,565 1,566 1,625 1,960 1,998 1,1066 1,1067 1,1272 1,1350 1,1355 1}
+{0 Live,1 Lung,4 1,13 1,45 1,138 1,403 1,527 1,528 1,547 1,632 1,654 1,655 1,666 1,1021 1,1265 1,1297 1,1303 1,1372 1,1388 1,1406 1,1414 1}
+{0 Live,1 Lung,4 1,13 1,23 1,112 1,115 1,116 1,154 1,155 1,156 1,166 1,167 1,168 1,335 1,336 1,337 1,410 1,411 1,412 1,462 1,463 1,464 1,591 1,592 1,593 1,651 1,652 1,653 1,691 1,692 1,693 1,852 1,853 1,854 1,867 1,868 1,869 1,891 1,893 1,927 1,928 1,1021 1,1022 1,1023 1,1052 1,1053 1,1054 1,1095 1,1096 1,1097 1,1162 1,1163 1,1164 1,1170 1,1171 1,1174 1,1175 1,1211 1,1212 1,1252 1,1253 1,1313 1,1314 1,1315 1,1316 1,1317 1,1336 1,1337 1}
+{0 Live,1 Lung,13 1,45 1,112 1,115 1,116 1,154 1,155 1,156 1,166 1,167 1,168 1,335 1,336 1,337 1,410 1,411 1,412 1,462 1,463 1,464 1,591 1,592 1,593 1,651 1,652 1,653 1,691 1,692 1,693 1,852 1,853 1,854 1,867 1,868 1,869 1,891 1,893 1,927 1,928 1,1021 1,1022 1,1023 1,1052 1,1053 1,1054 1,1095 1,1096 1,1097 1,1162 1,1163 1,1164 1,1170 1,1171 1,1174 1,1175 1,1211 1,1212 1,1252 1,1253 1,1313 1,1314 1,1315 1,1316 1,1317 1,1336 1,1337 1}
+{0 Live,1 Lung,13 1,23 1,140 1,258 1,587 1,590 1,723 1,728 1,733 1,752 1,753 1,772 1,773 1,776 1,836 1,1032 1,1044 1,1082 1,1113 1,1273 1}
+{0 Live,1 Lung,13 1,21 1,23 1,218 1,294 1,476 1,488 1,728 1,734 1,1007 1,1009 1,1233 1,1350 1,1371 1}
+{0 Live,1 Lung,4 1,13 1,45 1,112 1,115 1,116 1,154 1,155 1,156 1,166 1,167 1,168 1,335 1,336 1,337 1,410 1,411 1,412 1,462 1,463 1,464 1,591 1,592 1,593 1,651 1,652 1,653 1,691 1,692 1,693 1,852 1,853 1,854 1,867 1,868 1,869 1,891 1,893 1,927 1,928 1,1021 1,1022 1,1023 1,1052 1,1053 1,1054 1,1095 1,1096 1,1097 1,1162 1,1163 1,1164 1,1170 1,1171 1,1174 1,1175 1,1211 1,1212 1,1252 1,1253 1,1313 1,1314 1,1315 1,1316 1,1317 1,1336 1,1337 1}
+{0 Live,1 Lung,13 1,28 1,112 1,115 1,116 1,154 1,155 1,156 1,166 1,167 1,168 1,335 1,336 1,337 1,410 1,411 1,412 1,462 1,463 1,464 1,591 1,592 1,593 1,651 1,652 1,653 1,691 1,692 1,693 1,852 1,853 1,854 1,867 1,868 1,869 1,891 1,893 1,927 1,928 1,1021 1,1022 1,1023 1,1052 1,1053 1,1054 1,1095 1,1096 1,1097 1,1162 1,1163 1,1164 1,1170 1,1171 1,1174 1,1175 1,1211 1,1212 1,1252 1,1253 1,1313 1,1314 1,1315 1,1316 1,1317 1,1336 1,1337 1}
+{0 Live,1 Lung,4 1,13 1,39 1,112 1,115 1,116 1,154 1,155 1,156 1,166 1,167 1,168 1,335 1,336 1,337 1,410 1,411 1,412 1,462 1,463 1,464 1,591 1,592 1,593 1,651 1,652 1,653 1,691 1,692 1,693 1,852 1,853 1,854 1,867 1,868 1,869 1,891 1,893 1,927 1,928 1,1021 1,1022 1,1023 1,1052 1,1053 1,1054 1,1095 1,1096 1,1097 1,1162 1,1163 1,1164 1,1170 1,1171 1,1174 1,1175 1,1211 1,1212 1,1252 1,1253 1,1313 1,1314 1,1315 1,1316 1,1317 1,1336 1,1337 1}
+{0 Live,1 Lung,4 1,13 1,40 1,112 1,115 1,116 1,154 1,155 1,156 1,166 1,167 1,168 1,335 1,336 1,337 1,410 1,411 1,412 1,462 1,463 1,464 1,591 1,592 1,593 1,651 1,652 1,653 1,691 1,692 1,693 1,852 1,853 1,854 1,867 1,868 1,869 1,891 1,893 1,927 1,928 1,1021 1,1022 1,1023 1,1052 1,1053 1,1054 1,1095 1,1096 1,1097 1,1162 1,1163 1,1164 1,1170 1,1171 1,1174 1,1175 1,1211 1,1212 1,1252 1,1253 1,1313 1,1314 1,1315 1,1316 1,1317 1,1336 1,1337 1}
+{0 Live,1 Lung,13 1,14 1,40 1,183 1,188 1,211 1,250 1,251 1,265 1,266 1,531 1,672 1,763 1,960 1,966 1,1024 1,1169 1,1170 1,1257 1}
+{0 Live,1 Lung,4 1,13 1,46 1,112 1,115 1,116 1,154 1,155 1,156 1,166 1,167 1,168 1,335 1,336 1,337 1,410 1,411 1,412 1,462 1,463 1,464 1,591 1,592 1,593 1,651 1,652 1,653 1,691 1,692 1,693 1,852 1,853 1,854 1,867 1,868 1,869 1,891 1,893 1,927 1,928 1,1021 1,1022 1,1023 1,1052 1,1053 1,1054 1,1095 1,1096 1,1097 1,1162 1,1163 1,1164 1,1170 1,1171 1,1174 1,1175 1,1211 1,1212 1,1252 1,1253 1,1313 1,1314 1,1315 1,1316 1,1317 1,1336 1,1337 1}
+{0 Live,1 Lung,13 1,38 1,112 1,115 1,116 1,154 1,155 1,156 1,166 1,167 1,168 1,335 1,336 1,337 1,410 1,411 1,412 1,462 1,463 1,464 1,591 1,592 1,593 1,651 1,652 1,653 1,691 1,692 1,693 1,852 1,853 1,854 1,867 1,868 1,869 1,891 1,893 1,927 1,928 1,1021 1,1022 1,1023 1,1052 1,1053 1,1054 1,1095 1,1096 1,1097 1,1162 1,1163 1,1164 1,1170 1,1171 1,1174 1,1175 1,1211 1,1212 1,1252 1,1253 1,1313 1,1314 1,1315 1,1316 1,1317 1,1336 1,1337 1}
+{0 Live,1 Lung,13 1,45 1,112 1,115 1,116 1,154 1,155 1,156 1,166 1,167 1,168 1,335 1,336 1,337 1,410 1,411 1,412 1,462 1,463 1,464 1,591 1,592 1,593 1,651 1,652 1,653 1,691 1,692 1,693 1,852 1,853 1,854 1,867 1,868 1,869 1,891 1,893 1,927 1,928 1,1021 1,1022 1,1023 1,1052 1,1053 1,1054 1,1095 1,1096 1,1097 1,1162 1,1163 1,1164 1,1170 1,1171 1,1174 1,1175 1,1211 1,1212 1,1252 1,1253 1,1313 1,1314 1,1315 1,1316 1,1317 1,1336 1,1337 1}
+{0 Live,1 Lung,13 1,23 1,112 1,115 1,116 1,154 1,155 1,156 1,166 1,167 1,168 1,335 1,336 1,337 1,410 1,411 1,412 1,462 1,463 1,464 1,591 1,592 1,593 1,651 1,652 1,653 1,691 1,692 1,693 1,852 1,853 1,854 1,867 1,868 1,869 1,891 1,893 1,927 1,928 1,1021 1,1022 1,1023 1,1052 1,1053 1,1054 1,1095 1,1096 1,1097 1,1162 1,1163 1,1164 1,1170 1,1171 1,1174 1,1175 1,1211 1,1212 1,1252 1,1253 1,1313 1,1314 1,1315 1,1316 1,1317 1,1336 1,1337 1}
+{0 Live,1 Lung,4 1,13 1,14 1,45 1,112 1,113 1,114 1,149 1,152 1,153 1,179 1}
+{0 Live,1 Lung,13 1,45 1,140 1}
+{0 Live,1 Lung,4 1,13 1,39 1,112 1,115 1,116 1,154 1,155 1,156 1,166 1,167 1,168 1,335 1,336 1,337 1,410 1,411 1,412 1,462 1,463 1,464 1,591 1,592 1,593 1,651 1,652 1,653 1,691 1,692 1,693 1,852 1,853 1,854 1,867 1,868 1,869 1,891 1,893 1,927 1,928 1,1021 1,1022 1,1023 1,1052 1,1053 1,1054 1,1095 1,1096 1,1097 1,1162 1,1163 1,1164 1,1170 1,1171 1,1174 1,1175 1,1211 1,1212 1,1252 1,1253 1,1313 1,1314 1,1315 1,1316 1,1317 1,1336 1,1337 1}
+{0 Live,1 Lung,4 1,13 1,23 1,138 1,403 1,527 1,528 1,547 1,632 1,654 1,655 1,666 1,1021 1,1265 1,1297 1,1303 1,1372 1,1388 1,1406 1,1414 1}
+{0 Live,1 Lung,13 1,23 1,219 1,1113 1}
+{0 Live,1 Lung,13 1,23 1,185 1,186 1,188 1,193 1,194 1,197 1,198 1,211 1,212 1,246 1,247 1,316 1,497 1,499 1,500 1,622 1,623 1,656 1,657 1,672 1,675 1,677 1,728 1,729 1,730 1,908 1,909 1,910 1,988 1,989 1,990 1,1009 1,1011 1,1012 1,1013 1,1018 1,1019 1,1082 1,1083 1,1084 1,1099 1,1255 1,1256 1}
+{0 Live,1 Lung,4 1,13 1,25 1,138 1,403 1,527 1,528 1,547 1,632 1,654 1,655 1,666 1,1021 1,1265 1,1297 1,1303 1,1372 1,1388 1,1406 1,1414 1}
+{0 Live,1 Lung,13 1,14 1,23 1,224 1,226 1,497 1,502 1,919 1,1310 1}
+{0 Live,1 Lung,4 1,13 1,41 1,112 1,115 1,116 1,154 1,155 1,156 1,166 1,167 1,168 1,335 1,336 1,337 1,410 1,411 1,412 1,462 1,463 1,464 1,591 1,592 1,593 1,651 1,652 1,653 1,691 1,692 1,693 1,852 1,853 1,854 1,867 1,868 1,869 1,891 1,893 1,927 1,928 1,1021 1,1022 1,1023 1,1052 1,1053 1,1054 1,1095 1,1096 1,1097 1,1162 1,1163 1,1164 1,1170 1,1171 1,1174 1,1175 1,1211 1,1212 1,1252 1,1253 1,1313 1,1314 1,1315 1,1316 1,1317 1,1336 1,1337 1}
+{0 Live,1 Lung,4 1,13 1,18 1,112 1,115 1,116 1,154 1,155 1,156 1,166 1,167 1,168 1,335 1,336 1,337 1,410 1,411 1,412 1,462 1,463 1,464 1,591 1,592 1,593 1,651 1,652 1,653 1,691 1,692 1,693 1,852 1,853 1,854 1,867 1,868 1,869 1,891 1,893 1,927 1,928 1,1021 1,1022 1,1023 1,1052 1,1053 1,1054 1,1095 1,1096 1,1097 1,1162 1,1163 1,1164 1,1170 1,1171 1,1174 1,1175 1,1211 1,1212 1,1252 1,1253 1,1313 1,1314 1,1315 1,1316 1,1317 1,1336 1,1337 1}
+{0 Live,1 Lung,5 1,13 1,23 1,25 1,26 1,27 1,40 1,45 1,46 1,188 1,246 1,728 1,836 1,838 1,842 1,1032 1,1044 1,1273 1}
+{0 Live,1 Lung,14 1,23 1,431 1,460 1,461 1,497 1,577 1,795 1,949 1,983 1,986 1,1065 1,1112 1,1339 1,1391 1}
+{0 Live,1 Lung,13 1,18 1,71 1,72 1,135 1,136 1,137 1,180 1,181 1,182 1,269 1,270 1,312 1,313 1,383 1,384 1,385 1,495 1,496 1,512 1,513 1,514 1,616 1,617 1,683 1,684 1,717 1,718 1,994 1,1068 1,1069 1,1070 1,1099 1,1100 1,1101 1,1177 1,1178 1,1206 1,1207 1,1213 1,1214 1,1285 1,1286 1,1350 1,1351 1,1352 1,1367 1,1368 1,1378 1,1379 1,1407 1,1408 1}
+{0 Live,1 Lung,4 1,13 1,45 1,112 1,115 1,116 1,154 1,155 1,156 1,166 1,167 1,168 1,335 1,336 1,337 1,410 1,411 1,412 1,462 1,463 1,464 1,591 1,592 1,593 1,651 1,652 1,653 1,691 1,692 1,693 1,852 1,853 1,854 1,867 1,868 1,869 1,891 1,893 1,927 1,928 1,1021 1,1022 1,1023 1,1052 1,1053 1,1054 1,1095 1,1096 1,1097 1,1162 1,1163 1,1164 1,1170 1,1171 1,1174 1,1175 1,1211 1,1212 1,1252 1,1253 1,1313 1,1314 1,1315 1,1316 1,1317 1,1336 1,1337 1}
+{0 Live,1 Lung,13 1,40 1,648 1,728 1,836 1,838 1}
+{0 Live,1 Lung,13 1,23 1,140 1,208 1}
+{0 Live,1 Lung,13 1,45 1,110 1,151 1,188 1,321 1,392 1,394 1,668 1,697 1,698 1,728 1,890 1,905 1,947 1,960 1,1033 1,1034 1,1128 1}
+{0 Live,1 Lung,5 1,13 1,23 1,149 1,201 1,276 1,316 1,487 1,565 1,566 1,624 1,672 1,675 1,728 1,734 1,765 1,766 1,842 1,1013 1,1066 1,1067 1,1068 1,1099 1,1107 1}
+{0 Live,1 Lung,4 1,13 1,23 1,112 1,115 1,116 1,154 1,155 1,156 1,166 1,167 1,168 1,335 1,336 1,337 1,410 1,411 1,412 1,462 1,463 1,464 1,591 1,592 1,593 1,651 1,652 1,653 1,691 1,692 1,693 1,852 1,853 1,854 1,867 1,868 1,869 1,891 1,893 1,927 1,928 1,1021 1,1022 1,1023 1,1052 1,1053 1,1054 1,1095 1,1096 1,1097 1,1162 1,1163 1,1164 1,1170 1,1171 1,1174 1,1175 1,1211 1,1212 1,1252 1,1253 1,1313 1,1314 1,1315 1,1316 1,1317 1,1336 1,1337 1}
+{0 Live,1 Lung,5 1,13 1,40 1,121 1,188 1,417 1,431 1,433 1,546 1,602 1,625 1,720 1,728 1,792 1,960 1,979 1,1065 1,1066 1,1067 1,1149 1,1311 1}
+{0 Live,1 Lung,5 1,13 1,14 1,23 1,77 1,149 1,171 1,176 1,188 1,250 1,251 1,265 1,266 1,403 1,408 1,701 1,960 1,998 1,1024 1,1186 1,1263 1,1392 1}
+{0 Live,1 Lung,14 1,23 1,144 1,188 1,278 1,392 1,451 1,452 1,508 1,538 1,665 1,701 1,765 1,767 1,789 1,836 1,912 1,983 1,986 1,1006 1,1013 1,1018 1,1108 1,1145 1,1148 1,1263 1,1281 1,1297 1}
+{0 Live,1 Lung,12 1,13 1,23 1,276 1,565 1,566 1,672 1,675 1,765 1,766 1,1013 1,1066 1,1067 1}
+{0 Live,1 Lung,13 1,14 1,23 1,256 1,375 1,376 1,625 1,628 1,852 1,916 1,960 1,967 1,1141 1,1169 1,1236 1,1297 1,1305 1,1421 1}
+{0 Live,1 Lung,13 1,23 1,218 1,476 1,622 1,623 1,672 1,675 1,728 1,734 1,1009 1,1013 1,1350 1,1355 1}
+{0 Live,1 Lung,4 1,13 1,23 1,112 1,115 1,116 1,154 1,155 1,156 1,166 1,167 1,168 1,335 1,336 1,337 1,410 1,411 1,412 1,462 1,463 1,464 1,591 1,592 1,593 1,651 1,652 1,653 1,691 1,692 1,693 1,852 1,853 1,854 1,867 1,868 1,869 1,891 1,893 1,927 1,928 1,1021 1,1022 1,1023 1,1052 1,1053 1,1054 1,1095 1,1096 1,1097 1,1162 1,1163 1,1164 1,1170 1,1171 1,1174 1,1175 1,1211 1,1212 1,1252 1,1253 1,1313 1,1314 1,1315 1,1316 1,1317 1,1336 1,1337 1}
+{0 Live,1 Lung,13 1,23 1,121 1,216 1,278 1,302 1,431 1,622 1,672 1,679 1,716 1,728 1,734 1,752 1,765 1,767 1,772 1,836 1,912 1,1009 1,1010 1,1035 1,1066 1,1067 1,1082 1,1310 1}
+{0 Live,1 Lung,4 1,13 1,23 1,112 1,115 1,116 1,154 1,155 1,156 1,166 1,167 1,168 1,335 1,336 1,337 1,410 1,411 1,412 1,462 1,463 1,464 1,591 1,592 1,593 1,651 1,652 1,653 1,691 1,692 1,693 1,852 1,853 1,854 1,867 1,868 1,869 1,891 1,893 1,927 1,928 1,1021 1,1022 1,1023 1,1052 1,1053 1,1054 1,1095 1,1096 1,1097 1,1162 1,1163 1,1164 1,1170 1,1171 1,1174 1,1175 1,1211 1,1212 1,1252 1,1253 1,1313 1,1314 1,1315 1,1316 1,1317 1,1336 1,1337 1}
+{0 Live,1 Lung,13 1,23 1,728 1}
+{0 Live,1 Lung,13 1,23 1,112 1,115 1,116 1,154 1,155 1,156 1,166 1,167 1,168 1,335 1,336 1,337 1,410 1,411 1,412 1,462 1,463 1,464 1,591 1,592 1,593 1,651 1,652 1,653 1,691 1,692 1,693 1,852 1,853 1,854 1,867 1,868 1,869 1,891 1,893 1,927 1,928 1,1021 1,1022 1,1023 1,1052 1,1053 1,1054 1,1095 1,1096 1,1097 1,1162 1,1163 1,1164 1,1170 1,1171 1,1174 1,1175 1,1211 1,1212 1,1252 1,1253 1,1313 1,1314 1,1315 1,1316 1,1317 1,1336 1,1337 1}
+{0 Live,1 Lung,13 1,23 1,216 1,217 1,477 1,564 1,763 1,836 1,983 1,1295 1}
+{0 Live,1 Lung,4 1,13 1,36 1,112 1,115 1,116 1,154 1,155 1,156 1,166 1,167 1,168 1,335 1,336 1,337 1,410 1,411 1,412 1,462 1,463 1,464 1,591 1,592 1,593 1,651 1,652 1,653 1,691 1,692 1,693 1,852 1,853 1,854 1,867 1,868 1,869 1,891 1,893 1,927 1,928 1,1021 1,1022 1,1023 1,1052 1,1053 1,1054 1,1095 1,1096 1,1097 1,1162 1,1163 1,1164 1,1170 1,1171 1,1174 1,1175 1,1211 1,1212 1,1252 1,1253 1,1313 1,1314 1,1315 1,1316 1,1317 1,1336 1,1337 1}
+{0 Live,1 Lung,4 1,13 1,40 1,112 1,115 1,116 1,154 1,155 1,156 1,166 1,167 1,168 1,335 1,336 1,337 1,410 1,411 1,412 1,462 1,463 1,464 1,591 1,592 1,593 1,651 1,652 1,653 1,691 1,692 1,693 1,852 1,853 1,854 1,867 1,868 1,869 1,891 1,893 1,927 1,928 1,1021 1,1022 1,1023 1,1052 1,1053 1,1054 1,1095 1,1096 1,1097 1,1162 1,1163 1,1164 1,1170 1,1171 1,1174 1,1175 1,1211 1,1212 1,1252 1,1253 1,1313 1,1314 1,1315 1,1316 1,1317 1,1336 1,1337 1}
+{0 Live,1 Lung,4 1,13 1,34 1,112 1,115 1,116 1,154 1,155 1,156 1,166 1,167 1,168 1,335 1,336 1,337 1,410 1,411 1,412 1,462 1,463 1,464 1,591 1,592 1,593 1,651 1,652 1,653 1,691 1,692 1,693 1,852 1,853 1,854 1,867 1,868 1,869 1,891 1,893 1,927 1,928 1,1021 1,1022 1,1023 1,1052 1,1053 1,1054 1,1095 1,1096 1,1097 1,1162 1,1163 1,1164 1,1170 1,1171 1,1174 1,1175 1,1211 1,1212 1,1252 1,1253 1,1313 1,1314 1,1315 1,1316 1,1317 1,1336 1,1337 1}
+{0 Live,1 Lung,13 1,14 1,18 1,140 1,152 1,177 1,306 1,477 1,534 1,728 1,738 1,823 1,1081 1,1338 1}
+{0 Live,1 Lung,13 1,16 1,112 1,115 1,116 1,154 1,155 1,156 1,166 1,167 1,168 1,335 1,336 1,337 1,410 1,411 1,412 1,462 1,463 1,464 1,591 1,592 1,593 1,651 1,652 1,653 1,691 1,692 1,693 1,852 1,853 1,854 1,867 1,868 1,869 1,891 1,893 1,927 1,928 1,1021 1,1022 1,1023 1,1052 1,1053 1,1054 1,1095 1,1096 1,1097 1,1162 1,1163 1,1164 1,1170 1,1171 1,1174 1,1175 1,1211 1,1212 1,1252 1,1253 1,1313 1,1314 1,1315 1,1316 1,1317 1,1336 1,1337 1}
+{0 Live,1 Lung,13 1,45 1,52 1,110 1,151 1,183 1,413 1,529 1,530 1,550 1,668 1,670 1,756 1,827 1,865 1,1005 1,1013 1,1282 1}
+{0 Live,1 Lung,13 1,23 1,112 1,115 1,116 1,154 1,155 1,156 1,166 1,167 1,168 1,335 1,336 1,337 1,410 1,411 1,412 1,462 1,463 1,464 1,591 1,592 1,593 1,651 1,652 1,653 1,691 1,692 1,693 1,852 1,853 1,854 1,867 1,868 1,869 1,891 1,893 1,927 1,928 1,1021 1,1022 1,1023 1,1052 1,1053 1,1054 1,1095 1,1096 1,1097 1,1162 1,1163 1,1164 1,1170 1,1171 1,1174 1,1175 1,1211 1,1212 1,1252 1,1253 1,1313 1,1314 1,1315 1,1316 1,1317 1,1336 1,1337 1}
+{0 Live,1 Lung,13 1,14 1,23 1,112 1,113 1,142 1,143 1,152 1,188 1,195 1,196 1,276 1,285 1,324 1,565 1,566 1,603 1,604 1,605 1,672 1,675 1,676 1,728 1,734 1,735 1,765 1,766 1,902 1,903 1,974 1,975 1,1009 1,1010 1,1013 1,1016 1,1017 1,1066 1,1099 1,1100 1,1102 1,1291 1,1332 1,1333 1}
+{0 Live,1 Lung,5 1,12 1,14 1,45 1,157 1,188 1,201 1,274 1,329 1,332 1,438 1,763 1,765 1,841 1,870 1,1188 1,1410 1}
+{0 Live,1 Lung,4 1,13 1,42 1,112 1,115 1,116 1,154 1,155 1,156 1,166 1,167 1,168 1,335 1,336 1,337 1,410 1,411 1,412 1,462 1,463 1,464 1,591 1,592 1,593 1,651 1,652 1,653 1,691 1,692 1,693 1,852 1,853 1,854 1,867 1,868 1,869 1,891 1,893 1,927 1,928 1,1021 1,1022 1,1023 1,1052 1,1053 1,1054 1,1095 1,1096 1,1097 1,1162 1,1163 1,1164 1,1170 1,1171 1,1174 1,1175 1,1211 1,1212 1,1252 1,1253 1,1313 1,1314 1,1315 1,1316 1,1317 1,1336 1,1337 1}
+{0 Live,1 Lung,13 1,30 1,363 1,1009 1,1348 1}
+{0 Live,1 Lung,13 1,23 1,144 1,257 1,343 1,378 1,379 1,403 1,413 1,622 1,623 1,672 1,675 1,728 1,752 1,753 1,772 1,773 1,819 1,820 1,1013 1,1287 1,1296 1,1374 1}
+{0 Live,1 Lung,13 1,14 1,23 1,112 1,113 1,114 1,149 1,152 1,153 1}
+{0 Live,1 Lung,4 1,5 1,13 1,14 1,23 1,26 1,278 1,319 1,321 1,512 1,515 1,672 1,675 1,678 1,728 1,731 1,769 1,912 1,960 1,1013 1,1020 1,1032 1,1066 1,1145 1,1147 1,1173 1,1217 1,1221 1,1260 1,1273 1,1390 1}
+{0 Live,1 Lung,13 1,23 1,185 1,186 1,188 1,193 1,194 1,197 1,198 1,211 1,212 1,246 1,247 1,316 1,497 1,499 1,500 1,622 1,623 1,656 1,657 1,672 1,675 1,677 1,728 1,729 1,730 1,908 1,909 1,910 1,988 1,989 1,990 1,1009 1,1011 1,1012 1,1013 1,1018 1,1019 1,1082 1,1083 1,1084 1,1099 1,1255 1,1256 1}
+{0 Live,1 Lung,48 1,151 1,219 1,728 1}
+{0 Live,1 Lung,48 1,151 1,219 1,728 1}
+{0 Live,1 Lung,13 1,42 1,140 1,208 1}
+{0 Live,1 Lung,13 1,23 1,142 1,143 1,188 1,195 1,196 1,324 1,603 1,604 1,605 1,672 1,675 1,676 1,728 1,734 1,735 1,902 1,903 1,974 1,975 1,1009 1,1013 1,1016 1,1017 1,1066 1,1067 1,1099 1,1100 1,1102 1,1291 1,1332 1,1333 1}
+{0 Live,1 Lung,3 1,4 1,5 1,14 1,47 1,131 1,146 1,224 1,343 1,353 1,354 1,398 1,403 1,427 1,469 1,470 1,609 1,728 1,729 1,741 1,819 1,820 1,937 1,960 1,1148 1,1254 1,1358 1,1382 1,1383 1,1390 1}
+{0 Live,1 Lung,13 1,14 1,45 1,256 1,375 1,376 1,625 1,628 1,852 1,916 1,960 1,967 1,1141 1,1169 1,1236 1,1297 1,1305 1,1421 1}
+{0 Live,1 Lung,12 1,23 1,31 1,77 1,89 1,90 1,525 1,848 1}
+{0 Live,1 Lung,2 1,3 1,4 1,5 1,13 1,35 1,140 1,151 1,427 1,900 1,901 1}
+{0 Live,1 Lung,4 1,5 1,13 1,14 1,23 1,35 1,135 1,188 1,306 1,401 1,477 1,587 1,609 1,610 1,728 1,734 1,735 1,836 1,902 1,905 1,988 1,1013 1,1291 1}
+{1 Lung,13 1,33 1,188 1,216 1,217 1,239 1,712 1,728 1,736 1,737 1,763 1,793 1,1009 1,1055 1,1056 1,1176 1,1196 1,1232 1}
+{0 Live,1 Lung,13 1,23 1,71 1,72 1,135 1,136 1,137 1,180 1,181 1,182 1,269 1,270 1,312 1,313 1,383 1,384 1,385 1,495 1,496 1,512 1,513 1,514 1,616 1,617 1,683 1,684 1,717 1,718 1,994 1,1068 1,1069 1,1070 1,1099 1,1100 1,1101 1,1177 1,1178 1,1206 1,1207 1,1213 1,1214 1,1285 1,1286 1,1350 1,1351 1,1352 1,1367 1,1368 1,1378 1,1379 1,1407 1,1408 1}
+{0 Live,1 Lung,4 1,5 1,13 1,14 1,42 1,188 1,197 1,246 1,247 1,316 1,431 1,586 1,728 1,729 1,730 1,831 1,836 1,960 1,988 1,994 1,1009 1,1010 1,1099 1,1284 1,1338 1}
+{0 Live,1 Lung,23 1,176 1,207 1,229 1,303 1,350 1,351 1,355 1,403 1,586 1,782 1,825 1,832 1,894 1,938 1,939 1,949 1,1144 1,1201 1,1222 1,1237 1,1297 1,1388 1}
+{0 Live,1 Lung,13 1,45 1,219 1,672 1,675 1,678 1,778 1,789 1,876 1,891 1,988 1,1013 1,1020 1,1114 1,1392 1,1406 1}
+{0 Live,1 Lung,13 1,23 1,112 1,113 1,142 1,143 1,152 1,188 1,195 1,196 1,276 1,285 1,324 1,565 1,603 1,604 1,605 1,622 1,623 1,672 1,675 1,676 1,728 1,734 1,735 1,765 1,766 1,902 1,903 1,974 1,975 1,1009 1,1010 1,1013 1,1016 1,1017 1,1099 1,1100 1,1102 1,1291 1,1332 1,1333 1}
+{1 Lung,13 1,49 1,71 1,72 1,135 1,136 1,137 1,180 1,181 1,182 1,269 1,270 1,312 1,313 1,383 1,384 1,385 1,495 1,496 1,512 1,513 1,514 1,616 1,617 1,683 1,684 1,717 1,718 1,994 1,1068 1,1069 1,1070 1,1099 1,1100 1,1101 1,1177 1,1178 1,1206 1,1207 1,1213 1,1214 1,1285 1,1286 1,1350 1,1351 1,1352 1,1367 1,1368 1,1378 1,1379 1,1407 1,1408 1}
+{1 Lung,13 1,14 1,42 1,112 1,115 1,116 1,154 1,155 1,156 1,166 1,167 1,168 1,335 1,336 1,337 1,410 1,411 1,412 1,462 1,463 1,464 1,591 1,592 1,593 1,651 1,652 1,653 1,691 1,692 1,693 1,852 1,853 1,854 1,867 1,868 1,869 1,891 1,893 1,927 1,928 1,1021 1,1022 1,1023 1,1052 1,1053 1,1054 1,1095 1,1096 1,1097 1,1162 1,1163 1,1164 1,1170 1,1171 1,1174 1,1175 1,1211 1,1212 1,1252 1,1253 1,1313 1,1314 1,1315 1,1316 1,1317 1,1336 1,1337 1}
+{0 Live,1 Lung,13 1,43 1,216 1,248 1,276 1,307 1,320 1,339 1,431 1,565 1,588 1,654 1,655 1,672 1,675 1,711 1,765 1,766 1,799 1,841 1,859 1,860 1,906 1,973 1,979 1,983 1,994 1,1013 1,1021 1,1313 1,1316 1}
+{0 Live,1 Lung,4 1,5 1,13 1,23 1,339 1,365 1,477 1,506 1,542 1,640 1,793 1,809 1,1091 1,1196 1,1327 1,1392 1,1405 1}
+{0 Live,1 Lung,13 1,18 1,89 1,403 1,758 1,793 1,819 1,820 1,1027 1,1065 1,1196 1}
+{1 Lung,13 1,14 1,45 1,631 1,836 1,906 1,1194 1,1231 1,1295 1}
+{0 Live,1 Lung,4 1,13 1,112 1,115 1,116 1,154 1,155 1,156 1,166 1,167 1,168 1,335 1,336 1,337 1,410 1,411 1,412 1,462 1,463 1,464 1,591 1,592 1,593 1,651 1,652 1,653 1,691 1,692 1,693 1,852 1,853 1,854 1,867 1,868 1,869 1,891 1,893 1,927 1,928 1,1021 1,1022 1,1023 1,1052 1,1053 1,1054 1,1095 1,1096 1,1097 1,1162 1,1163 1,1164 1,1170 1,1171 1,1174 1,1175 1,1211 1,1212 1,1252 1,1253 1,1313 1,1314 1,1315 1,1316 1,1317 1,1336 1,1337 1}
+{0 Live,1 Lung,13 1,14 1,23 1,112 1,113 1,114 1,149 1,152 1,153 1}
+{0 Live,1 Lung,13 1,27 1,185 1,186 1,188 1,193 1,194 1,197 1,198 1,211 1,212 1,246 1,247 1,316 1,497 1,499 1,500 1,622 1,623 1,656 1,657 1,672 1,675 1,677 1,728 1,729 1,730 1,908 1,909 1,910 1,988 1,989 1,990 1,1009 1,1011 1,1012 1,1013 1,1018 1,1019 1,1082 1,1083 1,1084 1,1099 1,1255 1,1256 1}
+{0 Live,1 Lung,4 1,13 1,25 1,112 1,115 1,116 1,154 1,155 1,156 1,166 1,167 1,168 1,335 1,336 1,337 1,410 1,411 1,412 1,462 1,463 1,464 1,591 1,592 1,593 1,651 1,652 1,653 1,691 1,692 1,693 1,852 1,853 1,854 1,867 1,868 1,869 1,891 1,893 1,927 1,928 1,1021 1,1022 1,1023 1,1052 1,1053 1,1054 1,1095 1,1096 1,1097 1,1162 1,1163 1,1164 1,1170 1,1171 1,1174 1,1175 1,1211 1,1212 1,1252 1,1253 1,1313 1,1314 1,1315 1,1316 1,1317 1,1336 1,1337 1}
+{0 Live,1 Lung,13 1,23 1,149 1,188 1,218 1,316 1,360 1,565 1,624 1,672 1,675 1,728 1,734 1,735 1,842 1,902 1,949 1,1013 1,1068 1,1099 1,1350 1}
+{1 Lung,13 1,23 1,151 1,295 1,414 1,565 1,668 1,669 1,716 1,763 1,941 1,1013 1,1258 1}
+{0 Live,1 Lung,13 1,23 1,45 1,600 1,668 1,836 1,1081 1,1258 1}
+{0 Live,1 Lung,13 1,42 1,135 1,136 1,140 1,180 1,208 1,224 1,616 1,617 1,1297 1}
+{1 Lung,13 1,23 1,112 1,115 1,116 1,154 1,155 1,156 1,166 1,167 1,168 1,335 1,336 1,337 1,410 1,411 1,412 1,462 1,463 1,464 1,591 1,592 1,593 1,651 1,652 1,653 1,691 1,692 1,693 1,852 1,853 1,854 1,867 1,868 1,869 1,891 1,893 1,927 1,928 1,1021 1,1022 1,1023 1,1052 1,1053 1,1054 1,1095 1,1096 1,1097 1,1162 1,1163 1,1164 1,1170 1,1171 1,1174 1,1175 1,1211 1,1212 1,1252 1,1253 1,1313 1,1314 1,1315 1,1316 1,1317 1,1336 1,1337 1}
+{0 Live,1 Lung,14 1,23 1}
+{0 Live,1 Lung,18 1,23 1,40 1,103 1,110 1,179 1,188 1}
+{0 Live,1 Lung,13 1,27 1,188 1}
+{0 Live,1 Lung,13 1,23 1,25 1,128 1}
+{1 Lung,12 1,13 1,14 1,23 1,31 1,81 1,300 1,451 1,728 1,763 1,799 1,1287 1,1288 1}
+{1 Lung,5 1,14 1,23 1,77 1,254 1,364 1,511 1,555 1,611 1,635 1,640 1,905 1,960 1,979 1,1006 1,1025 1,1272 1,1296 1,1405 1}
+{0 Live,1 Lung,13 1,45 1,403 1,404 1,683 1,819 1,820 1,877 1,891 1,935 1,936 1,993 1,1113 1,1159 1,1257 1,1265 1,1378 1,1379 1,1410 1}
+{0 Live,1 Lung,13 1,49 1,112 1,115 1,116 1,154 1,155 1,156 1,166 1,167 1,168 1,335 1,336 1,337 1,410 1,411 1,412 1,462 1,463 1,464 1,591 1,592 1,593 1,651 1,652 1,653 1,691 1,692 1,693 1,852 1,853 1,854 1,867 1,868 1,869 1,891 1,893 1,927 1,928 1,1021 1,1022 1,1023 1,1052 1,1053 1,1054 1,1095 1,1096 1,1097 1,1162 1,1163 1,1164 1,1170 1,1171 1,1174 1,1175 1,1211 1,1212 1,1252 1,1253 1,1313 1,1314 1,1315 1,1316 1,1317 1,1336 1,1337 1}
+{1 Lung,13 1,23 1,112 1,115 1,116 1,154 1,155 1,156 1,166 1,167 1,168 1,335 1,336 1,337 1,410 1,411 1,412 1,462 1,463 1,464 1,591 1,592 1,593 1,651 1,652 1,653 1,691 1,692 1,693 1,852 1,853 1,854 1,867 1,868 1,869 1,891 1,893 1,927 1,928 1,1021 1,1022 1,1023 1,1052 1,1053 1,1054 1,1095 1,1096 1,1097 1,1162 1,1163 1,1164 1,1170 1,1171 1,1174 1,1175 1,1211 1,1212 1,1252 1,1253 1,1313 1,1314 1,1315 1,1316 1,1317 1,1336 1,1337 1}
+{1 Lung,14 1,45 1,112 1,113 1,114 1,149 1,152 1,153 1}
+{0 Live,1 Lung,13 1,23 1,112 1,115 1,116 1,154 1,155 1,156 1,166 1,167 1,168 1,335 1,336 1,337 1,410 1,411 1,412 1,462 1,463 1,464 1,591 1,592 1,593 1,651 1,652 1,653 1,691 1,692 1,693 1,852 1,853 1,854 1,867 1,868 1,869 1,891 1,893 1,927 1,928 1,1021 1,1022 1,1023 1,1052 1,1053 1,1054 1,1095 1,1096 1,1097 1,1162 1,1163 1,1164 1,1170 1,1171 1,1174 1,1175 1,1211 1,1212 1,1252 1,1253 1,1313 1,1314 1,1315 1,1316 1,1317 1,1336 1,1337 1}
+{0 Live,1 Lung,13 1,16 1,71 1,72 1,135 1,136 1,137 1,180 1,181 1,182 1,269 1,270 1,312 1,313 1,383 1,384 1,385 1,495 1,496 1,512 1,513 1,514 1,616 1,617 1,683 1,684 1,717 1,718 1,994 1,1068 1,1069 1,1070 1,1099 1,1100 1,1101 1,1177 1,1178 1,1206 1,1207 1,1213 1,1214 1,1285 1,1286 1,1350 1,1351 1,1352 1,1367 1,1368 1,1378 1,1379 1,1407 1,1408 1}
+{1 Lung,14 1,23 1,1409 1}
+{1 Lung,12 1,14 1,23 1,75 1,96 1,151 1,382 1,454 1,487 1,497 1,525 1,526 1,535 1,556 1,686 1,687 1,745 1,806 1,830 1,848 1,1040 1,1126 1,1145 1,1311 1}
+{0 Live,1 Lung,4 1,13 1,23 1,44 1,170 1,728 1,905 1,937 1,994 1,999 1,1166 1,1170 1}
+{0 Live,1 Lung,5 1,45 1,243 1,244 1,352 1,353 1,354 1,370 1,371 1,631 1,661 1,720 1,839 1,891 1,900 1,960 1,973 1,978 1,1006 1,1024 1,1046 1,1076 1,1098 1,1099 1,1204 1,1296 1,1358 1,1376 1}
+{0 Live,1 Lung,13 1,14 1,23 1,242 1,269 1,508 1,618 1,700 1,722 1,728 1,824 1,949 1,1166 1,1195 1,1222 1,1257 1,1267 1,1409 1}
+{0 Live,1 Lung,5 1,13 1,23 1}
+{0 Live,1 Lung,4 1,8 1,13 1,20 1,177 1,258 1,293 1,295 1,340 1,420 1,431 1,432 1,468 1,565 1,587 1,625 1,728 1,734 1,757 1,861 1,900 1,960 1,988 1,1000 1,1009 1,1045 1,1064 1,1142 1,1338 1,1350 1}
+{0 Live,1 Lung,8 1,13 1,14 1,40 1,134 1,180 1,477 1,520 1,763 1,924 1,1098 1}
+{0 Live,1 Lung,13 1,23 1,112 1,113 1,142 1,143 1,152 1,188 1,195 1,196 1,276 1,285 1,324 1,565 1,603 1,604 1,605 1,622 1,623 1,672 1,675 1,676 1,728 1,734 1,735 1,765 1,766 1,902 1,903 1,974 1,975 1,1009 1,1010 1,1013 1,1016 1,1017 1,1099 1,1100 1,1102 1,1291 1,1332 1,1333 1}
+{0 Live,1 Lung,23 1,111 1,215 1,243 1,324 1,365 1,367 1,399 1,422 1,547 1,636 1,687 1,724 1,763 1,818 1,831 1,900 1,960 1,966 1,973 1,1044 1,1068 1,1072 1,1073 1,1085 1,1255 1,1260 1,1264 1,1291 1,1292 1,1350 1}
+{0 Live,1 Lung,13 1,45 1,149 1,1113 1}
+{0 Live,1 Lung,13 1,28 1,71 1,72 1,135 1,136 1,137 1,180 1,181 1,182 1,269 1,270 1,312 1,313 1,383 1,384 1,385 1,495 1,496 1,512 1,513 1,514 1,616 1,617 1,683 1,684 1,717 1,718 1,994 1,1068 1,1069 1,1070 1,1099 1,1100 1,1101 1,1177 1,1178 1,1206 1,1207 1,1213 1,1214 1,1285 1,1286 1,1350 1,1351 1,1352 1,1367 1,1368 1,1378 1,1379 1,1407 1,1408 1}
+{0 Live,1 Lung,12 1,13 1,23 1,48 1,329 1,339 1,506 1,622 1,623 1,672 1,675 1,728 1,836 1,838 1,848 1,849 1,1013 1,1297 1}
+{0 Live,1 Lung,13 1,26 1,27 1,188 1,193 1,194 1,197 1,198 1,211 1,212 1,246 1,247 1,316 1,497 1,499 1,500 1,622 1,623 1,656 1,657 1,672 1,675 1,677 1,728 1,729 1,730 1,908 1,909 1,910 1,988 1,989 1,990 1,1009 1,1011 1,1012 1,1013 1,1018 1,1019 1,1082 1,1083 1,1084 1,1099 1,1255 1,1256 1}
+{0 Live,1 Lung,23 1,128 1,140 1,185 1,186 1,983 1}
+{1 Lung,13 1,23 1,201 1,799 1,1114 1}
+{0 Live,1 Lung,13 1,19 1,368 1,369 1,431 1,589 1,599 1,789 1,790 1,981 1,994 1,1082 1}
+{0 Live,1 Lung,13 1,22 1,201 1,799 1,1114 1}
+{0 Live,1 Lung,13 1,17 1,71 1,72 1,135 1,136 1,137 1,180 1,181 1,182 1,269 1,270 1,312 1,313 1,383 1,384 1,385 1,495 1,496 1,512 1,513 1,514 1,616 1,617 1,683 1,684 1,717 1,718 1,994 1,1068 1,1069 1,1070 1,1099 1,1100 1,1101 1,1177 1,1178 1,1206 1,1207 1,1213 1,1214 1,1285 1,1286 1,1350 1,1351 1,1352 1,1367 1,1368 1,1378 1,1379 1,1407 1,1408 1}
+{0 Live,1 Lung,13 1,14 1,27 1,112 1,115 1,116 1,154 1,155 1,156 1,166 1,167 1,168 1,335 1,336 1,337 1,410 1,411 1,412 1,462 1,463 1,464 1,591 1,592 1,593 1,651 1,652 1,653 1,691 1,692 1,693 1,852 1,853 1,854 1,867 1,868 1,869 1,891 1,893 1,927 1,928 1,1021 1,1022 1,1023 1,1052 1,1053 1,1054 1,1095 1,1096 1,1097 1,1162 1,1163 1,1164 1,1170 1,1171 1,1174 1,1175 1,1211 1,1212 1,1252 1,1253 1,1313 1,1314 1,1315 1,1316 1,1317 1,1336 1,1337 1}
+{0 Live,1 Lung,13 1,45 1,179 1,188 1,556 1,609 1,668 1,670 1,728 1,734 1,755 1,763 1,947 1,1013 1,1068 1,1363 1,1377 1,1412 1,1413 1}
+{0 Live,1 Lung,38 1,71 1,72 1,135 1,136 1,137 1,180 1,181 1,182 1,269 1,270 1,312 1,313 1,383 1,384 1,385 1,495 1,496 1,512 1,513 1,514 1,616 1,617 1,683 1,684 1,717 1,718 1,994 1,1068 1,1069 1,1070 1,1099 1,1100 1,1101 1,1177 1,1178 1,1206 1,1207 1,1213 1,1214 1,1285 1,1286 1,1350 1,1351 1,1352 1,1367 1,1368 1,1378 1,1379 1,1407 1,1408 1}
+{0 Live,1 Lung,13 1,23 1,71 1,72 1,135 1,136 1,137 1,180 1,181 1,182 1,269 1,270 1,312 1,313 1,383 1,384 1,385 1,495 1,496 1,512 1,513 1,514 1,616 1,617 1,683 1,684 1,717 1,718 1,994 1,1068 1,1069 1,1070 1,1099 1,1100 1,1101 1,1177 1,1178 1,1206 1,1207 1,1213 1,1214 1,1285 1,1286 1,1350 1,1351 1,1352 1,1367 1,1368 1,1378 1,1379 1,1407 1,1408 1}
+{1 Lung,14 1,188 1,191 1,431 1,433 1,478 1,497 1,658 1,1006 1,1160 1,1311 1}
+{0 Live,1 Lung,14 1,23 1,144 1,339 1,368 1,369 1,497 1,542 1,906 1,949 1,1118 1,1123 1}
+{0 Live,1 Lung,14 1,23 1,104 1,106 1,144 1,250 1,368 1,369 1,497 1,722 1,723 1,777 1,983 1}
+{0 Live,1 Lung,12 1,14 1,23 1,293 1,431 1,436 1,508 1,573 1,906 1,1126 1,1127 1,1145 1,1248 1}
+{1 Lung,4 1,14 1,131 1,214 1,269 1,281 1,376 1,625 1,626 1,728 1,747 1,960 1,961 1,1071 1,1170 1,1287 1,1289 1,1294 1}
+{1 Lung,5 1,14 1,235 1,322 1,469 1,470 1,535 1,537 1,574 1,672 1,675 1,677 1,763 1,764 1,785 1,960 1,961 1,1013 1,1018 1,1118 1,1125 1,1217 1,1243 1,1395 1}
+{1 Lung,5 1,12 1,171 1,188 1,237 1,332 1,551 1,848 1,850 1,891 1,897 1,960 1,1009 1,1282 1,1410 1}
+{1 Lung,14 1,81 1,177 1,237 1,332 1,601 1,763 1,848 1,850 1,1039 1,1082 1,1177 1,1282 1,1376 1}
+{1 Lung,13 1,14 1,534 1,577 1,578 1,601 1,940 1,983 1,984 1}
+{1 Lung,5 1,14 1,594 1,596 1,763 1,960 1,983 1,986 1,1032 1,1099 1,1118 1,1271 1,1272 1,1273 1,1297 1}
+{0 Live,1 Ophtha,5 1,172 1,188 1,322 1,494 1,905 1,929 1,1159 1,1271 1}
+{0 Live,1 Ophtha,6 1,128 1,188 1,493 1,535 1,836 1,902 1}
+{0 Live,1 Ophtha,5 1,50 1,224 1,226 1,255 1,795 1,1161 1,1235 1,1308 1,1340 1}
+{0 Live,1 Ophtha,5 1,50 1,110 1,151 1,836 1}
+{0 Live,1 Ophtha,50 1,321 1,386 1,512 1,515 1,666 1,672 1,675 1,725 1,1007 1,1013 1,1240 1,1284 1,1392 1}
+{0 Live,1 Ophtha,5 1,50 1,576 1,609 1,831 1,836 1,979 1,1254 1,1338 1}
+{0 Live,1 Ophtha,128 1,239 1,271 1,353 1,354 1,497 1,535 1,563 1,746 1,789 1,818 1,891 1,894 1,983 1,1044 1,1098 1,1108 1,1157 1,1291 1,1326 1,1346 1,1358 1,1391 1}
+{0 Live,1 Ophtha,5 1,319 1,321 1,512 1,515 1,672 1,675 1,678 1,728 1,731 1,769 1,912 1,960 1,1013 1,1020 1,1032 1,1066 1,1145 1,1147 1,1173 1,1217 1,1221 1,1260 1,1273 1,1390 1}
+{0 Live,1 Ophtha,5 1,319 1,321 1,512 1,515 1,672 1,675 1,678 1,728 1,731 1,769 1,912 1,960 1,1013 1,1020 1,1032 1,1066 1,1145 1,1147 1,1173 1,1217 1,1221 1,1260 1,1273 1,1390 1}
+{0 Live,1 Ophtha,100 1,101 1,427 1,493 1,535 1,577 1,971 1,1076 1,1145 1,1281 1}
+{1 Ophtha,98 1,172 1,188 1,363 1,365 1,367 1,442 1,453 1,491 1,505 1,724 1,836 1,861 1,1055 1,1056 1,1082 1,1232 1,1242 1,1264 1}
+{0 Live,1 Ophtha,5 1,98 1,172 1,298 1,431 1,432 1,440 1,490 1,491 1,492 1,575 1,836 1,891 1,992 1,1072 1,1142 1,1295 1,1308 1}
+{0 Live,1 Ophtha,51 1,56 1,57 1,58 1,188 1,442 1,482 1,505 1,519 1,535 1,946 1,1040 1,1052 1,1063 1,1232 1,1242 1,1287 1,1290 1}
+{1 Ophtha,5 1,269 1,468 1,587 1,666 1,793 1,829 1,836 1,1113 1,1144 1,1155 1,1196 1,1321 1,1322 1,1338 1,1347 1,1350 1}
+{1 Ophtha,222 1,244 1,368 1,369 1,370 1,371 1,373 1,387 1,428 1,493 1,661 1,690 1,716 1,796 1,832 1,904 1,1006 1,1027 1,1109 1,1133 1,1204 1,1260 1,1266 1,1275 1,1376 1,1399 1}
+{1 Ophtha,131 1,216 1,222 1,303 1,343 1,386 1,427 1,494 1,576 1,577 1,578 1,664 1,685 1,835 1,929 1,1117 1,1133 1,1194 1,1239 1,1291 1,1295 1,1329 1,1382 1,1391 1}
+{1 Ophtha,188 1,191 1,223 1,243 1,269 1,298 1,382 1,427 1,477 1,493 1,494 1,497 1,504 1,535 1,577 1,685 1,805 1,929 1,973 1,1205 1,1329 1,1346 1,1373 1,1378 1}
+{1 Ophtha,131 1,238 1,340 1,520 1,615 1,625 1,628 1,707 1,755 1,937 1,960 1,967 1,999 1,1159 1,1348 1,1349 1}
+{1 Ophtha,98 1,177 1,187 1,307 1,520 1,522 1,625 1,628 1,830 1,877 1,884 1,905 1,942 1,945 1,948 1,960 1,967 1,1073 1,1074 1,1075 1,1318 1,1392 1}
+{1 Ophtha,398 1,442 1,607 1,716 1,782 1,809 1,830 1,1242 1}
+{1 Ophtha,131 1,615 1,948 1,999 1,1076 1,1348 1,1349 1}
+{1 Ophtha,98 1,401 1,609 1,625 1,659 1,949 1,960 1,1348 1,1349 1}
+{0 Live,1 Ophtha,5 1,117 1,188 1,215 1,256 1,306 1,340 1,400 1,477 1,495 1,506 1,565 1,582 1,600 1,603 1,607 1,648 1,672 1,675 1,707 1,728 1,763 1,794 1,823 1,905 1,914 1,1013 1,1039 1,1045 1,1068 1,1082 1,1138 1,1173 1,1227 1,1251 1,1327 1,1338 1,1350 1,1355 1,1357 1,1383 1,1392 1}
+{1 Ophtha,128 1,222 1,389 1,428 1,469 1,477 1,490 1,535 1,596 1,597 1,721 1,745 1,831 1,988 1,1243 1}
+{1 Ophtha,128 1,188 1,310 1,365 1,367 1,368 1,387 1,493 1,542 1,577 1,625 1,627 1,754 1,794 1,831 1,949 1,960 1,966 1,983 1,984 1,1005 1,1107 1,1113 1,1280 1,1346 1,1347 1,1348 1,1349 1}
+{0 Live,1 Ophtha,5 1,564 1,836 1,1055 1,1056 1}
+{0 Live,1 Ophtha,311 1,510 1,596 1,749 1,973 1,1128 1,1244 1}
+{1 Ophtha,6 1,96 1,187 1,188 1,250 1,251 1,290 1,577 1,828 1,960 1,967 1,983 1,1073 1,1153 1,1335 1}
+{1 Ophtha,5 1,51 1,131 1,261 1,262 1,539 1,946 1,1228 1,1347 1}
+{1 Ophtha,5 1,54 1,363 1,373 1,400 1,431 1,433 1,904 1,931 1,1194 1,1311 1,1338 1,1376 1}
+{1 Ophtha,5 1,221 1,1357 1}
+{1 Ophtha,6 1,221 1,223 1,286 1,491 1,539 1,831 1,874 1,905 1,949 1,1071 1,1350 1,1392 1}
+{1 Ophtha,5 1,188 1,350 1,351 1,577 1,578 1,728 1,793 1,891 1,938 1,939 1,979 1,992 1,1082 1,1196 1}
+{0 Live,1 Ophtha,4 1,365 1,399 1,428 1,520 1,542 1,835 1,1117 1,1391 1}
+{1 Ophtha,5 1,188 1,728 1,732 1,793 1,992 1,1082 1,1196 1}
+{1 Ophtha,5 1,131 1,188 1,401 1,587 1,609 1,640 1,700 1,756 1,818 1,831 1,983 1,1338 1,1392 1}
+{1 Ophtha,5 1,131 1,564 1,615 1,836 1,1032 1,1350 1}
+{0 Live,1 Ophtha,5 1,468 1,477 1,659 1,818 1,831 1}
+{1 Ophtha,5 1,179 1,946 1}
+{1 Ophtha,4 1,267 1,277 1,368 1,369 1,497 1,523 1,524 1,529 1,558 1,560 1,563 1,621 1,745 1,858 1,878 1,1031 1,1085 1,1170 1,1282 1,1392 1}
+{1 Ophtha,6 1,176 1,321 1,542 1,543 1,546 1,624 1,728 1,734 1,789 1,790 1,827 1,960 1,1112 1,1203 1,1308 1,1350 1,1353 1,1373 1}
+{1 Ophtha,6 1,105 1,176 1,187 1,575 1,827 1,983 1,984 1}
+{1 Ophtha,286 1,294 1,596 1,597 1,640 1,667 1,759 1,796 1,818 1,1044 1,1107 1,1257 1,1391 1}
+{1 Ophtha,6 1,250 1,251 1,307 1,398 1,699 1,818 1,843 1,900 1,901 1,949 1,1098 1,1113 1,1158 1,1166 1,1167 1,1169 1,1172 1,1177 1,1275 1,1291 1,1292 1,1340 1,1357 1,1380 1,1381 1}
+{1 Ophtha,4 1,75 1,242 1,248 1,341 1,435 1,542 1,609 1,610 1,625 1,627 1,717 1,721 1,728 1,729 1,731 1,754 1,763 1,776 1,779 1,866 1,914 1,949 1,960 1,966 1,1032 1,1045 1,1066 1,1071 1,1155 1,1190 1,1223 1,1224 1,1231 1,1254 1,1255 1,1273 1,1340 1,1346 1,1348 1,1383 1,1401 1}
+{0 Live,1 Ophtha,50 1,427 1,475 1,505 1,913 1,1157 1,1231 1,1238 1,1396 1}
+{0 Live,1 Ophtha,5 1,66 1,128 1,131 1,132 1,261 1,477 1,707 1,716 1,905 1,913 1,914 1,988 1,1113 1,1184 1,1350 1,1373 1}
+{0 Live,1 Ophtha,131 1,491 1,1382 1,1383 1}
+{0 Live,1 Ophtha,5 1,131 1,188 1,615 1}
+{0 Live,1 Ophtha,5 1,105 1,110 1,131 1,132 1,260 1,304 1,365 1,367 1,373 1,546 1,752 1,753 1,754 1,772 1,773 1,891 1,948 1,1145 1,1238 1,1281 1,1326 1,1341 1,1382 1}
+{1 Ophtha,6 1,172 1}
+{0 Live,1 Liver,5 1,12 1,14 1,23 1,317 1,329 1,497 1,499 1,525 1,625 1,763 1,836 1,837 1,960 1,983 1,984 1,1035 1,1036 1,1107 1}
+{0 Live,1 Liver,4 1,5 1,6 1,14 1,23 1,50 1}
+{0 Live,1 Liver,5 1,6 1,13 1,31 1,248 1,263 1,264 1,295 1,310 1,378 1,379 1,403 1,451 1,452 1,481 1,548 1,549 1,565 1,595 1,598 1,625 1,667 1,716 1,728 1,741 1,763 1,768 1,796 1,797 1,798 1,833 1,859 1,860 1,879 1,880 1,913 1,949 1,960 1,1088 1,1089 1,1116 1,1156 1,1173 1,1257 1,1266 1,1276 1,1277 1,1327 1,1375 1,1397 1}
+{0 Live,1 Liver,2 1,4 1,13 1,23 1,71 1,131 1,188 1,250 1,353 1,354 1,403 1,567 1,683 1,690 1,728 1,1149 1,1221 1,1234 1,1260 1,1262 1,1308 1,1324 1,1350 1,1358 1,1392 1,1398 1,1410 1}
+{0 Live,1 Liver,4 1,5 1,6 1,13 1,14 1,23 1,81 1,96 1,134 1,140 1,157 1,171 1,203 1,292 1,317 1,321 1,332 1,333 1,334 1,352 1,353 1,354 1,400 1,403 1,404 1,405 1,414 1,415 1,417 1,475 1,487 1,506 1,525 1,526 1,548 1,549 1,561 1,568 1,602 1,629 1,630 1,636 1,640 1,663 1,668 1,669 1,723 1,728 1,732 1,765 1,793 1,816 1,817 1,825 1,826 1,828 1,839 1,840 1,848 1,850 1,864 1,881 1,882 1,968 1,970 1,1035 1,1036 1,1037 1,1044 1,1049 1,1062 1,1077 1,1103 1,1107 1,1110 1,1111 1,1129 1,1153 1,1154 1,1196 1,1215 1,1231 1,1247 1,1260 1,1280 1,1291 1,1292 1,1297 1,1312 1,1318 1,1321 1,1322 1,1323 1,1328 1,1338 1,1358 1,1388 1,1414 1}
+{0 Live,1 Liver,4 1,5 1,6 1,12 1,13 1,14 1,37 1,50 1,213 1,250 1,251 1,325 1,329 1,414 1,416 1,453 1,465 1,531 1,568 1,712 1,713 1,728 1,738 1,796 1,797 1,798 1,825 1,826 1,859 1,897 1,907 1,981 1,1110 1,1111 1,1159 1,1233 1,1266 1,1293 1,1297 1}
+{0 Live,1 Liver,4 1,5 1,6 1,13 1,23 1,312 1,403 1,728 1,731 1,995 1,1068 1,1260 1}
+{0 Live,1 Liver,2 1,13 1,23 1,90 1,294 1,361 1,491 1,631 1,672 1,683 1,696 1,807 1,824 1,889 1,1130 1,1172 1,1231 1,1260 1,1262 1,1416 1}
+{0 Live,1 Liver,4 1,5 1,14 1,23 1,250 1,287 1,668 1,728 1,731 1,763 1,1099 1}
+{0 Live,1 Liver,4 1,5 1,13 1,14 1,23 1,414 1,668 1,785 1,794 1,891 1,968 1,969 1,972 1,981 1,1107 1,1113 1,1228 1,1280 1,1338 1,1340 1,1350 1,1355 1,1392 1,1399 1,1400 1}
+{0 Live,1 Liver,5 1,6 1,14 1,23 1,329 1,330 1,439 1,512 1,513 1,629 1,769 1,968 1,969 1,1055 1,1056 1,1057 1,1082 1,1142 1,1153 1,1282 1}
+{0 Live,1 Liver,5 1,14 1,23 1,69 1,70 1,173 1,174 1,175 1,183 1,184 1,188 1,189 1,190 1,204 1,205 1,206 1,296 1,314 1,315 1,322 1,323 1,348 1,349 1,353 1,354 1,579 1,580 1,581 1,596 1,632 1,633 1,701 1,703 1,704 1,855 1,856 1,857 1,949 1,956 1,957 1,988 1,989 1,991 1,1078 1,1079 1,1080 1,1186 1,1187 1,1249 1,1250 1,1269 1,1270 1,1282 1,1283 1,1297 1,1298 1,1299 1,1358 1,1359 1,1360 1,1361 1,1362 1,1410 1,1411 1,1417 1.612006,1418 1,1419 1,1420 1}
+{0 Live,1 Liver,5 1,14 1,23 1,403 1,1339 1}
+{0 Live,1 Liver,4 1,5 1,6 1,13 1,14 1,23 1,256 1,322 1,414 1,415 1,481 1,497 1,572 1,668 1,778 1,847 1,894 1,916 1,1065 1,1236 1,1406 1,1416 1}
+{0 Live,1 Liver,5 1,14 1,23 1,220 1,949 1,983 1,984 1,1099 1}
+{0 Live,1 Liver,5 1,13 1,45 1,300 1,399 1,403 1,625 1,728 1,729 1,960 1}
+{0 Live,1 Liver,5 1,13 1,37 1,50 1,110 1,631 1,960 1,1129 1,1203 1,1310 1}
+{0 Pilot,1 Liver,4 1,5 1,6 1,12 1,23 1,50 1,104 1,158 1,173 1,235 1,236 1,358 1,400 1,442 1,443 1,444 1,497 1,503 1,535 1,536 1,558 1,668 1,709 1,726 1,763 1,764 1,807 1,883 1,889 1,931 1,949 1,955 1,979 1,1040 1,1041 1,1042 1,1071 1,1118 1,1151 1,1153 1,1154 1,1161 1,1242 1,1297 1}
+{0 Live,1 Liver,2 1,3 1,5 1,6 1,12 1,23 1,90 1,134 1,152 1,414 1,415 1,467 1,489 1,660 1,668 1,687 1,701 1,702 1,763 1,875 1,890 1,960 1,967 1,979 1,983 1,1040 1,1144 1,1165 1,1233 1,1263 1,1318 1,1383 1}
+{1 Liver,5 1,6 1,14 1,23 1,85 1,307 1,311 1,450 1,728 1,738 1,785 1,792 1,836 1,838 1,960 1,973 1,983 1,984 1,1149 1,1199 1,1229 1,1272 1,1409 1}
+{1 Liver,5 1,220 1}
+{0 Live,1 Liver,3 1,5 1,6 1,13 1,14 1,22 1,23 1,26 1,45 1,50 1,293 1,304 1,431 1,433 1,465 1,466 1,660 1,701 1,746 1,763 1,808 1,877 1,916 1,931 1,949 1,955 1,960 1,972 1,1126 1,1127 1,1263 1,1272 1,1297 1,1305 1,1311 1,1326 1,1350 1,1383 1}
+{0 Live,1 Liver,4 1,5 1,6 1,14 1,23 1,50 1,292 1,297 1,319 1,360 1,417 1,418 1,419 1,529 1,535 1,542 1,661 1,707 1,785 1,786 1,960 1,961 1,1038 1,1145 1,1173 1,1230 1,1339 1,1403 1,1415 1}
+{0 Pilot,1 Liver,4 1,5 1,6 1,14 1,23 1,26 1,27 1,32 1,332 1,353 1,354 1,378 1,379 1,381 1,403 1,408 1,512 1,515 1,577 1,578 1,668 1,763 1,825 1,826 1,949 1,958 1,960 1,1112 1,1145 1,1155 1,1260 1,1297 1,1298 1,1358 1}
+{0 Live,1 Liver,5 1,14 1,23 1,50 1,58 1,173 1,188 1,220 1,285 1,301 1,388 1,414 1,431 1,433 1,561 1,573 1,588 1,609 1,611 1,717 1,725 1,758 1,759 1,949 1,950 1,960 1,961 1,966 1,1138 1,1201 1,1229 1,1247 1,1248 1,1254 1,1282 1,1311 1}
+{0 Live,1 Liver,3 1,5 1,6 1,13 1,14 1,23 1,668 1,765 1,846 1,1145 1}
+{0 Live,1 Liver,5 1,13 1,37 1,50 1,250 1,287 1,431 1,460 1,461 1,507 1,573 1,659 1,705 1,949 1,1126 1,1127 1,1248 1,1310 1}
+{0 Live,1 Liver,5 1,13 1,37 1,50 1,250 1,287 1,431 1,460 1,461 1,507 1,573 1,659 1,705 1,949 1,1126 1,1127 1,1248 1,1310 1}
+{0 Live,1 Liver,5 1,13 1,23 1,50 1,364 1,431 1,523 1,573 1,660 1,714 1,715 1,778 1,824 1,919 1,920 1,949 1,960 1,965 1,1025 1,1162 1,1267 1,1272 1,1311 1}
+{0 Live,1 Liver,5 1,14 1,23 1,134 1,317 1,497 1,582 1,596 1,636 1,836 1,1006 1,1050 1,1107 1,1115 1,1133 1,1204 1,1251 1}
+{0 Live,1 Liver,4 1,5 1,6 1,14 1,23 1,481 1,497 1,596 1,672 1,686 1,746 1,757 1,894 1,968 1,1118 1,1125 1,1156 1}
+{0 Live,1 Liver,4 1,5 1,14 1,67 1,68 1,93 1,94 1,146 1,147 1,148 1,250 1,306 1,546 1,561 1,625 1,627 1,728 1,736 1,737 1,960 1,966 1,1025 1,1026 1,1055 1,1056 1,1057 1,1191 1,1247 1,1282 1,1297 1}
+{0 Live,1 Liver,5 1,14 1,18 1,67 1,68 1,93 1,94 1,146 1,147 1,148 1,296 1,314 1,315 1,322 1,323 1,348 1,349 1,353 1,354 1,561 1,579 1,580 1,596 1,632 1,633 1,701 1,703 1,704 1,855 1,856 1,857 1,949 1,958 1,1025 1,1026 1,1078 1,1079 1,1080 1,1145 1,1247 1,1269 1,1270 1,1297 1,1298 1,1299 1,1358 1,1359 1,1360 1,1361 1,1362 1,1410 1,1417 1.806557,1418 1,1419 1,1420 1}
+{0 Live,1 Liver,5 1,13 1,23 1,50 1,71 1,73 1,368 1,369 1,431 1,433 1,465 1,466 1,625 1,627 1,960 1,966 1,1086 1,1274 1,1311 1,1350 1,1353 1,1354 1}
+{0 Live,1 Liver,4 1,5 1,6 1,13 1,24 1,144 1,170 1,304 1,319 1,321 1,343 1,403 1,404 1,408 1,607 1,609 1,610 1,619 1,620 1,683 1,717 1,728 1,738 1,752 1,772 1,777 1,788 1,789 1,790 1,810 1,811 1,881 1,937 1,960 1,961 1,963 1,965 1,988 1,1059 1,1128 1,1145 1,1146 1,1194 1,1220 1,1260 1,1262 1,1324 1,1325 1,1371 1,1377 1,1412 1,1413 1}
+{0 Live,1 Liver,6 1,13 1,26 1,91 1,92 1,117 1,202 1,260 1,318 1,389 1,403 1,557 1,599 1,602 1,656 1,672 1,675 1,677 1,728 1,740 1,763 1,788 1,843 1,881 1,1013 1,1018 1,1107 1,1108 1,1113 1,1215 1,1280 1,1397 1}
+{1 Liver,27 1,85 1,131 1,329 1,497 1,726 1,728 1,866 1,949 1,1038 1,1087 1,1145 1}
+{0 Live,1 Liver,4 1,5 1,13 1,23 1,87 1,88 1,89 1,286 1,453 1,728 1,731 1,763 1,865 1,968 1,970 1,1145 1,1312 1}
+{0 Live,1 Liver,3 1,5 1,6 1,23 1,250 1,251 1,567 1,668 1,763 1,846 1,983 1,1035 1,1036 1,1165 1,1189 1,1282 1,1308 1,1385 1,1386 1}
+{0 Live,1 Liver,4 1,5 1,6 1,14 1,23 1,87 1,88 1,89 1,237 1,329 1,331 1,343 1,378 1,379 1,381 1,403 1,408 1,520 1,527 1,763 1,848 1,849 1,942 1,945 1,960 1,1066 1,1067 1,1173 1}
+{0 Live,1 Liver,3 1,6 1,13 1,23 1,50 1,378 1,379 1,380 1,403 1,404 1,429 1,467 1,469 1,470 1,557 1,763 1,796 1,864 1,968 1,1044 1,1107 1,1117 1,1243 1}
+{1 Liver,5 1,23 1,50 1,305 1,382 1,488 1,507 1,601 1,758 1,800 1,805 1,904 1,906 1,1310 1,1311 1}
+{0 Live,1 Liver,5 1,6 1,14 1,23 1,50 1,75 1,286 1,403 1,431 1,432 1,445 1,446 1,497 1,503 1,505 1,518 1,584 1,590 1,600 1,659 1,662 1,667 1,756 1,821 1,836 1,851 1,866 1,890 1,930 1,931 1,960 1,961 1,973 1,982 1,993 1,1050 1,1063 1,1142 1,1189 1,1245 1,1297 1,1400 1}
+{1 Liver,5 1,12 1,23 1,50 1,173 1,301 1,318 1,431 1,433 1,436 1,443 1,450 1,482 1,497 1,501 1,512 1,515 1,516 1,535 1,537 1,538 1,574 1,577 1,596 1,597 1,603 1,642 1,643 1,701 1,759 1,763 1,940 1,983 1,1108 1,1118 1,1121 1,1122 1,1145 1,1228 1,1263 1,1310 1,1311 1,1334 1}
+{0 Live,1 Liver,5 1,13 1,23 1,71 1,73 1,368 1,369 1,431 1,433 1,465 1,625 1,627 1,960 1,966 1,1086 1,1274 1,1311 1,1350 1,1353 1,1354 1}
+{0 Live,1 Liver,5 1,6 1,12 1,13 1,23 1,77 1,176 1,242 1,329 1,331 1,333 1,443 1,497 1,564 1,763 1,831 1,836 1,837 1,848 1,931 1,949 1,956 1,959 1,973 1,988 1,1037 1,1065 1,1118 1,1142 1,1153 1,1176 1}
+{0 Live,1 Liver,4 1,5 1,6 1,14 1,23 1,292 1,334 1,374 1,417 1,672 1,679 1,931 1,960 1,1035 1,1036 1,1087 1,1339 1,1421 1}
+{0 Live,1 Liver,4 1,5 1,6 1,14 1,23 1,235 1,236 1,403 1,408 1,431 1,520 1,521 1,529 1,535 1,536 1,640 1,668 1,701 1,711 1,778 1,847 1,906 1,931 1,960 1,983 1,985 1,1032 1,1145 1,1263 1,1273 1,1291 1}
+{0 Live,1 Liver,5 1,23 1,50 1,144 1,145 1,173 1,174 1,175 1,183 1,188 1,189 1,190 1,204 1,205 1,235 1,272 1,273 1,296 1,299 1,481 1,535 1,537 1,542 1,543 1,596 1,701 1,703 1,704 1,763 1,764 1,827 1,855 1,897 1,949 1,956 1,988 1,1118 1,1156 1,1201 1,1232 1,1297 1,1360 1,1361 1,1362 1,1410 1,1415 1,1419 1,1420 1}
+{1 ?,5 1,23 1,321 1,387 1,414 1,416 1,434 1,497 1,611 1,705 1,706 1,745 1,814 1,815 1,890 1,960 1,961 1,963 1,1032 1,1126 1,1127 1,1159 1,1197 1,1198 1,1273 1}
+{0 Live,1 ?,5 1,14 1,23 1,300 1,308 1,453 1,467 1,596 1,668 1,701 1,702 1,728 1,729 1,763 1,789 1,814 1,815 1,847 1,861 1,931 1,960 1,968 1,970 1,972 1,983 1,1107 1,1140 1,1153 1,1154 1,1197 1,1198 1,1263 1,1308 1,1383 1,1400 1}
+{0 Live,1 ?,3 1,6 1,14 1,23 1,50 1,668 1,836 1,841 1,1416 1}
+{0 Live,1 ?,5 1,6 1,14 1,23 1,69 1,70 1,173 1,174 1,175 1,183 1,184 1,188 1,189 1,190 1,204 1,205 1,206 1,296 1,314 1,315 1,322 1,323 1,348 1,349 1,353 1,354 1,579 1,580 1,581 1,596 1,632 1,633 1,701 1,703 1,704 1,855 1,856 1,857 1,949 1,956 1,957 1,988 1,989 1,991 1,1078 1,1079 1,1080 1,1186 1,1187 1,1249 1,1250 1,1269 1,1270 1,1282 1,1283 1,1297 1,1298 1,1299 1,1358 1,1359 1,1360 1,1361 1,1362 1,1410 1,1411 1,1417 1.612006,1418 1,1419 1,1420 1}
+{0 Live,1 ?,5 1,23 1,69 1,70 1,173 1,174 1,175 1,183 1,184 1,188 1,189 1,190 1,204 1,205 1,206 1,296 1,314 1,315 1,322 1,323 1,348 1,349 1,353 1,354 1,579 1,580 1,581 1,596 1,632 1,633 1,701 1,703 1,704 1,855 1,856 1,857 1,949 1,956 1,957 1,988 1,989 1,991 1,1078 1,1079 1,1080 1,1186 1,1187 1,1249 1,1250 1,1269 1,1270 1,1282 1,1283 1,1297 1,1298 1,1299 1,1358 1,1359 1,1360 1,1361 1,1362 1,1410 1,1411 1,1417 1.612006,1418 1,1419 1,1420 1}
+{0 Live,1 ?,5 1,23 1,82 1,378 1,379 1,381 1,403 1,408 1,465 1,586 1,721 1,825 1,827 1,839 1,960 1,966 1,1239 1,1334 1}
+{0 Live,1 Liver,5 1,6 1,14 1,45 1,106 1,654 1,668 1,728 1,1050 1,1291 1,1421 1}
+{0 Live,1 ?,5 1,14 1,23 1,272 1,273 1,278 1,393 1,431 1,433 1,453 1,465 1,467 1,602 1,625 1,626 1,716 1,765 1,767 1,796 1,805 1,807 1,897 1,912 1,960 1,961 1,1044 1,1055 1,1056 1,1082 1,1107 1,1311 1,1396 1,1405 1,1410 1,1416 1}
+{0 Live,1 ?,3 1,5 1,6 1,13 1,23 1,50 1,229 1,230 1,249 1,259 1,269 1,275 1,297 1,300 1,305 1,328 1,343 1,344 1,372 1,403 1,406 1,407 1,414 1,475 1,485 1,486 1,489 1,562 1,608 1,635 1,639 1,647 1,648 1,661 1,680 1,683 1,700 1,712 1,713 1,728 1,731 1,732 1,763 1,778 1,782 1,800 1,829 1,833 1,886 1,907 1,916 1,935 1,936 1,949 1,954 1,981 1,1048 1,1058 1,1060 1,1086 1,1150 1,1179 1,1195 1,1223 1,1224 1,1227 1,1238 1,1260 1,1262 1,1274 1,1297 1,1347 1,1350 1,1357 1,1363 1,1364 1,1383 1,1403 1,1404 1,1405 1,1409 1}
+{0 Live,1 ?,4 1,5 1,13 1,97 1,104 1,134 1,235 1,382 1,471 1,493 1,535 1,564 1,574 1,596 1,634 1,722 1,763 1,921 1,983 1,985 1,1145 1,1233 1,1341 1,1350 1,1400 1}
+{1 ?,14 1,188 1,319 1,321 1,368 1,369 1,414 1,462 1,491 1,542 1,556 1,564 1,583 1,625 1,628 1,631 1,661 1,705 1,706 1,763 1,807 1,889 1,891 1,899 1,949 1,960 1,967 1,1024 1,1040 1,1041 1,1042 1,1145 1,1146 1,1190 1,1201 1}
+{0 Live,1 ?,5 1,45 1,188 1,274 1,332 1,378 1,379 1,380 1,392 1,403 1,404 1,728 1,734 1,765 1,785 1,900 1,949 1,952 1,1139 1,1145 1,1146 1,1176 1,1201 1,1202 1}
+{0 Live,1 ?,5 1,6 1,14 1,26 1,99 1,214 1,265 1,266 1,278 1,307 1,353 1,354 1,426 1,428 1,450 1,477 1,529 1,584 1,595 1,599 1,618 1,649 1,663 1,672 1,679 1,686 1,697 1,722 1,728 1,729 1,734 1,763 1,785 1,891 1,905 1,912 1,915 1,941 1,960 1,983 1,1001 1,1031 1,1032 1,1035 1,1036 1,1038 1,1060 1,1072 1,1139 1,1170 1,1210 1,1287 1,1297 1,1302 1,1335 1,1358 1}
+{1 ?,5 1,6 1,7 1,13 1,14 1,75 1,173 1,174 1,175 1,183 1,201 1,204 1,205 1,213 1,329 1,343 1,403 1,467 1,485 1,486 1,497 1,502 1,519 1,634 1,648 1,668 1,672 1,679 1,716 1,728 1,733 1,757 1,758 1,839 1,846 1,875 1,877 1,891 1,949 1,960 1,976 1,1035 1,1038 1,1049 1,1050 1,1078 1,1133 1,1195 1,1201 1,1203 1,1231 1,1246 1,1294 1,1297 1,1302 1,1360 1,1383 1,1392 1}
+{1 ?,4 1,5 1,6 1,12 1,14 1,32 1,82 1,100 1,101 1,128 1,131 1,141 1,144 1,169 1,173 1,188 1,204 1,216 1,217 1,248 1,277 1,302 1,325 1,329 1,333 1,364 1,368 1,369 1,430 1,440 1,441 1,476 1,493 1,512 1,513 1,582 1,596 1,598 1,601 1,618 1,642 1,650 1,662 1,695 1,700 1,728 1,729 1,731 1,734 1,745 1,749 1,763 1,765 1,769 1,809 1,839 1,873 1,891 1,905 1,941 1,949 1,960 1,964 1,988 1,1024 1,1044 1,1060 1,1061 1,1062 1,1072 1,1078 1,1118 1,1123 1,1133 1,1144 1,1148 1,1155 1,1158 1,1159 1,1184 1,1201 1,1238 1,1251 1,1272 1,1284 1,1297 1,1376 1,1387 1}
+{1 ?,12 1,14 1,53 1,55 1,56 1,58 1,75 1,255 1,261 1,262 1,265 1,266 1,286 1,310 1,328 1,338 1,413 1,414 1,431 1,453 1,472 1,488 1,490 1,492 1,497 1,502 1,504 1,508 1,520 1,522 1,529 1,530 1,532 1,533 1,542 1,558 1,560 1,577 1,582 1,594 1,600 1,612 1,621 1,668 1,710 1,716 1,723 1,739 1,745 1,748 1,749 1,750 1,756 1,795 1,810 1,812 1,851 1,865 1,883 1,884 1,885 1,890 1,891 1,930 1,949 1,951 1,960 1,967 1,1003 1,1073 1,1074 1,1075 1,1081 1,1126 1,1127 1,1145 1,1155 1,1166 1,1233 1,1235 1,1251 1,1287 1,1374 1}
+{1 ?,4 1,12 1,23 1,69 1,70 1,173 1,174 1,175 1,183 1,184 1,188 1,189 1,190 1,204 1,205 1,206 1,296 1,314 1,315 1,322 1,323 1,348 1,349 1,353 1,354 1,579 1,580 1,581 1,596 1,632 1,633 1,701 1,703 1,704 1,855 1,856 1,857 1,949 1,956 1,957 1,988 1,989 1,991 1,1078 1,1079 1,1080 1,1186 1,1187 1,1249 1,1250 1,1269 1,1270 1,1282 1,1283 1,1297 1,1298 1,1299 1,1358 1,1359 1,1360 1,1361 1,1362 1,1410 1,1411 1,1417 1.612006,1418 1,1419 1,1420 1}
+{0 Live,1 Liver,5 1,14 1,23 1,81 1,134 1,144 1,235 1,236 1,237 1,250 1,251 1,271 1,299 1,303 1,310 1,325 1,329 1,365 1,374 1,388 1,414 1,415 1,431 1,460 1,461 1,497 1,511 1,512 1,513 1,515 1,529 1,531 1,535 1,536 1,542 1,554 1,577 1,582 1,612 1,618 1,622 1,623 1,625 1,626 1,640 1,668 1,672 1,675 1,687 1,694 1,701 1,763 1,764 1,765 1,789 1,790 1,791 1,825 1,827 1,839 1,848 1,849 1,864 1,874 1,877 1,882 1,913 1,931 1,949 1,960 1,961 1,965 1,979 1,980 1,983 1,986 1,1013 1,1024 1,1025 1,1027 1,1032 1,1072 1,1073 1,1077 1,1118 1,1121 1,1122 1,1124 1,1145 1,1157 1,1166 1,1169 1,1251 1,1273 1,1281 1,1282 1,1287 1,1289 1,1297 1,1334 1}
+{0 Pilot,1 ?,4 1,5 1,6 1,12 1,13 1,14 1,37 1,106 1,109 1,257 1,265 1,266 1,268 1,310 1,341 1,342 1,386 1,431 1,436 1,497 1,529 1,531 1,535 1,542 1,563 1,573 1,575 1,643 1,668 1,739 1,746 1,751 1,799 1,810 1,821 1,822 1,913 1,949 1,951 1,983 1,984 1,985 1,1065 1,1085 1,1099 1,1100 1,1162 1,1240 1,1248 1,1297 1,1298 1,1312 1,1392 1}
+{1 ?,4 1,5 1,6 1,7 1,12 1,13 1,14 1,242 1,355 1,365 1,386 1,403 1,492 1,535 1,542 1,575 1,642 1,659 1,716 1,724 1,770 1,810 1,811 1,812 1,864 1,949 1,983 1,993 1,1073 1,1109 1,1137 1,1240 1,1260 1,1264 1,1287 1,1290 1}
+{1 ?,2 1,3 1,4 1,13 1,14 1,37 1,50 1,52 1,54 1,66 1,106 1,139 1,177 1,178 1,227 1,228 1,238 1,268 1,304 1,320 1,339 1,345 1,368 1,369 1,382 1,386 1,434 1,462 1,487 1,493 1,494 1,497 1,510 1,520 1,523 1,535 1,538 1,542 1,606 1,618 1,639 1,662 1,685 1,690 1,697 1,698 1,700 1,716 1,774 1,775 1,777 1,780 1,781 1,791 1,794 1,864 1,891 1,905 1,929 1,930 1,949 1,978 1,979 1,1027 1,1077 1,1109 1,1118 1,1126 1,1137 1,1142 1,1166 1,1208 1,1238 1,1240 1,1241 1,1244 1,1257 1,1271 1,1343 1,1344 1,1392 1}
+{1 ?,55 1,95 1,122 1,139 1,178 1,227 1,228 1,238 1,335 1,363 1,414 1,421 1,497 1,504 1,520 1,535 1,548 1,695 1,710 1,746 1,749 1,774 1,775 1,777 1,780 1,781 1,810 1,948 1,949 1,951 1,960 1,961 1,979 1,1027 1,1032 1,1038 1,1126 1,1127 1,1137 1,1208 1,1260 1,1273 1,1296 1,1297 1,1343 1,1344 1}
+{1 ?,56 1,57 1,95 1,97 1,99 1,109 1,122 1,134 1,139 1,173 1,178 1,227 1,228 1,254 1,355 1,414 1,415 1,429 1,520 1,535 1,542 1,558 1,601 1,621 1,688 1,740 1,774 1,775 1,780 1,781 1,806 1,810 1,812 1,882 1,930 1,946 1,960 1,979 1,980 1,1027 1,1040 1,1041 1,1073 1,1085 1,1137 1,1208 1,1237 1,1275 1,1282 1,1287 1,1291 1,1343 1,1344 1}
+{1 ?,3 1,4 1,5 1,6 1,12 1,14 1,18 1,56 1,57 1,95 1,109 1,122 1,139 1,178 1,227 1,228 1,254 1,299 1,414 1,415 1,518 1,520 1,535 1,601 1,662 1,688 1,690 1,695 1,701 1,702 1,740 1,748 1,774 1,775 1,780 1,781 1,793 1,806 1,882 1,915 1,946 1,960 1,961 1,979 1,980 1,983 1,1027 1,1118 1,1137 1,1208 1,1245 1,1263 1,1275 1,1291 1,1297 1,1343 1,1344 1}
+{1 ?,4 1,5 1,6 1,12 1,14 1,18 1,122 1,188 1,250 1,251 1,256 1,392 1,477 1,532 1,548 1,550 1,607 1,665 1,789 1,793 1,819 1,855 1,979 1,983 1,986 1,1032 1,1087 1,1107 1,1236 1,1238 1,1308 1,1399 1}
+{1 ?,4 1,5 1,13 1,14 1,32 1,104 1,141 1,188 1,242 1,316 1,492 1,520 1,561 1,563 1,672 1,757 1,785 1,786 1,905 1,911 1,942 1,945 1,949 1,952 1,953 1,993 1,1099 1,1109 1,1149 1,1162 1,1172 1,1201 1,1202 1,1287 1,1291 1,1392 1}
+{1 ?,3 1,4 1,5 1,6 1,7 1,13 1,14 1,50 1,300 1,386 1,403 1,408 1,413 1,542 1,543 1,546 1,555 1,672 1,723 1,728 1,734 1,749 1,757 1,793 1,810 1,811 1,827 1,840 1,898 1,912 1,942 1,960 1,967 1,983 1,984 1,1007 1,1099 1,1240 1,1296 1,1328 1,1339 1,1421 1}
+{1 ?,12 1,14 1,18 1,99 1,250 1,251 1,442 1,497 1,519 1,532 1,533 1,563 1,658 1,707 1,714 1,715 1,739 1,745 1,919 1,920 1,960 1,961 1,1032 1,1035 1,1046 1,1126 1,1127 1,1216 1,1242 1,1273 1}
+{1 Liver,14 1,240 1,307 1,329 1,429 1,467 1,490 1,542 1,629 1,630 1,648 1,668 1,710 1,755 1,810 1,812 1,813 1,816 1,817 1,843 1,875 1,898 1,942 1,945 1,968 1,970 1,973 1,982 1,1103 1,1129 1,1342 1}
+{1 ?,14 1,23 1,257 1,321 1,362 1,377 1,509 1,512 1,513 1,522 1,542 1,548 1,558 1,625 1,628 1,641 1,664 1,810 1,812 1,884 1,960 1,967 1,1073 1,1074 1,1075 1,1260 1}
+{0 Live,1 ?,12 1,14 1,223 1,261 1,322 1,329 1,338 1,361 1,491 1,519 1,572 1,576 1,594 1,596 1,664 1,672 1,675 1,717 1,728 1,836 1,848 1,849 1,886 1,948 1,960 1,964 1,1013 1,1044 1,1116 1,1162 1,1163 1,1195 1,1216 1,1231 1,1246 1,1334 1,1383 1,1395 1}
+{1 ?,13 1,268 1,310 1,497 1,503 1,512 1,529 1,558 1,560 1,707 1,716 1,763 1,782 1,828 1,858 1,864 1,894 1,949 1,960 1,965 1,1155 1,1203 1,1216 1,1392 1,1421 1}
+{0 Pilot,1 ?,12 1,14 1,105 1,255 1,261 1,262 1,307 1,325 1,327 1,338 1,421 1,429 1,450 1,542 1,558 1,612 1,631 1,709 1,763 1,779 1,808 1,810 1,812 1,823 1,858 1,876 1,891 1,968 1,1003 1,1025 1,1103 1,1130 1,1131 1,1132 1,1190 1,1235 1,1297 1,1304 1}
+{0 Pilot,1 ?,12 1,14 1,75 1,89 1,235 1,255 1,293 1,329 1,341 1,342 1,353 1,354 1,359 1,363 1,393 1,431 1,434 1,443 1,497 1,501 1,504 1,510 1,535 1,561 1,563 1,574 1,590 1,596 1,701 1,723 1,728 1,738 1,751 1,763 1,764 1,807 1,832 1,839 1,848 1,849 1,889 1,949 1,960 1,966 1,983 1,1040 1,1041 1,1042 1,1043 1,1062 1,1081 1,1094 1,1098 1,1144 1,1145 1,1147 1,1238 1,1241 1,1244 1,1247 1,1263 1,1272 1,1275 1,1291 1,1358 1}
+{0 Pilot,1 ?,12 1,14 1,23 1,307 1,329 1,330 1,334 1,360 1,400 1,414 1,415 1,450 1,467 1,587 1,606 1,629 1,636 1,641 1,643 1,663 1,668 1,669 1,672 1,686 1,701 1,712 1,728 1,729 1,733 1,810 1,813 1,816 1,817 1,824 1,825 1,826 1,836 1,840 1,905 1,911 1,968 1,1049 1,1062 1,1072 1,1094 1,1138 1,1139 1,1166 1,1188 1,1287 1,1293 1,1328 1,1416 1}
+{0 Pilot,1 ?,2 1,3 1,14 1,23 1,52 1,176 1,258 1,364 1,368 1,590 1,894 1,905 1,1043 1,1046 1,1064 1,1129 1,1152 1,1153 1}
+{0 Pilot,1 ?,3 1,14 1,173 1,386 1,398 1,471 1,508 1,526 1,535 1,583 1,960 1,979 1,980 1,1051 1,1126 1,1145 1,1152 1,1155 1,1240 1,1281 1,1297 1}
+{0 Pilot,1 ?,3 1,4 1,5 1,12 1,14 1,23 1,50 1,90 1,96 1,173 1,361 1,403 1,405 1,406 1,414 1,422 1,625 1,650 1,661 1,668 1,701 1,721 1,777 1,827 1,858 1,891 1,899 1,931 1,949 1,955 1,960 1,973 1,982 1,983 1,986 1,994 1,1068 1,1073 1,1130 1,1263 1,1309 1,1310 1}
+{0 Pilot,1 ?,3 1,5 1,6 1,12 1,14 1,23 1,140 1,144 1,145 1,243 1,250 1,319 1,332 1,417 1,418 1,419 1,471 1,631 1,763 1,785 1,848 1,850 1,931 1,973 1,1145 1,1189 1,1230 1}
+{0 Live,1 Liver,2 1,5 1,14 1,18 1,99 1,400 1,403 1,405 1,414 1,430 1,434 1,497 1,503 1,511 1,512 1,515 1,516 1,668 1,701 1,716 1,765 1,858 1,930 1,949 1,950 1,959 1,983 1,1064 1,1137 1,1149 1,1241 1,1263 1}
+{1 ?,3 1,12 1,13 1,23 1,271 1,535 1,558 1,621 1,836 1,858 1,878 1,904 1,949 1,1151 1,1153 1,1160 1,1194 1,1282 1,1297 1,1303 1}
+{0 Pilot,1 ?,3 1,6 1,7 1,12 1,14 1,23 1,26 1,27 1,29 1,45 1,242 1,250 1,251 1,287 1,358 1,414 1,415 1,431 1,497 1,512 1,515 1,576 1,590 1,717 1,746 1,763 1,827 1,858 1,882 1,911 1,931 1,949 1,955 1,960 1,965 1,1118 1,1121 1,1122 1,1152 1}
+{0 Pilot,1 ?,3 1,5 1,6 1,12 1,13 1,14 1,37 1,50 1,248 1,258 1,278 1,321 1,765 1,767 1,807 1,855 1,889 1,894 1,912 1,960 1,961 1,963 1,972 1,1040 1,1041 1,1042 1,1046 1,1094 1,1287 1}
+{0 Pilot,1 ?,3 1,6 1,13 1,14 1,22 1,52 1,253 1,267 1,368 1,376 1,518 1,531 1,763 1,810 1,891 1,1131 1,1132 1,1162 1,1163 1,1166 1,1245 1}
+{0 Pilot,1 ?,4 1,12 1,14 1,37 1,50 1,529 1,661 1,959 1,987 1,1297 1}
+{0 Pilot,1 ?,6 1,14 1,23 1,75 1,122 1,267 1,368 1,369 1,520 1,521 1,598 1,599 1,625 1,628 1,647 1,890 1,915 1,960 1,967 1,1143 1,1151 1,1159 1,1172 1,1297 1,1302 1}
+{0 Research,1 ?,5 1,12 1,214 1,242 1,271 1,362 1,363 1,434 1,497 1,499 1,590 1,594 1,687 1,891 1,949 1,951 1,1003 1,1060 1,1073 1,1170 1,1209 1,1231 1,1238 1,1287 1,1308 1,1401 1}
+{0 Research,1 ?,4 1,12 1,23 1,75 1,122 1,250 1,251 1,268 1,341 1,342 1,352 1,382 1,394 1,431 1,497 1,499 1,517 1,520 1,521 1,535 1,550 1,573 1,600 1,612 1,700 1,716 1,717 1,739 1,747 1,751 1,795 1,799 1,806 1,821 1,822 1,836 1,864 1,891 1,911 1,949 1,951 1,974 1,1038 1,1063 1,1072 1,1114 1,1161 1,1189 1,1205 1,1297 1,1385 1,1386 1,1398 1,1421 1}
+{0 Research,1 ?,6 1,12 1,23 1,50 1,104 1,134 1,358 1,400 1,414 1,420 1,439 1,548 1,643 1,707 1,716 1,778 1,834 1,876 1,1003 1,1004 1,1145 1,1268 1,1281 1}
+{0 Research,1 'Alzheimers Disease',4 1,201 1,252 1,261 1,352 1,358 1,363 1,368 1,369 1,376 1,430 1,435 1,439 1,509 1,517 1,523 1,524 1,535 1,558 1,559 1,613 1,614 1,618 1,621 1,631 1,707 1,776 1,778 1,844 1,845 1,851 1,858 1,1002 1,1031 1,1039 1,1066 1,1073 1,1077 1,1150 1,1291 1,1376 1}
+{0 Research,1 'Alzheimers Disease',2 1,3 1,23 1,27 1,177 1,235 1,236 1,329 1,363 1,393 1,400 1,440 1,535 1,536 1,668 1,792 1,891 1,1037 1,1118 1,1125 1,1172 1,1177 1,1188 1}
+{0 Pilot,1 'Alzheimers Disease',4 1,23 1,27 1,74 1,144 1,216 1,217 1,254 1,263 1,264 1,329 1,345 1,417 1,763 1,808 1,844 1,877 1,960 1,1007 1,1287 1}
+{0 Research,1 'Alzheimers Disease',6 1,27 1,80 1,188 1,387 1,414 1,420 1,518 1,532 1,548 1,768 1,770 1,983 1,985 1,1118 1,1124 1,1145 1,1159 1,1177 1,1245 1,1284 1,1398 1}
+{0 Research,1 'Alzheimers Disease',4 1,5 1,6 1,50 1,80 1,105 1,150 1,256 1,355 1,376 1,535 1,546 1,846 1,1065 1,1144 1,1236 1,1237 1,1293 1,1360 1,1361 1}
+{0 Research,1 'Alzheimers Disease',4 1,23 1,50 1,51 1,53 1,80 1,201 1,260 1,414 1,423 1,431 1,525 1,546 1,558 1,585 1,589 1,631 1,649 1,697 1,698 1,714 1,715 1,716 1,723 1,746 1,827 1,836 1,891 1,919 1,920 1,930 1,960 1,993 1,994 1,995 1,1003 1,1004 1,1031 1,1076 1,1118 1,1131 1,1132 1,1191 1,1287 1,1290 1,1291 1}
+{0 Pilot,1 'Alzheimers Disease',4 1,23 1,75 1,216 1,319 1,355 1,358 1,360 1,400 1,439 1,462 1,490 1,529 1,531 1,576 1,585 1,625 1,628 1,851 1,877 1,890 1,891 1,930 1,938 1,939 1,960 1,961 1,967 1,983 1,984 1,1005 1,1006 1,1031 1,1045 1,1051 1,1145 1,1172 1,1203 1,1233 1,1260 1,1309 1,1329 1,1339 1,1389 1,1392 1}
+{0 Research,1 'Alzheimers Disease',4 1,23 1,74 1,85 1,90 1,104 1,150 1,177 1,235 1,310 1,414 1,529 1,530 1,535 1,558 1,560 1,709 1,716 1,827 1,948 1,949 1,960 1,967 1,1003 1,1004 1,1139 1,1160 1,1376 1}
+{1 'Alzheimers Disease',4 1,5 1,6 1,23 1,74 1,76 1,109 1,216 1,217 1,239 1,267 1,286 1,368 1,369 1,400 1,422 1,440 1,520 1,568 1,668 1,763 1,779 1,799 1,821 1,822 1,858 1,904 1,1039 1,1082 1,1110 1,1111 1,1130 1,1143 1,1166 1,1238 1,1275 1,1297 1,1324 1,1325 1,1335 1,1342 1,1383 1,1387 1,1392 1}
+{0 Pilot,1 'Alzheimers Disease',6 1,23 1,55 1,358 1,520 1,534 1,707 1,844 1,1287 1,1341 1}
+{0 Research,1 'Alzheimers Disease',4 1,23 1,238 1,439 1,529 1,699 1,716 1,890 1,941 1,960 1,967 1,993 1,1007 1,1031 1,1324 1,1389 1}
+{0 Research,1 'Alzheimers Disease',4 1,23 1,58 1,117 1,128 1,141 1,214 1,279 1,368 1,369 1,394 1,414 1,508 1,509 1,589 1,613 1,614 1,641 1,658 1,716 1,723 1,846 1,905 1,949 1,960 1,968 1,976 1,978 1,1001 1,1032 1,1048 1,1052 1,1072 1,1118 1,1124 1,1145 1,1170 1,1189 1,1201 1,1203 1,1228 1,1287 1,1288 1,1289 1,1392 1}
+{0 Research,1 'Alzheimers Disease',4 1,5 1,37 1,128 1,332 1,355 1,375 1,439 1,768 1,844 1,960 1,968 1,1141 1,1170 1,1237 1,1389 1}
+{0 Research,1 'Alzheimers Disease',4 1,23 1,26 1,128 1,332 1,375 1,439 1,699 1,768 1,968 1,1141 1,1170 1}
+{0 Research,1 'Alzheimers Disease',4 1,26 1,74 1,263 1,264 1,275 1,322 1,400 1,414 1,435 1,440 1,442 1,497 1,529 1,530 1,561 1,562 1,589 1,649 1,844 1,845 1,960 1,964 1,1003 1,1004 1,1038 1,1040 1,1041 1,1051 1,1116 1,1118 1,1209 1,1242 1,1284 1,1287 1,1309 1,1387 1,1401 1}
+{0 Pilot,1 'Alzheimers Disease',4 1,27 1,74 1,144 1,145 1,150 1,213 1,214 1,242 1,255 1,265 1,266 1,329 1,331 1,343 1,358 1,368 1,437 1,440 1,523 1,524 1,565 1,577 1,649 1,664 1,720 1,763 1,808 1,851 1,875 1,878 1,891 1,949 1,1001 1,1038 1,1043 1,1055 1,1056 1,1057 1,1073 1,1107 1,1165 1,1173 1,1188 1,1282 1,1287 1,1288 1,1376 1}
+{0 Pilot,1 'Alzheimers Disease',2 1,3 1,134 1,214 1,216 1,217 1,252 1,261 1,335 1,377 1,386 1,387 1,453 1,519 1,568 1,576 1,687 1,716 1,763 1,770 1,778 1,814 1,968 1,1033 1,1126 1,1127 1,1130 1,1155 1,1166 1,1240 1,1246 1,1287 1,1342 1,1398 1}
+{0 Research,1 'Alzheimers Disease',2 1,3 1,54 1,86 1,439 1,517 1,558 1,559 1,612 1,668 1,709 1,755 1,770 1,832 1,1002 1,1222 1}
+{0 Pilot,1 'Alzheimers Disease',5 1,21 1,23 1,27 1,358 1,368 1,439 1}
+{0 Research,1 'Alzheimers Disease',4 1,23 1,74 1,268 1,431 1,453 1,497 1,532 1,575 1,723 1,827 1,960 1,1145 1,1310 1}
+{0 Research,1 'Alzheimers Disease',4 1,50 1,75 1,76 1,265 1,266 1,517 1,701 1,724 1,858 1,1263 1,1287 1}
+{0 Research,1 'Alzheimers Disease',6 1,50 1,104 1,353 1,354 1,393 1,400 1,414 1,430 1,550 1,941 1,978 1,1038 1,1062 1,1296 1,1358 1,1395 1}
+{1 'Alzheimers Disease',5 1,6 1,50 1,74 1,104 1,253 1,295 1,329 1,362 1,374 1,423 1,439 1,453 1,522 1,565 1,660 1,668 1,701 1,727 1,912 1,931 1,976 1,977 1,987 1,1073 1,1117 1,1118 1,1157 1,1188 1,1263 1}
+{0 Research,1 'Alzheimers Disease',5 1,50 1,78 1,79 1,158 1,159 1,160 1,252 1,325 1,326 1,359 1,374 1,426 1,439 1,509 1,542 1,544 1,545 1,558 1,569 1,570 1,571 1,641 1,709 1,834 1,844 1,895 1,896 1,987 1,1028 1,1029 1,1030 1,1268 1,1297 1,1300 1,1301 1,1330 1,1331 1}
+{0 Research,1 'Alzheimers Disease',50 1,78 1,79 1,158 1,159 1,160 1,304 1,325 1,326 1,368 1,542 1,544 1,545 1,568 1,569 1,570 1,571 1,876 1,895 1,896 1,1028 1,1029 1,1030 1,1063 1,1231 1,1297 1,1300 1,1301 1,1330 1,1331 1}
+{0 Research,1 'Alzheimers Disease',50 1,78 1,79 1,158 1,159 1,160 1,325 1,326 1,368 1,369 1,426 1,542 1,544 1,545 1,569 1,570 1,571 1,834 1,844 1,895 1,896 1,1028 1,1029 1,1030 1,1047 1,1268 1,1297 1,1300 1,1301 1,1330 1,1331 1}
+{0 Research,1 'Alzheimers Disease',50 1,78 1,79 1,158 1,159 1,160 1,325 1,326 1,426 1,542 1,544 1,545 1,569 1,570 1,571 1,834 1,895 1,896 1,1028 1,1029 1,1030 1,1115 1,1268 1,1294 1,1297 1,1300 1,1301 1,1330 1,1331 1}
+{0 Research,1 'Alzheimers Disease',50 1,373 1,400 1,443 1,497 1,501 1,523 1,721 1,877 1,1103 1,1143 1,1158 1,1160 1,1172 1}
+{0 Research,1 'Alzheimers Disease',50 1,74 1,150 1,151 1,252 1,302 1,376 1,439 1,443 1,444 1,497 1,535 1,584 1,659 1,672 1,763 1,777 1,823 1,1005 1,1115 1,1153 1,1154 1,1282 1,1383 1}
+{1 'Alzheimers Disease',4 1,50 1,74 1,250 1,251 1,267 1,320 1,350 1,351 1,393 1,421 1,520 1,558 1,668 1,695 1,716 1,726 1,768 1,795 1,836 1,877 1,885 1,938 1,939 1,942 1,978 1,993 1,1050 1,1139 1,1159 1,1172 1,1328 1,1383 1,1385 1,1386 1}
+{1 'Alzheimers Disease',4 1,54 1,80 1,188 1,325 1,327 1,517 1,525 1,558 1,559 1,631 1,723 1,877 1,891 1,900 1,901 1,981 1,1186 1,1297 1,1304 1}
+{0 Research,1 'Alzheimers Disease',4 1,80 1,235 1,243 1,250 1,251 1,414 1,417 1,535 1,573 1,618 1,629 1,630 1,640 1,672 1,675 1,785 1,949 1,952 1,968 1,970 1,973 1,1013 1,1099 1,1148 1,1248 1,1282 1}
+{0 Research,1 'Alzheimers Disease',4 1,5 1,6 1,75 1,368 1,369 1,439 1,519 1,535 1,695 1,699 1,836 1,891 1,938 1,939 1,971 1,1073 1,1143 1,1170 1,1246 1,1291 1,1292 1}
+{0 Research,1 'Alzheimers Disease',4 1,23 1,58 1,59 1,60 1,61 1,62 1,63 1,64 1,65 1,107 1,108 1,118 1,119 1,120 1,123 1,124 1,125 1,126 1,127 1,161 1,162 1,163 1,164 1,165 1,188 1,191 1,192 1,199 1,200 1,209 1,210 1,231 1,232 1,233 1,234 1,240 1,241 1,250 1,279 1,280 1,283 1,284 1,288 1,289 1,308 1,309 1,346 1,347 1,355 1,356 1,357 1,390 1,391 1,423 1,424 1,425 1,431 1,433 1,445 1,446 1,447 1,448 1,449 1,454 1,455 1,456 1,457 1,458 1,459 1,472 1,473 1,474 1,478 1,479 1,480 1,497 1,498 1,539 1,540 1,541 1,542 1,637 1,638 1,644 1,645 1,646 1,665 1,672 1,673 1,674 1,688 1,689 1,707 1,708 1,717 1,719 1,760 1,761 1,762 1,770 1,771 1,785 1,786 1,787 1,891 1,892 1,921 1,922 1,923 1,931 1,932 1,933 1,942 1,943 1,944 1,949 1,952 1,953 1,960 1,995 1,996 1,997 1,1028 1,1085 1,1104 1,1105 1,1106 1,1118 1,1119 1,1120 1,1130 1,1134 1,1135 1,1136 1,1166 1,1167 1,1168 1,1180 1,1181 1,1182 1,1183 1,1201 1,1202 1,1218 1,1219 1,1225 1,1226 1,1311 1,1318 1,1319 1,1320 1,1369 1,1370 1,1380 1,1381 1,1383 1,1384 1,1392 1,1393 1}
+{0 Pilot,1 'Alzheimers Disease',4 1,23 1,58 1,59 1,60 1,61 1,62 1,63 1,64 1,65 1,107 1,108 1,117 1,118 1,119 1,120 1,123 1,124 1,125 1,126 1,127 1,161 1,162 1,163 1,164 1,165 1,188 1,191 1,192 1,199 1,200 1,209 1,210 1,231 1,232 1,233 1,234 1,240 1,241 1,250 1,279 1,280 1,283 1,284 1,288 1,289 1,308 1,309 1,320 1,346 1,347 1,355 1,356 1,357 1,368 1,369 1,376 1,377 1,390 1,391 1,423 1,424 1,425 1,440 1,441 1,445 1,446 1,447 1,448 1,449 1,454 1,455 1,456 1,457 1,458 1,459 1,472 1,473 1,474 1,478 1,479 1,480 1,497 1,498 1,539 1,540 1,541 1,613 1,614 1,637 1,638 1,644 1,645 1,646 1,665 1,672 1,673 1,674 1,688 1,689 1,707 1,708 1,717 1,719 1,727 1,760 1,761 1,762 1,770 1,771 1,785 1,786 1,787 1,891 1,892 1,905 1,921 1,922 1,923 1,931 1,932 1,933 1,942 1,943 1,944 1,949 1,952 1,953 1,995 1,996 1,997 1,1104 1,1105 1,1106 1,1118 1,1119 1,1120 1,1123 1,1134 1,1135 1,1136 1,1137 1,1143 1,1166 1,1167 1,1168 1,1180 1,1181 1,1182 1,1183 1,1201 1,1202 1,1218 1,1219 1,1225 1,1226 1,1318 1,1319 1,1320 1,1369 1,1370 1,1380 1,1381 1,1383 1,1384 1,1392 1,1393 1,1399 1}
+{0 Pilot,1 'Alzheimers Disease',4 1,23 1,26 1,40 1,58 1,59 1,60 1,61 1,62 1,63 1,64 1,65 1,107 1,108 1,118 1,119 1,120 1,123 1,124 1,125 1,126 1,127 1,161 1,162 1,163 1,164 1,165 1,188 1,191 1,192 1,199 1,200 1,209 1,210 1,231 1,232 1,233 1,234 1,240 1,241 1,250 1,279 1,280 1,283 1,284 1,288 1,289 1,308 1,309 1,329 1,346 1,347 1,355 1,356 1,357 1,368 1,369 1,377 1,390 1,391 1,423 1,424 1,425 1,439 1,445 1,446 1,447 1,448 1,449 1,454 1,455 1,456 1,457 1,458 1,459 1,472 1,473 1,474 1,478 1,479 1,480 1,495 1,497 1,498 1,512 1,515 1,539 1,540 1,541 1,550 1,637 1,638 1,643 1,644 1,645 1,646 1,672 1,673 1,674 1,688 1,689 1,707 1,708 1,717 1,719 1,760 1,761 1,762 1,770 1,771 1,785 1,786 1,787 1,891 1,892 1,900 1,901 1,904 1,921 1,922 1,923 1,931 1,932 1,933 1,942 1,943 1,944 1,949 1,952 1,953 1,995 1,996 1,997 1,1104 1,1105 1,1106 1,1118 1,1119 1,1120 1,1134 1,1135 1,1136 1,1166 1,1167 1,1168 1,1180 1,1181 1,1182 1,1183 1,1201 1,1202 1,1218 1,1219 1,1225 1,1226 1,1260 1,1295 1,1318 1,1319 1,1320 1,1369 1,1370 1,1380 1,1381 1,1383 1,1384 1,1392 1,1393 1}
+{0 Pilot,1 'Alzheimers Disease',4 1,6 1,18 1,23 1,40 1,45 1,58 1,59 1,60 1,61 1,62 1,63 1,64 1,65 1,107 1,108 1,118 1,119 1,120 1,123 1,124 1,125 1,126 1,127 1,161 1,162 1,163 1,164 1,165 1,188 1,191 1,192 1,199 1,200 1,209 1,210 1,231 1,232 1,233 1,234 1,240 1,241 1,250 1,279 1,280 1,283 1,284 1,288 1,289 1,308 1,309 1,310 1,346 1,347 1,355 1,356 1,357 1,390 1,391 1,414 1,423 1,424 1,425 1,445 1,446 1,447 1,448 1,449 1,454 1,455 1,456 1,457 1,458 1,459 1,472 1,473 1,474 1,478 1,479 1,480 1,497 1,498 1,539 1,540 1,541 1,637 1,638 1,644 1,645 1,646 1,665 1,672 1,673 1,674 1,688 1,689 1,707 1,708 1,717 1,719 1,760 1,761 1,762 1,770 1,771 1,785 1,786 1,787 1,839 1,858 1,891 1,892 1,921 1,922 1,923 1,931 1,932 1,933 1,942 1,943 1,944 1,949 1,950 1,952 1,953 1,995 1,996 1,997 1,1104 1,1105 1,1106 1,1118 1,1119 1,1120 1,1134 1,1135 1,1136 1,1166 1,1167 1,1168 1,1180 1,1181 1,1182 1,1183 1,1201 1,1202 1,1218 1,1219 1,1225 1,1226 1,1318 1,1319 1,1320 1,1369 1,1370 1,1380 1,1381 1,1383 1,1384 1,1392 1,1393 1}
+{0 Pilot,1 'Alzheimers Disease',6 1,23 1,40 1,74 1,144 1,177 1,188 1,201 1,320 1,414 1,439 1,527 1,535 1,558 1,582 1,716 1,752 1,753 1,772 1,773 1,830 1,899 1,900 1,901 1,960 1,964 1,967 1,1166 1,1169 1,1205 1,1251 1,1287 1,1288 1,1389 1,1392 1,1399 1,1401 1}
+{0 Research,1 'Alzheimers Disease',4 1,426 1,481 1,508 1,641 1,721 1,728 1,799 1,844 1,1047 1,1117 1,1170 1,1231 1,1341 1,1399 1}
+{0 Research,1 'Alzheimers Disease',4 1,74 1,106 1,150 1,213 1,265 1,266 1,299 1,329 1,330 1,331 1,359 1,377 1,439 1,497 1,499 1,502 1,509 1,548 1,603 1,629 1,668 1,701 1,750 1,758 1,768 1,776 1,824 1,825 1,836 1,837 1,844 1,934 1,968 1,1129 1,1133 1,1161 1,1165 1,1169 1,1188 1,1231 1,1267 1}
+{0 Pilot,1 'Alzheimers Disease',2 1,3 1,4 1,5 1,6 1,23 1,80 1,109 1,221 1,277 1,335 1,519 1,546 1,745 1,765 1,1031 1,1133 1,1153 1,1246 1}
+{0 Research,1 'Alzheimers Disease',4 1,23 1,74 1,104 1,139 1,363 1,716 1,717 1,785 1,786 1,949 1,960 1,965 1,999 1,1027 1,1038 1,1068 1,1112 1,1118 1,1145 1,1205 1,1231 1,1281 1,1282 1,1297 1,1383 1}
+{1 'Alzheimers Disease',5 1,6 1,23 1,345 1,355 1,359 1,377 1,439 1,512 1,515 1,517 1,520 1,521 1,535 1,558 1,559 1,668 1,727 1,855 1,934 1,1126 1,1159 1,1162 1,1231 1,1260 1,1287 1,1288 1}
+{0 Pilot,1 'Alzheimers Disease',4 1,23 1,82 1,83 1,84 1,100 1,101 1,102 1,128 1,129 1,130 1,244 1,245 1,290 1,291 1,370 1,371 1,395 1,396 1,397 1,482 1,483 1,484 1,551 1,552 1,553 1,668 1,670 1,671 1,681 1,682 1,742 1,743 1,744 1,783 1,784 1,801 1,802 1,803 1,804 1,862 1,863 1,870 1,871 1,872 1,887 1,888 1,917 1,918 1,924 1,925 1,926 1,1007 1,1008 1,1013 1,1014 1,1015 1,1091 1,1092 1,1093 1,1184 1,1185 1,1192 1,1193 1,1199 1,1200 1,1258 1,1259 1,1260 1,1261 1,1278 1,1279 1,1297 1,1306 1,1307 1,1345 1,1365 1,1366 1,1392 1,1394 1}
+{0 Live,1 Haemophilia,9 1,12 1,45 1,82 1,83 1,84 1,100 1,101 1,102 1,128 1,129 1,130 1,244 1,245 1,290 1,291 1,370 1,371 1,395 1,396 1,397 1,482 1,483 1,484 1,551 1,552 1,553 1,668 1,670 1,671 1,681 1,682 1,742 1,743 1,744 1,783 1,784 1,801 1,802 1,803 1,804 1,862 1,863 1,870 1,871 1,872 1,887 1,888 1,917 1,918 1,924 1,925 1,926 1,1007 1,1008 1,1013 1,1014 1,1015 1,1091 1,1092 1,1093 1,1184 1,1185 1,1192 1,1193 1,1199 1,1200 1,1258 1,1259 1,1260 1,1261 1,1278 1,1279 1,1297 1,1306 1,1307 1,1345 1,1365 1,1366 1,1392 1,1394 1}
+{0 Live,1 Haemophilia,9 1,12 1,23 1,26 1,82 1,83 1,84 1,100 1,101 1,102 1,128 1,129 1,130 1,244 1,245 1,290 1,291 1,370 1,371 1,395 1,396 1,397 1,482 1,483 1,484 1,551 1,552 1,553 1,668 1,670 1,671 1,681 1,682 1,742 1,743 1,744 1,783 1,784 1,801 1,802 1,803 1,804 1,862 1,863 1,870 1,871 1,872 1,887 1,888 1,917 1,918 1,924 1,925 1,926 1,1007 1,1008 1,1013 1,1014 1,1015 1,1091 1,1092 1,1093 1,1184 1,1185 1,1192 1,1193 1,1199 1,1200 1,1258 1,1259 1,1260 1,1261 1,1278 1,1279 1,1297 1,1306 1,1307 1,1345 1,1365 1,1366 1,1392 1,1394 1}
+{0 Live,1 Haemophilia,9 1,12 1,40 1,82 1,83 1,84 1,100 1,101 1,102 1,128 1,129 1,130 1,244 1,245 1,290 1,291 1,370 1,371 1,395 1,396 1,397 1,482 1,483 1,484 1,551 1,552 1,553 1,668 1,670 1,671 1,681 1,682 1,742 1,743 1,744 1,783 1,784 1,801 1,802 1,803 1,804 1,862 1,863 1,870 1,871 1,872 1,887 1,888 1,917 1,918 1,924 1,925 1,926 1,1007 1,1008 1,1013 1,1014 1,1015 1,1091 1,1092 1,1093 1,1184 1,1185 1,1192 1,1193 1,1199 1,1200 1,1258 1,1259 1,1260 1,1261 1,1278 1,1279 1,1297 1,1306 1,1307 1,1345 1,1365 1,1366 1,1392 1,1394 1}
+{0 Live,1 Haemophilia,9 1,12 1,45 1,138 1,272 1,273 1,329 1,331 1,334 1,355 1,438 1,481 1,562 1,586 1,636 1,643 1,658 1,672 1,675 1,696 1,763 1,782 1,839 1,855 1,960 1,1013 1,1116 1,1179 1,1210 1,1237 1,1269 1,1284 1,1297 1,1304 1,1396 1,1402 1,1405 1,1410 1}
+{0 Live,1 Haemophilia,45 1,140 1,152 1,177 1,306 1,477 1,534 1,728 1,738 1,823 1,1081 1,1338 1}
+{0 Live,1 Haemophilia,10 1,13 1,18 1,128 1,551 1,585 1,905 1,988 1,1192 1}
+{0 Live,1 Haemophilia,9 1,12 1,45 1,144 1,253 1,298 1,402 1,421 1,443 1,444 1,453 1,497 1,618 1,668 1,681 1,697 1,698 1,716 1,720 1,763 1,788 1,807 1,883 1,889 1,905 1,940 1,968 1,970 1,976 1,977 1,998 1,1040 1,1041 1,1042 1,1055 1,1056 1,1057 1,1073 1,1074 1,1143 1,1222 1,1282 1,1297 1,1324 1,1405 1}
+{0 Live,1 Haemophilia,5 1,6 1,9 1,10 1,12 1,32 1,157 1,188 1,201 1,274 1,329 1,332 1,438 1,488 1,763 1,765 1,841 1,870 1,1133 1,1188 1,1410 1}
+{0 Live,1 Haemophilia,5 1,12 1,45 1,77 1,135 1,140 1,244 1,275 1,329 1,330 1,370 1,371 1,393 1,400 1,438 1,497 1,551 1,562 1,574 1,636 1,666 1,716 1,726 1,742 1,765 1,839 1,891 1,904 1,968 1,969 1,972 1,998 1,1055 1,1056 1,1062 1,1087 1,1104 1,1188 1,1275 1,1284 1,1287 1,1293 1,1335 1,1375 1}
+{0 Live,1 Haemophilia,5 1,6 1,9 1,12 1,23 1,321 1,660 1,668 1,705 1,706 1,763 1,814 1,815 1,855 1,934 1,968 1,970 1,979 1,980 1,1115 1,1153 1,1154 1,1197 1,1198 1,1231 1,1269 1,1287 1,1392 1}
+{1 Haemophilia,5 1,6 1,9 1,12 1,15 1,23 1,26 1,29 1,97 1,134 1,235 1,236 1,310 1,341 1,342 1,434 1,440 1,441 1,477 1,523 1,524 1,535 1,536 1,563 1,640 1,668 1,716 1,751 1,756 1,763 1,764 1,799 1,821 1,822 1,836 1,947 1,949 1,958 1,973 1,1060 1,1099 1,1100 1,1118 1,1129 1,1134 1,1145 1,1161 1,1241 1,1387 1,1392 1}
+{0 Live,1 Haemophilia,5 1,9 1,12 1,32 1,332 1,394 1,497 1,539 1,555 1,625 1,628 1,650 1,666 1,686 1,752 1,772 1,825 1,848 1,850 1,891 1,960 1,967 1,978 1,1375 1}
+{0 Live,1 Haemophilia,5 1,6 1,12 1,20 1,307 1,338 1,414 1,416 1,417 1,548 1,668 1,723 1,874 1,1117 1,1159 1,1396 1}
+{0 Live,1 Haemophilia,5 1,9 1,12 1,23 1}
