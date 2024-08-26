@@ -14,4 +14,4 @@ The expectation is that one can search for relevant information, and solution (p
 based on the different criterias and connect with the right contact while identifying what solutions are best
 suited for adoption by other countries on a unified dashboard. The following questions will be examined:
 image
-Table 1: Analytical questions that will be examined for the target population.
+Table 1: Analytical questions that will be examined for the target population..,
