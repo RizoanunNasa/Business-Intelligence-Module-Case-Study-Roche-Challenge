@@ -47,5 +47,6 @@ Figure: Count represented as squares in a matrix. There is a reduction in the nu
 ![image](https://github.com/user-attachments/assets/27948a8e-3fe2-49cd-9ede-dc90a47d6cf6)
 ![image](https://github.com/user-attachments/assets/030883ca-3125-4ec8-8ab2-fd0cb8208fdb)
 ![image](https://github.com/user-attachments/assets/01a43e1b-e5c5-4605-8324-d86fa291af89)
+![image](https://github.com/user-attachments/assets/63000ddf-b58e-40cd-8963-33bc83ccd5c9)
 
 
