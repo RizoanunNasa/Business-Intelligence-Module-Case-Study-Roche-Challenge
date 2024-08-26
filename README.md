@@ -15,7 +15,7 @@ The expectation is that one can search for relevant information, and solution (p
 based on the different criterias and connect with the right contact while identifying what solutions are best 
 suited for adoption by other countries on a unified dashboard. The following questions will be examined:
 
-
+![image](https://github.com/user-attachments/assets/0758bb64-dfed-4398-bf3a-0a7648cf725e)
 
 ## Multidimensional model
 
