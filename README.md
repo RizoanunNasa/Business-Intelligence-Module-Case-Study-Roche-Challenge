@@ -39,7 +39,13 @@ Analytical Question 3: Which Solutions are available in which languages?
 ![image](https://github.com/user-attachments/assets/801a9e30-3e3b-4762-88e9-a0ec5efabf57)
 ![image](https://github.com/user-attachments/assets/aa340e83-e16c-4eef-a9e0-32f7f3fe5ee5)
 ![image](https://github.com/user-attachments/assets/84f9d58c-1896-48bc-8bd9-8ccc7535a12a)
+
 Figure: Count represented as squares in a matrix. There is a reduction in the number of “Lung” instances as predicted by dropping the “null” values
 ## Data Modelling
+![image](https://github.com/user-attachments/assets/d5691ad8-2115-4abb-adbe-a534efad2f76)
+
+![image](https://github.com/user-attachments/assets/27948a8e-3fe2-49cd-9ede-dc90a47d6cf6)
+![image](https://github.com/user-attachments/assets/030883ca-3125-4ec8-8ab2-fd0cb8208fdb)
+![image](https://github.com/user-attachments/assets/01a43e1b-e5c5-4605-8324-d86fa291af89)
 
 
