@@ -18,13 +18,13 @@ suited for adoption by other countries on a unified dashboard. The following que
 ![image](https://github.com/user-attachments/assets/0758bb64-dfed-4398-bf3a-0a7648cf725e)
 
 ## Multidimensional model
-
+![image](https://github.com/user-attachments/assets/e0403f8c-5996-4718-9aab-ccc7a7a100c6)
 
 
 
 ## Data Preprocessing
 
-
+![image](https://github.com/user-attachments/assets/6de6e35f-0d51-46fc-a361-9a6314000b79)
 
 ## Data Exploration and Visualisation
 
